@@ -1,4 +1,8 @@
 #Downloaded fatsq files
 stage/
 
+#Nextflow log files
+.nextflow.log*
 
+#Nextflow hidden directory
+.nextflow/
