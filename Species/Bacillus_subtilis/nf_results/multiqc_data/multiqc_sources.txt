@@ -1,0 +1,16 @@
+Module	Section	Sample Name	Source
+featureCounts	all_sections	ERX1320318	/home/alvaro/github/ica_preprocessing/work/2b/8934c8b4cdcecc1aa868954f2bfb42/featureCounts/ERX1320318_all.txt.summary
+featureCounts	all_sections	SRX315307	/home/alvaro/github/ica_preprocessing/work/2b/8934c8b4cdcecc1aa868954f2bfb42/featureCounts/SRX315307_all.txt.summary
+featureCounts	all_sections	ERX3440931	/home/alvaro/github/ica_preprocessing/work/2b/8934c8b4cdcecc1aa868954f2bfb42/featureCounts/ERX3440931_all.txt.summary
+Bowtie 1	all_sections	SRX315307	/home/alvaro/github/ica_preprocessing/work/2b/8934c8b4cdcecc1aa868954f2bfb42/bowtie/SRX315307_bowtie.txt
+Bowtie 1	all_sections	ERX3440931	/home/alvaro/github/ica_preprocessing/work/2b/8934c8b4cdcecc1aa868954f2bfb42/bowtie/ERX3440931_bowtie.txt
+Bowtie 1	all_sections	ERX1320318	/home/alvaro/github/ica_preprocessing/work/2b/8934c8b4cdcecc1aa868954f2bfb42/bowtie/ERX1320318_bowtie.txt
+RSeQC	infer_experiment	ERX1320318	/home/alvaro/github/ica_preprocessing/work/2b/8934c8b4cdcecc1aa868954f2bfb42/rseqc/ERX1320318.infer_experiment.txt
+RSeQC	infer_experiment	SRX315307	/home/alvaro/github/ica_preprocessing/work/2b/8934c8b4cdcecc1aa868954f2bfb42/rseqc/SRX315307.infer_experiment.txt
+RSeQC	infer_experiment	ERX3440931	/home/alvaro/github/ica_preprocessing/work/2b/8934c8b4cdcecc1aa868954f2bfb42/rseqc/ERX3440931.infer_experiment.txt
+Cutadapt	all_sections	ERX1320318	/home/alvaro/github/ica_preprocessing/work/2b/8934c8b4cdcecc1aa868954f2bfb42/cutadapt/ERX1320318_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX315307	/home/alvaro/github/ica_preprocessing/work/2b/8934c8b4cdcecc1aa868954f2bfb42/cutadapt/SRX315307_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	ERX3440931	/home/alvaro/github/ica_preprocessing/work/2b/8934c8b4cdcecc1aa868954f2bfb42/cutadapt/ERX3440931_1.fastq.gz_trimming_report.txt
+FastQC	all_sections	SRX315307	/home/alvaro/github/ica_preprocessing/work/2b/8934c8b4cdcecc1aa868954f2bfb42/fastqc/SRX315307_trimmed_fastqc.zip
+FastQC	all_sections	ERX3440931	/home/alvaro/github/ica_preprocessing/work/2b/8934c8b4cdcecc1aa868954f2bfb42/fastqc/ERX3440931_val_1_fastqc.zip
+FastQC	all_sections	ERX1320318	/home/alvaro/github/ica_preprocessing/work/2b/8934c8b4cdcecc1aa868954f2bfb42/fastqc/ERX1320318_trimmed_fastqc.zip

@@ -1,0 +1,52 @@
+feb.-24 15:22:21.978 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main.nf --help
+feb.-24 15:22:22.039 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 22.10.6
+feb.-24 15:22:22.055 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/alvaro/.nextflow/plugins; core-plugins: nf-amazon@1.11.3,nf-azure@0.14.2,nf-codecommit@0.1.2,nf-console@1.0.4,nf-ga4gh@1.0.4,nf-google@1.4.5,nf-tower@1.5.6,nf-wave@0.5.3
+feb.-24 15:22:22.064 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+feb.-24 15:22:22.065 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+feb.-24 15:22:22.067 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+feb.-24 15:22:22.077 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+feb.-24 15:22:22.096 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /home/alvaro/github/ica_preprocessing/Synechococcus_sp_PCC_7002/nextflow.config
+feb.-24 15:22:22.096 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/alvaro/github/ica_preprocessing/Synechococcus_sp_PCC_7002/nextflow.config
+feb.-24 15:22:22.117 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+feb.-24 15:22:22.702 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=1 by probing script field
+feb.-24 15:22:22.716 [main] INFO  nextflow.cli.CmdRun - Launching `main.nf` [prickly_wiles] DSL1 - revision: f687a666aa
+feb.-24 15:22:22.716 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+feb.-24 15:22:22.716 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+feb.-24 15:22:22.724 [main] DEBUG nextflow.secret.LocalSecretsProvider - Secrets store: /home/alvaro/.nextflow/secrets/store.json
+feb.-24 15:22:22.727 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@6cd98a05] - activable => nextflow.secret.LocalSecretsProvider@6cd98a05
+feb.-24 15:22:22.776 [main] DEBUG nextflow.Session - Session UUID: a6e14f41-3ac5-45c4-94fe-fc274916c7c5
+feb.-24 15:22:22.776 [main] DEBUG nextflow.Session - Run name: prickly_wiles
+feb.-24 15:22:22.776 [main] DEBUG nextflow.Session - Executor pool size: 16
+feb.-24 15:22:22.785 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=48; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+feb.-24 15:22:22.805 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 22.10.6 build 5843
+  Created: 23-01-2023 23:20 UTC (24-01-2023 00:20 CEST)
+  System: Linux 5.15.0-60-generic
+  Runtime: Groovy 3.0.13 on OpenJDK 64-Bit Server VM 11.0.13+7-b1751.21
+  Encoding: UTF-8 (UTF-8)
+  Process: 862916@alvaro-MS-7C75 [127.0.1.1]
+  CPUs: 16 - Mem: 62.7 GB (6 GB) - Swap: 2 GB (2 GB)
+feb.-24 15:22:22.820 [main] DEBUG nextflow.Session - Work-dir: /home/alvaro/github/ica_preprocessing/Synechococcus_sp_PCC_7002/work [ext2/ext3]
+feb.-24 15:22:22.832 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+feb.-24 15:22:22.840 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+feb.-24 15:22:22.909 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+feb.-24 15:22:22.917 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 17; maxThreads: 1000
+feb.-24 15:22:22.963 [main] DEBUG nextflow.Session - Session start
+feb.-24 15:22:22.966 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow started -- trace file: /home/alvaro/github/ica_preprocessing/Synechococcus_sp_PCC_7002/trace/trace.txt
+feb.-24 15:22:23.878 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+feb.-24 15:22:23.886 [main] INFO  nextflow.Nextflow - 
+Usage:
+
+nextflow run main.nf -profile [PROFILE] [ARGS]
+
+Required Arguments:
+  -profile              Executor profile name (e.g. local)
+  --organism            Name of organism
+  --metadata            Path to metadata file
+  --sequence_dir        Directory containing *.fasta and *.gff3 files
+
+Optional Arguments:
+  --outdir              Directory to place outputs
+  --force               Overwrite existing processed data
+
+

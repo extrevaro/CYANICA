@@ -1,0 +1,4 @@
+Sample	Total	Assigned	Unassigned_rRNA	Unassigned_Unmapped	Unassigned_Read_Type	Unassigned_Singleton	Unassigned_MappingQuality	Unassigned_Chimera	Unassigned_FragmentLength	Unassigned_Duplicate	Unassigned_MultiMapping	Unassigned_Secondary	Unassigned_NonSplit	Unassigned_NoFeatures	Unassigned_Overlapping_Length	Unassigned_Ambiguity	percent_assigned
+ERX1320318	2135572	78927	14842	189105	0	0	0	0	0	0	0	0	0	1764187	88397	114	3.6958248188307397
+ERX3440931	3238676	2539730	11473	186450	0	0	0	0	2399	0	0	0	0	391627	98154	8843	78.41877359760593
+SRX315307	2973066	108391	84	2850208	0	0	0	0	0	0	0	0	0	13335	900	148	3.6457650116075455

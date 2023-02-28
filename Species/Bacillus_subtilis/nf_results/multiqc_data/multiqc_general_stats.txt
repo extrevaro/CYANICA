@@ -1,0 +1,4 @@
+Sample	featureCounts_mqc-generalstats-featurecounts-percent_assigned	featureCounts_mqc-generalstats-featurecounts-Assigned	Bowtie 1_mqc-generalstats-bowtie_1-reads_aligned_percentage	Bowtie 1_mqc-generalstats-bowtie_1-reads_aligned	Cutadapt_mqc-generalstats-cutadapt-percent_trimmed	FastQC_mqc-generalstats-fastqc-percent_duplicates	FastQC_mqc-generalstats-fastqc-percent_gc	FastQC_mqc-generalstats-fastqc-avg_sequence_length	FastQC_mqc-generalstats-fastqc-percent_fails	FastQC_mqc-generalstats-fastqc-total_sequences
+ERX1320318	3.6958248188307397	78927	91.14	1946467.0	14.814635564071269	89.95069198939792	59.0	47.10705047640632	45.45454545454545	2135572.0
+ERX3440931	78.41877359760593	2539730	94.24	3052226.0	0.537744548984681	73.78391770600909	45.0	74.8478829002963	20.0	3238676.0
+SRX315307	3.6457650116075455	108391	4.13	122858.0	42.285772843603326	31.962831449549157	49.0	40.288073994993724	30.0	2973066.0

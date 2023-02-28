@@ -1,0 +1,58 @@
+Feb-25 09:37:00.563 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main_2.nf -profile local --organism bacillus_subtilis --metadata test/test_metadata.tsv --sequence_dir test/sequence_files/ --outdir test/nf_results/
+Feb-25 09:37:00.634 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 22.10.6
+Feb-25 09:37:00.652 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/alvaro/.nextflow/plugins; core-plugins: nf-amazon@1.11.3,nf-azure@0.14.2,nf-codecommit@0.1.2,nf-console@1.0.4,nf-ga4gh@1.0.4,nf-google@1.4.5,nf-tower@1.5.6,nf-wave@0.5.3
+Feb-25 09:37:00.660 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Feb-25 09:37:00.661 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Feb-25 09:37:00.664 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Feb-25 09:37:00.672 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Feb-25 09:37:00.685 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /home/alvaro/github/ica_preprocessing/nextflow.config
+Feb-25 09:37:00.686 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/alvaro/github/ica_preprocessing/nextflow.config
+Feb-25 09:37:00.706 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `local`
+Feb-25 09:37:01.419 [main] DEBUG nextflow.config.ConfigBuilder - Available config profiles: [local]
+Feb-25 09:37:01.450 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=1 by probing script field
+Feb-25 09:37:01.467 [main] INFO  nextflow.cli.CmdRun - Launching `main_2.nf` [stoic_swanson] DSL1 - revision: 9d082bc228
+Feb-25 09:37:01.467 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Feb-25 09:37:01.467 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Feb-25 09:37:01.476 [main] DEBUG nextflow.secret.LocalSecretsProvider - Secrets store: /home/alvaro/.nextflow/secrets/store.json
+Feb-25 09:37:01.479 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@5dbb50f3] - activable => nextflow.secret.LocalSecretsProvider@5dbb50f3
+Feb-25 09:37:01.550 [main] DEBUG nextflow.Session - Session UUID: 4e5cf4b9-a8c4-4ccb-94a4-658e42e55f2e
+Feb-25 09:37:01.550 [main] DEBUG nextflow.Session - Run name: stoic_swanson
+Feb-25 09:37:01.551 [main] DEBUG nextflow.Session - Executor pool size: 8
+Feb-25 09:37:01.560 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Feb-25 09:37:01.581 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 22.10.6 build 5843
+  Created: 23-01-2023 23:20 UTC (24-01-2023 00:20 CEST)
+  System: Linux 5.11.0-44-generic
+  Runtime: Groovy 3.0.13 on OpenJDK 64-Bit Server VM 11.0.13+7-b1751.21
+  Encoding: UTF-8 (UTF-8)
+  Process: 34703@alvaro-Modern-14-B11MO [127.0.1.1]
+  CPUs: 8 - Mem: 15.3 GB (2.9 GB) - Swap: 2 GB (2 GB)
+Feb-25 09:37:01.597 [main] DEBUG nextflow.Session - Work-dir: /home/alvaro/github/ica_preprocessing/work [ext2/ext3]
+Feb-25 09:37:01.611 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Feb-25 09:37:01.619 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Feb-25 09:37:01.692 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Feb-25 09:37:01.704 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 9; maxThreads: 1000
+Feb-25 09:37:01.759 [main] DEBUG nextflow.Session - Session start
+Feb-25 09:37:01.763 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow started -- trace file: /home/alvaro/github/ica_preprocessing/trace/trace.txt
+Feb-25 09:37:01.768 [main] DEBUG nextflow.cli.Launcher - Operation aborted
+java.nio.file.FileAlreadyExistsException: /home/alvaro/github/ica_preprocessing/trace/trace.txt
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:94)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:478)
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:220)
+	at java.base/java.nio.file.Files.newBufferedWriter(Files.java:2995)
+	at nextflow.trace.TraceHelper.newFileWriter(TraceHelper.groovy:63)
+	at nextflow.trace.TraceFileObserver.onFlowCreate(TraceFileObserver.groovy:207)
+	at nextflow.Session$_notifyFlowCreate_closure22.doCall(Session.groovy:1055)
+	at nextflow.Session$_notifyFlowCreate_closure22.call(Session.groovy)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:2359)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:2344)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:2385)
+	at nextflow.Session.notifyFlowCreate(Session.groovy:1055)
+	at nextflow.Session.start(Session.groovy:517)
+	at nextflow.script.ScriptRunner.execute(ScriptRunner.groovy:126)
+	at nextflow.cli.CmdRun.run(CmdRun.groovy:354)
+	at nextflow.cli.Launcher.run(Launcher.groovy:487)
+	at nextflow.cli.Launcher.main(Launcher.groovy:646)

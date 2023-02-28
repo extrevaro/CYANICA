@@ -1,0 +1,89 @@
+[2023-02-27 16:00:10,387] multiqc                                            [DEBUG  ]  This is MultiQC v1.11
+[2023-02-27 16:00:10,388] multiqc                                            [DEBUG  ]  No MultiQC config found: /usr/local/lib/python3.9/site-packages/multiqc_config.yaml
+[2023-02-27 16:00:10,388] multiqc                                            [DEBUG  ]  No MultiQC config found: /.multiqc_config.yaml
+[2023-02-27 16:00:10,390] multiqc                                            [DEBUG  ]  Loading config settings from: multiqc_config.yaml
+[2023-02-27 16:00:10,390] multiqc                                            [DEBUG  ]  New config 'title': Modulome
+[2023-02-27 16:00:10,390] multiqc                                            [DEBUG  ]  New config 'subtitle': Analysis of public microbial RNA-seq data
+[2023-02-27 16:00:10,390] multiqc                                            [DEBUG  ]  New config 'report_header_info': [{'Contact E-mail': 'avsastry@ucsd.edu'}, {'Application Type': 'Microbial RNA-seq Analysis'}]
+[2023-02-27 16:00:10,390] multiqc                                            [DEBUG  ]  New config 'custom_logo': None
+[2023-02-27 16:00:10,390] multiqc                                            [DEBUG  ]  New config 'custom_logo_url': None
+[2023-02-27 16:00:10,390] multiqc                                            [DEBUG  ]  New config 'custom_logo_title': None
+[2023-02-27 16:00:10,390] multiqc                                            [DEBUG  ]  New config 'custom_content': {'order': []}
+[2023-02-27 16:00:10,391] multiqc                                            [DEBUG  ]  Added to filename clean extensions: ['val_1', '_val_2', '_1.fastq', '_2.fastq', '.infer_experiment', '_bowtie.txt', '_all.txt.summary']
+[2023-02-27 16:00:10,391] multiqc                                            [DEBUG  ]  New config 'rseqc_sections': ['infer_experiment']
+[2023-02-27 16:00:10,391] multiqc                                            [DEBUG  ]  New config 'run_modules': ['featureCounts', 'bowtie1', 'rseqc', 'cutadapt', 'fastqc']
+[2023-02-27 16:00:10,391] multiqc                                            [DEBUG  ]  New config 'top_modules': []
+[2023-02-27 16:00:10,391] multiqc                                            [DEBUG  ]  New config 'module_order': ['featureCounts', 'bowtie1', 'rseqc', 'cutadapt', 'fastqc']
+[2023-02-27 16:00:10,393] multiqc                                            [DEBUG  ]  Loading config settings from: multiqc_config.yaml
+[2023-02-27 16:00:10,393] multiqc                                            [DEBUG  ]  New config 'title': Modulome
+[2023-02-27 16:00:10,393] multiqc                                            [DEBUG  ]  New config 'subtitle': Analysis of public microbial RNA-seq data
+[2023-02-27 16:00:10,393] multiqc                                            [DEBUG  ]  New config 'report_header_info': [{'Contact E-mail': 'avsastry@ucsd.edu'}, {'Application Type': 'Microbial RNA-seq Analysis'}]
+[2023-02-27 16:00:10,393] multiqc                                            [DEBUG  ]  New config 'custom_logo': None
+[2023-02-27 16:00:10,393] multiqc                                            [DEBUG  ]  New config 'custom_logo_url': None
+[2023-02-27 16:00:10,393] multiqc                                            [DEBUG  ]  New config 'custom_logo_title': None
+[2023-02-27 16:00:10,393] multiqc                                            [DEBUG  ]  New config 'custom_content': {'order': []}
+[2023-02-27 16:00:10,393] multiqc                                            [DEBUG  ]  Added to filename clean extensions: ['val_1', '_val_2', '_1.fastq', '_2.fastq', '.infer_experiment', '_bowtie.txt', '_all.txt.summary']
+[2023-02-27 16:00:10,393] multiqc                                            [DEBUG  ]  New config 'rseqc_sections': ['infer_experiment']
+[2023-02-27 16:00:10,393] multiqc                                            [DEBUG  ]  New config 'run_modules': ['featureCounts', 'bowtie1', 'rseqc', 'cutadapt', 'fastqc']
+[2023-02-27 16:00:10,393] multiqc                                            [DEBUG  ]  New config 'top_modules': []
+[2023-02-27 16:00:10,393] multiqc                                            [DEBUG  ]  New config 'module_order': ['featureCounts', 'bowtie1', 'rseqc', 'cutadapt', 'fastqc']
+[2023-02-27 16:00:10,393] multiqc                                            [DEBUG  ]  Command used: /usr/local/bin/multiqc -f -c multiqc_config.yaml .
+[2023-02-27 16:00:10,933] multiqc                                            [WARNING]  MultiQC Version v1.14 now available!
+[2023-02-27 16:00:10,934] multiqc                                            [DEBUG  ]  Command     : /usr/local/bin/multiqc -f -c multiqc_config.yaml .
+[2023-02-27 16:00:10,934] multiqc                                            [DEBUG  ]  Working dir : /home/alvaro/github/ica_preprocessing/work/f7/a588a560bd070e12eb1684725bde04
+[2023-02-27 16:00:10,934] multiqc                                            [DEBUG  ]  Template    : default
+[2023-02-27 16:00:10,934] multiqc                                            [DEBUG  ]  Running Python 3.9.5 | packaged by conda-forge | (default, Jun 19 2021, 00:32:32)  [GCC 9.3.0]
+[2023-02-27 16:00:10,934] multiqc                                            [INFO   ]  Report title: Modulome
+[2023-02-27 16:00:10,935] multiqc                                            [INFO   ]  Only using modules: featureCounts, bowtie1, rseqc, cutadapt, fastqc
+[2023-02-27 16:00:10,935] multiqc                                            [DEBUG  ]  Analysing modules: featureCounts, bowtie1, rseqc, cutadapt, fastqc
+[2023-02-27 16:00:10,935] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /tmp/tmpxp47_yjx
+[2023-02-27 16:00:11,005] multiqc                                            [INFO   ]  Search path : /home/alvaro/github/ica_preprocessing/work/f7/a588a560bd070e12eb1684725bde04
+[2023-02-27 16:00:11,005] multiqc                                            [DEBUG  ]  Ignored 258 search patterns as didn't match running modules.
+[2023-02-27 16:00:11,020] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX040435_trimmed_fastqc.html
+[2023-02-27 16:00:11,020] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX040435_trimmed_fastqc.html
+[2023-02-27 16:00:11,020] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX040435_trimmed_fastqc.html
+[2023-02-27 16:00:11,020] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX040435_trimmed_fastqc.html
+[2023-02-27 16:00:11,023] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX030112_trimmed_fastqc.html
+[2023-02-27 16:00:11,023] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX030112_trimmed_fastqc.html
+[2023-02-27 16:00:11,023] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX030112_trimmed_fastqc.html
+[2023-02-27 16:00:11,023] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX030112_trimmed_fastqc.html
+[2023-02-27 16:00:11,025] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX030116_trimmed_fastqc.html
+[2023-02-27 16:00:11,026] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX030116_trimmed_fastqc.html
+[2023-02-27 16:00:11,026] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX030116_trimmed_fastqc.html
+[2023-02-27 16:00:11,026] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX030116_trimmed_fastqc.html
+[2023-02-27 16:00:11,028] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX030115_trimmed_fastqc.html
+[2023-02-27 16:00:11,028] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX030115_trimmed_fastqc.html
+[2023-02-27 16:00:11,028] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX030115_trimmed_fastqc.html
+[2023-02-27 16:00:11,028] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX030115_trimmed_fastqc.html
+[2023-02-27 16:00:11,033] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX030117_trimmed_fastqc.html
+[2023-02-27 16:00:11,033] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX030117_trimmed_fastqc.html
+[2023-02-27 16:00:11,033] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX030117_trimmed_fastqc.html
+[2023-02-27 16:00:11,033] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX030117_trimmed_fastqc.html
+[2023-02-27 16:00:11,035] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX030118_trimmed_fastqc.html
+[2023-02-27 16:00:11,035] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX030118_trimmed_fastqc.html
+[2023-02-27 16:00:11,036] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX030118_trimmed_fastqc.html
+[2023-02-27 16:00:11,036] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX030118_trimmed_fastqc.html
+[2023-02-27 16:00:11,039] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX030120_trimmed_fastqc.html
+[2023-02-27 16:00:11,039] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX030120_trimmed_fastqc.html
+[2023-02-27 16:00:11,039] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX030120_trimmed_fastqc.html
+[2023-02-27 16:00:11,039] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX030120_trimmed_fastqc.html
+[2023-02-27 16:00:11,041] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX030119_trimmed_fastqc.html
+[2023-02-27 16:00:11,041] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX030119_trimmed_fastqc.html
+[2023-02-27 16:00:11,041] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX030119_trimmed_fastqc.html
+[2023-02-27 16:00:11,041] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX030119_trimmed_fastqc.html
+[2023-02-27 16:00:11,044] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX030114_trimmed_fastqc.html
+[2023-02-27 16:00:11,044] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX030114_trimmed_fastqc.html
+[2023-02-27 16:00:11,044] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX030114_trimmed_fastqc.html
+[2023-02-27 16:00:11,044] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX030114_trimmed_fastqc.html
+[2023-02-27 16:00:11,396] multiqc.plots.bargraph                             [DEBUG  ]  Using matplotlib version 3.4.2
+[2023-02-27 16:00:11,415] multiqc.modules.featureCounts.feature_counts       [INFO   ]  Found 9 reports
+[2023-02-27 16:00:11,421] multiqc.modules.bowtie1.bowtie1                    [INFO   ]  Found 9 reports
+[2023-02-27 16:00:11,428] multiqc.modules.rseqc.rseqc                        [INFO   ]  Found 9 infer_experiment reports
+[2023-02-27 16:00:11,431] multiqc.plots.linegraph                            [DEBUG  ]  Using matplotlib version 3.4.2
+[2023-02-27 16:00:11,439] multiqc.modules.cutadapt.cutadapt                  [INFO   ]  Found 9 reports
+[2023-02-27 16:00:11,460] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 9 reports
+[2023-02-27 16:00:11,521] multiqc                                            [INFO   ]  Compressing plot data
+[2023-02-27 16:00:11,642] multiqc                                            [INFO   ]  Report      : multiqc_report.html
+[2023-02-27 16:00:11,642] multiqc                                            [INFO   ]  Data        : multiqc_data
+[2023-02-27 16:00:11,642] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpxp47_yjx/multiqc_data' to '/home/alvaro/github/ica_preprocessing/work/f7/a588a560bd070e12eb1684725bde04/multiqc_data'
+[2023-02-27 16:00:11,709] multiqc                                            [INFO   ]  MultiQC complete

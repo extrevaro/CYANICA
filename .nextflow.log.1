@@ -1,0 +1,584 @@
+Feb-27 14:40:46.997 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main.nf -profile local --organism txid32049 --metadata Synechococcus_sp_PCC_7002/metadata/Synechococcus_sp_PCC_7002.tsv --sequence_dir Synechococcus_sp_PCC_7002/sequence_files/ --outdir Synechococcus_sp_PCC_7002/nf_results/PRJNA294837/
+Feb-27 14:40:47.064 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 22.10.6
+Feb-27 14:40:47.080 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/alvaro/.nextflow/plugins; core-plugins: nf-amazon@1.11.3,nf-azure@0.14.2,nf-codecommit@0.1.2,nf-console@1.0.4,nf-ga4gh@1.0.4,nf-google@1.4.5,nf-tower@1.5.6,nf-wave@0.5.3
+Feb-27 14:40:47.087 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Feb-27 14:40:47.088 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Feb-27 14:40:47.090 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Feb-27 14:40:47.103 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Feb-27 14:40:47.117 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /home/alvaro/github/ica_preprocessing/nextflow.config
+Feb-27 14:40:47.118 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/alvaro/github/ica_preprocessing/nextflow.config
+Feb-27 14:40:47.142 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `local`
+Feb-27 14:40:47.857 [main] DEBUG nextflow.config.ConfigBuilder - Available config profiles: [local]
+Feb-27 14:40:47.898 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=1 by probing script field
+Feb-27 14:40:47.921 [main] INFO  nextflow.cli.CmdRun - Launching `main.nf` [gigantic_heyrovsky] DSL1 - revision: f687a666aa
+Feb-27 14:40:47.922 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Feb-27 14:40:47.922 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Feb-27 14:40:47.933 [main] DEBUG nextflow.secret.LocalSecretsProvider - Secrets store: /home/alvaro/.nextflow/secrets/store.json
+Feb-27 14:40:47.939 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@5dbb50f3] - activable => nextflow.secret.LocalSecretsProvider@5dbb50f3
+Feb-27 14:40:48.013 [main] DEBUG nextflow.Session - Session UUID: a5d715a4-e925-492d-ae9c-cb915aa71358
+Feb-27 14:40:48.013 [main] DEBUG nextflow.Session - Run name: gigantic_heyrovsky
+Feb-27 14:40:48.013 [main] DEBUG nextflow.Session - Executor pool size: 8
+Feb-27 14:40:48.026 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Feb-27 14:40:48.063 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 22.10.6 build 5843
+  Created: 23-01-2023 23:20 UTC (24-01-2023 00:20 CEST)
+  System: Linux 5.11.0-44-generic
+  Runtime: Groovy 3.0.13 on OpenJDK 64-Bit Server VM 11.0.13+7-b1751.21
+  Encoding: UTF-8 (UTF-8)
+  Process: 136844@alvaro-Modern-14-B11MO [127.0.1.1]
+  CPUs: 8 - Mem: 15.3 GB (8.1 GB) - Swap: 2 GB (2 GB)
+Feb-27 14:40:48.085 [main] DEBUG nextflow.Session - Work-dir: /home/alvaro/github/ica_preprocessing/work [ext2/ext3]
+Feb-27 14:40:48.104 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Feb-27 14:40:48.115 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Feb-27 14:40:48.195 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Feb-27 14:40:48.210 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 9; maxThreads: 1000
+Feb-27 14:40:48.286 [main] DEBUG nextflow.Session - Session start
+Feb-27 14:40:48.291 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow started -- trace file: /home/alvaro/github/ica_preprocessing/trace/trace.txt
+Feb-27 14:40:49.330 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Feb-27 14:40:49.361 [PathVisitor-1] DEBUG nextflow.file.PathVisitor - files for syntax: glob; folder: Synechococcus_sp_PCC_7002/sequence_files/; pattern: *.{fasta,gff3}; options: [checkIfExists:true]
+Feb-27 14:40:49.508 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:bowtie` matches labels `bowtie,small` for process with name bowtie_build
+Feb-27 14:40:49.509 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:small` matches labels `bowtie,small` for process with name bowtie_build
+Feb-27 14:40:49.512 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Feb-27 14:40:49.512 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-27 14:40:49.523 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Feb-27 14:40:49.531 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=8; memory=15.3 GB; capacity=8; pollInterval=100ms; dumpInterval=5m
+Feb-27 14:40:49.603 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:small` matches labels `small` for process with name gff2bed
+Feb-27 14:40:49.604 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:gff2bed` matches process gff2bed
+Feb-27 14:40:49.605 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Feb-27 14:40:49.605 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-27 14:40:49.689 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:fastq` matches labels `fastq,medium,stage` for process with name download_fastq
+Feb-27 14:40:49.690 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:medium` matches labels `fastq,medium,stage` for process with name download_fastq
+Feb-27 14:40:49.690 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:stage` matches labels `fastq,medium,stage` for process with name download_fastq
+Feb-27 14:40:49.691 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Feb-27 14:40:49.691 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-27 14:40:49.704 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:fastq` matches labels `fastq,medium,stage` for process with name stage_fastq_single
+Feb-27 14:40:49.704 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:medium` matches labels `fastq,medium,stage` for process with name stage_fastq_single
+Feb-27 14:40:49.704 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:stage` matches labels `fastq,medium,stage` for process with name stage_fastq_single
+Feb-27 14:40:49.704 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Feb-27 14:40:49.704 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-27 14:40:49.713 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:fastq` matches labels `fastq,medium,stage` for process with name stage_fastq_paired
+Feb-27 14:40:49.714 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:medium` matches labels `fastq,medium,stage` for process with name stage_fastq_paired
+Feb-27 14:40:49.714 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:stage` matches labels `fastq,medium,stage` for process with name stage_fastq_paired
+Feb-27 14:40:49.715 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Feb-27 14:40:49.715 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-27 14:40:49.734 [Actor Thread 12] INFO  nextflow.processor.TaskProcessor - [skipping] Stored process > download_fastq (6)
+Feb-27 14:40:49.739 [Actor Thread 1] INFO  nextflow.processor.TaskProcessor - [skipping] Stored process > download_fastq (3)
+Feb-27 14:40:49.739 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:trim_galore` matches labels `large,trim_galore` for process with name trim_galore
+Feb-27 14:40:49.739 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `large,trim_galore` for process with name trim_galore
+Feb-27 14:40:49.739 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Feb-27 14:40:49.739 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-27 14:40:49.739 [Actor Thread 14] INFO  nextflow.processor.TaskProcessor - [skipping] Stored process > download_fastq (8)
+Feb-27 14:40:49.739 [Actor Thread 3] INFO  nextflow.processor.TaskProcessor - [skipping] Stored process > download_fastq (1)
+Feb-27 14:40:49.739 [Actor Thread 11] INFO  nextflow.processor.TaskProcessor - [skipping] Stored process > download_fastq (5)
+Feb-27 14:40:49.752 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:bowtie` matches labels `bowtie,large` for process with name bowtie_align
+Feb-27 14:40:49.753 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `bowtie,large` for process with name bowtie_align
+Feb-27 14:40:49.753 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Feb-27 14:40:49.753 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-27 14:40:49.764 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `large` for process with name sam2bam
+Feb-27 14:40:49.764 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:sam2bam` matches process sam2bam
+Feb-27 14:40:49.765 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Feb-27 14:40:49.765 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-27 14:40:49.771 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:python` matches labels `python,small` for process with name get_read_direction
+Feb-27 14:40:49.771 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:small` matches labels `python,small` for process with name get_read_direction
+Feb-27 14:40:49.772 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:get_read_direction` matches process get_read_direction
+Feb-27 14:40:49.772 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Feb-27 14:40:49.772 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-27 14:40:49.784 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `large` for process with name featureCounts
+Feb-27 14:40:49.785 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:featureCounts` matches process featureCounts
+Feb-27 14:40:49.785 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Feb-27 14:40:49.785 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-27 14:40:49.785 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 14:40:49.788 [Task submitter] INFO  nextflow.Session - [12/95c20b] Submitted process > gff2bed
+Feb-27 14:40:49.799 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `large` for process with name multiqc
+Feb-27 14:40:49.800 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:multiqc` matches process multiqc
+Feb-27 14:40:49.800 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Feb-27 14:40:49.800 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-27 14:40:49.806 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:python` matches labels `python,large` for process with name assemble_tpm
+Feb-27 14:40:49.806 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `python,large` for process with name assemble_tpm
+Feb-27 14:40:49.806 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 14:40:49.806 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Feb-27 14:40:49.806 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-27 14:40:49.807 [Task submitter] INFO  nextflow.Session - [b0/89c8bd] Submitted process > bowtie_build
+Feb-27 14:40:49.809 [main] DEBUG nextflow.Session - Workflow process names [dsl1]: sam2bam, gff2bed, download_fastq, assemble_tpm, get_read_direction, stage_fastq_single, featureCounts, bowtie_align, bowtie_build, stage_fastq_paired, multiqc, trim_galore
+Feb-27 14:40:49.811 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Feb-27 14:40:49.812 [main] DEBUG nextflow.Session - Session await
+Feb-27 14:40:49.814 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 14:40:49.814 [Task submitter] INFO  nextflow.Session - [18/2aa8d7] Submitted process > download_fastq (2)
+Feb-27 14:40:52.058 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: gff2bed; status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/12/95c20bf620ee148a736e92ac95c148]
+Feb-27 14:40:55.089 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: bowtie_build; status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/b0/89c8bd1f57f8d6403e7b250dd82bcd]
+Feb-27 14:40:55.093 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 14:40:55.094 [Task submitter] INFO  nextflow.Session - [7d/9694f9] Submitted process > download_fastq (4)
+Feb-27 14:45:49.737 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 2 -- submitted tasks are shown below
+~> TaskHandler[id: 4; name: download_fastq (2); status: RUNNING; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/18/2aa8d7d43fb5ce9fdf00d3158e899b]
+~> TaskHandler[id: 6; name: download_fastq (4); status: RUNNING; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/7d/9694f9b0b48d1cbb0cc4df1de11b88]
+Feb-27 14:45:50.189 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 7 -- tasks to be submitted are shown below
+~> TaskHandler[id: 9; name: download_fastq (7); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/0b/32bc3ed0510da9966b59fc927e207c]
+~> TaskHandler[id: 11; name: download_fastq (9); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/2b/f249bab44a369f17c37efbb0e472aa]
+~> TaskHandler[id: 16; name: trim_galore (5); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/37/80817af40634742419d92252080c83]
+~> TaskHandler[id: 12; name: trim_galore (1); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/4f/ca8d9e5f137b77472463826022ac3e]
+~> TaskHandler[id: 13; name: trim_galore (2); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/cf/b693c5f999dbe4ad7d39b37f447f69]
+~> TaskHandler[id: 15; name: trim_galore (4); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/1b/8ca9789849f8b6bd4e8e1c8f3d70d6]
+~> TaskHandler[id: 14; name: trim_galore (3); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/13/7b67f2bfcdf9e91bb0c29504c3d70b]
+Feb-27 14:50:49.821 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 2 -- submitted tasks are shown below
+~> TaskHandler[id: 4; name: download_fastq (2); status: RUNNING; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/18/2aa8d7d43fb5ce9fdf00d3158e899b]
+~> TaskHandler[id: 6; name: download_fastq (4); status: RUNNING; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/7d/9694f9b0b48d1cbb0cc4df1de11b88]
+Feb-27 14:50:50.260 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 7 -- tasks to be submitted are shown below
+~> TaskHandler[id: 9; name: download_fastq (7); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/0b/32bc3ed0510da9966b59fc927e207c]
+~> TaskHandler[id: 11; name: download_fastq (9); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/2b/f249bab44a369f17c37efbb0e472aa]
+~> TaskHandler[id: 16; name: trim_galore (5); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/37/80817af40634742419d92252080c83]
+~> TaskHandler[id: 12; name: trim_galore (1); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/4f/ca8d9e5f137b77472463826022ac3e]
+~> TaskHandler[id: 13; name: trim_galore (2); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/cf/b693c5f999dbe4ad7d39b37f447f69]
+~> TaskHandler[id: 15; name: trim_galore (4); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/1b/8ca9789849f8b6bd4e8e1c8f3d70d6]
+~> TaskHandler[id: 14; name: trim_galore (3); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/13/7b67f2bfcdf9e91bb0c29504c3d70b]
+Feb-27 14:55:49.847 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 2 -- submitted tasks are shown below
+~> TaskHandler[id: 4; name: download_fastq (2); status: RUNNING; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/18/2aa8d7d43fb5ce9fdf00d3158e899b]
+~> TaskHandler[id: 6; name: download_fastq (4); status: RUNNING; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/7d/9694f9b0b48d1cbb0cc4df1de11b88]
+Feb-27 14:55:50.323 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 7 -- tasks to be submitted are shown below
+~> TaskHandler[id: 9; name: download_fastq (7); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/0b/32bc3ed0510da9966b59fc927e207c]
+~> TaskHandler[id: 11; name: download_fastq (9); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/2b/f249bab44a369f17c37efbb0e472aa]
+~> TaskHandler[id: 16; name: trim_galore (5); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/37/80817af40634742419d92252080c83]
+~> TaskHandler[id: 12; name: trim_galore (1); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/4f/ca8d9e5f137b77472463826022ac3e]
+~> TaskHandler[id: 13; name: trim_galore (2); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/cf/b693c5f999dbe4ad7d39b37f447f69]
+~> TaskHandler[id: 15; name: trim_galore (4); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/1b/8ca9789849f8b6bd4e8e1c8f3d70d6]
+~> TaskHandler[id: 14; name: trim_galore (3); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/13/7b67f2bfcdf9e91bb0c29504c3d70b]
+Feb-27 14:59:53.983 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 4; name: download_fastq (2); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/18/2aa8d7d43fb5ce9fdf00d3158e899b]
+Feb-27 14:59:53.986 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 14:59:53.987 [Task submitter] INFO  nextflow.Session - [0b/32bc3e] Submitted process > download_fastq (7)
+Feb-27 15:00:49.890 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 2 -- submitted tasks are shown below
+~> TaskHandler[id: 6; name: download_fastq (4); status: RUNNING; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/7d/9694f9b0b48d1cbb0cc4df1de11b88]
+~> TaskHandler[id: 9; name: download_fastq (7); status: RUNNING; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/0b/32bc3ed0510da9966b59fc927e207c]
+Feb-27 15:00:51.003 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 7 -- tasks to be submitted are shown below
+~> TaskHandler[id: 11; name: download_fastq (9); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/2b/f249bab44a369f17c37efbb0e472aa]
+~> TaskHandler[id: 16; name: trim_galore (5); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/37/80817af40634742419d92252080c83]
+~> TaskHandler[id: 12; name: trim_galore (1); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/4f/ca8d9e5f137b77472463826022ac3e]
+~> TaskHandler[id: 13; name: trim_galore (2); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/cf/b693c5f999dbe4ad7d39b37f447f69]
+~> TaskHandler[id: 15; name: trim_galore (4); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/1b/8ca9789849f8b6bd4e8e1c8f3d70d6]
+~> TaskHandler[id: 14; name: trim_galore (3); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/13/7b67f2bfcdf9e91bb0c29504c3d70b]
+~> TaskHandler[id: 17; name: trim_galore (6); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/de/37b713a4781fd8fe84fb0985d63ed6]
+Feb-27 15:05:49.935 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 2 -- submitted tasks are shown below
+~> TaskHandler[id: 6; name: download_fastq (4); status: RUNNING; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/7d/9694f9b0b48d1cbb0cc4df1de11b88]
+~> TaskHandler[id: 9; name: download_fastq (7); status: RUNNING; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/0b/32bc3ed0510da9966b59fc927e207c]
+Feb-27 15:05:51.064 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 7 -- tasks to be submitted are shown below
+~> TaskHandler[id: 11; name: download_fastq (9); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/2b/f249bab44a369f17c37efbb0e472aa]
+~> TaskHandler[id: 16; name: trim_galore (5); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/37/80817af40634742419d92252080c83]
+~> TaskHandler[id: 12; name: trim_galore (1); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/4f/ca8d9e5f137b77472463826022ac3e]
+~> TaskHandler[id: 13; name: trim_galore (2); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/cf/b693c5f999dbe4ad7d39b37f447f69]
+~> TaskHandler[id: 15; name: trim_galore (4); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/1b/8ca9789849f8b6bd4e8e1c8f3d70d6]
+~> TaskHandler[id: 14; name: trim_galore (3); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/13/7b67f2bfcdf9e91bb0c29504c3d70b]
+~> TaskHandler[id: 17; name: trim_galore (6); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/de/37b713a4781fd8fe84fb0985d63ed6]
+Feb-27 15:10:49.961 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 2 -- submitted tasks are shown below
+~> TaskHandler[id: 6; name: download_fastq (4); status: RUNNING; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/7d/9694f9b0b48d1cbb0cc4df1de11b88]
+~> TaskHandler[id: 9; name: download_fastq (7); status: RUNNING; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/0b/32bc3ed0510da9966b59fc927e207c]
+Feb-27 15:10:51.122 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 7 -- tasks to be submitted are shown below
+~> TaskHandler[id: 11; name: download_fastq (9); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/2b/f249bab44a369f17c37efbb0e472aa]
+~> TaskHandler[id: 16; name: trim_galore (5); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/37/80817af40634742419d92252080c83]
+~> TaskHandler[id: 12; name: trim_galore (1); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/4f/ca8d9e5f137b77472463826022ac3e]
+~> TaskHandler[id: 13; name: trim_galore (2); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/cf/b693c5f999dbe4ad7d39b37f447f69]
+~> TaskHandler[id: 15; name: trim_galore (4); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/1b/8ca9789849f8b6bd4e8e1c8f3d70d6]
+~> TaskHandler[id: 14; name: trim_galore (3); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/13/7b67f2bfcdf9e91bb0c29504c3d70b]
+~> TaskHandler[id: 17; name: trim_galore (6); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/de/37b713a4781fd8fe84fb0985d63ed6]
+Feb-27 15:13:44.898 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 9; name: download_fastq (7); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/0b/32bc3ed0510da9966b59fc927e207c]
+Feb-27 15:13:44.901 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 15:13:44.901 [Task submitter] INFO  nextflow.Session - [2b/f249ba] Submitted process > download_fastq (9)
+Feb-27 15:15:50.008 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 2 -- submitted tasks are shown below
+~> TaskHandler[id: 6; name: download_fastq (4); status: RUNNING; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/7d/9694f9b0b48d1cbb0cc4df1de11b88]
+~> TaskHandler[id: 11; name: download_fastq (9); status: RUNNING; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/2b/f249bab44a369f17c37efbb0e472aa]
+Feb-27 15:15:51.931 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 7 -- tasks to be submitted are shown below
+~> TaskHandler[id: 16; name: trim_galore (5); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/37/80817af40634742419d92252080c83]
+~> TaskHandler[id: 12; name: trim_galore (1); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/4f/ca8d9e5f137b77472463826022ac3e]
+~> TaskHandler[id: 13; name: trim_galore (2); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/cf/b693c5f999dbe4ad7d39b37f447f69]
+~> TaskHandler[id: 15; name: trim_galore (4); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/1b/8ca9789849f8b6bd4e8e1c8f3d70d6]
+~> TaskHandler[id: 14; name: trim_galore (3); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/13/7b67f2bfcdf9e91bb0c29504c3d70b]
+~> TaskHandler[id: 17; name: trim_galore (6); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/de/37b713a4781fd8fe84fb0985d63ed6]
+~> TaskHandler[id: 18; name: trim_galore (7); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/44/7f7169e8a9a5b2ff95309a1d7f63ee]
+Feb-27 15:20:50.016 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 2 -- submitted tasks are shown below
+~> TaskHandler[id: 6; name: download_fastq (4); status: RUNNING; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/7d/9694f9b0b48d1cbb0cc4df1de11b88]
+~> TaskHandler[id: 11; name: download_fastq (9); status: RUNNING; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/2b/f249bab44a369f17c37efbb0e472aa]
+Feb-27 15:20:51.999 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 7 -- tasks to be submitted are shown below
+~> TaskHandler[id: 16; name: trim_galore (5); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/37/80817af40634742419d92252080c83]
+~> TaskHandler[id: 12; name: trim_galore (1); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/4f/ca8d9e5f137b77472463826022ac3e]
+~> TaskHandler[id: 13; name: trim_galore (2); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/cf/b693c5f999dbe4ad7d39b37f447f69]
+~> TaskHandler[id: 15; name: trim_galore (4); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/1b/8ca9789849f8b6bd4e8e1c8f3d70d6]
+~> TaskHandler[id: 14; name: trim_galore (3); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/13/7b67f2bfcdf9e91bb0c29504c3d70b]
+~> TaskHandler[id: 17; name: trim_galore (6); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/de/37b713a4781fd8fe84fb0985d63ed6]
+~> TaskHandler[id: 18; name: trim_galore (7); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/44/7f7169e8a9a5b2ff95309a1d7f63ee]
+Feb-27 15:25:50.101 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 2 -- submitted tasks are shown below
+~> TaskHandler[id: 6; name: download_fastq (4); status: RUNNING; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/7d/9694f9b0b48d1cbb0cc4df1de11b88]
+~> TaskHandler[id: 11; name: download_fastq (9); status: RUNNING; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/2b/f249bab44a369f17c37efbb0e472aa]
+Feb-27 15:25:52.054 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 7 -- tasks to be submitted are shown below
+~> TaskHandler[id: 16; name: trim_galore (5); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/37/80817af40634742419d92252080c83]
+~> TaskHandler[id: 12; name: trim_galore (1); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/4f/ca8d9e5f137b77472463826022ac3e]
+~> TaskHandler[id: 13; name: trim_galore (2); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/cf/b693c5f999dbe4ad7d39b37f447f69]
+~> TaskHandler[id: 15; name: trim_galore (4); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/1b/8ca9789849f8b6bd4e8e1c8f3d70d6]
+~> TaskHandler[id: 14; name: trim_galore (3); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/13/7b67f2bfcdf9e91bb0c29504c3d70b]
+~> TaskHandler[id: 17; name: trim_galore (6); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/de/37b713a4781fd8fe84fb0985d63ed6]
+~> TaskHandler[id: 18; name: trim_galore (7); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/44/7f7169e8a9a5b2ff95309a1d7f63ee]
+Feb-27 15:30:50.106 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 2 -- submitted tasks are shown below
+~> TaskHandler[id: 6; name: download_fastq (4); status: RUNNING; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/7d/9694f9b0b48d1cbb0cc4df1de11b88]
+~> TaskHandler[id: 11; name: download_fastq (9); status: RUNNING; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/2b/f249bab44a369f17c37efbb0e472aa]
+Feb-27 15:30:52.111 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 7 -- tasks to be submitted are shown below
+~> TaskHandler[id: 16; name: trim_galore (5); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/37/80817af40634742419d92252080c83]
+~> TaskHandler[id: 12; name: trim_galore (1); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/4f/ca8d9e5f137b77472463826022ac3e]
+~> TaskHandler[id: 13; name: trim_galore (2); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/cf/b693c5f999dbe4ad7d39b37f447f69]
+~> TaskHandler[id: 15; name: trim_galore (4); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/1b/8ca9789849f8b6bd4e8e1c8f3d70d6]
+~> TaskHandler[id: 14; name: trim_galore (3); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/13/7b67f2bfcdf9e91bb0c29504c3d70b]
+~> TaskHandler[id: 17; name: trim_galore (6); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/de/37b713a4781fd8fe84fb0985d63ed6]
+~> TaskHandler[id: 18; name: trim_galore (7); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/44/7f7169e8a9a5b2ff95309a1d7f63ee]
+Feb-27 15:32:15.233 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 11; name: download_fastq (9); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/2b/f249bab44a369f17c37efbb0e472aa]
+Feb-27 15:35:50.150 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 6; name: download_fastq (4); status: RUNNING; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/7d/9694f9b0b48d1cbb0cc4df1de11b88]
+Feb-27 15:35:52.289 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 8 -- tasks to be submitted are shown below
+~> TaskHandler[id: 16; name: trim_galore (5); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/37/80817af40634742419d92252080c83]
+~> TaskHandler[id: 12; name: trim_galore (1); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/4f/ca8d9e5f137b77472463826022ac3e]
+~> TaskHandler[id: 13; name: trim_galore (2); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/cf/b693c5f999dbe4ad7d39b37f447f69]
+~> TaskHandler[id: 15; name: trim_galore (4); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/1b/8ca9789849f8b6bd4e8e1c8f3d70d6]
+~> TaskHandler[id: 14; name: trim_galore (3); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/13/7b67f2bfcdf9e91bb0c29504c3d70b]
+~> TaskHandler[id: 17; name: trim_galore (6); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/de/37b713a4781fd8fe84fb0985d63ed6]
+~> TaskHandler[id: 18; name: trim_galore (7); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/44/7f7169e8a9a5b2ff95309a1d7f63ee]
+~> TaskHandler[id: 19; name: trim_galore (8); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/fd/0548c709022d01a3cce970f711e8aa]
+Feb-27 15:40:50.188 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 6; name: download_fastq (4); status: RUNNING; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/7d/9694f9b0b48d1cbb0cc4df1de11b88]
+Feb-27 15:40:52.351 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 8 -- tasks to be submitted are shown below
+~> TaskHandler[id: 16; name: trim_galore (5); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/37/80817af40634742419d92252080c83]
+~> TaskHandler[id: 12; name: trim_galore (1); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/4f/ca8d9e5f137b77472463826022ac3e]
+~> TaskHandler[id: 13; name: trim_galore (2); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/cf/b693c5f999dbe4ad7d39b37f447f69]
+~> TaskHandler[id: 15; name: trim_galore (4); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/1b/8ca9789849f8b6bd4e8e1c8f3d70d6]
+~> TaskHandler[id: 14; name: trim_galore (3); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/13/7b67f2bfcdf9e91bb0c29504c3d70b]
+~> TaskHandler[id: 17; name: trim_galore (6); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/de/37b713a4781fd8fe84fb0985d63ed6]
+~> TaskHandler[id: 18; name: trim_galore (7); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/44/7f7169e8a9a5b2ff95309a1d7f63ee]
+~> TaskHandler[id: 19; name: trim_galore (8); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/fd/0548c709022d01a3cce970f711e8aa]
+Feb-27 15:45:05.659 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 6; name: download_fastq (4); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/7d/9694f9b0b48d1cbb0cc4df1de11b88]
+Feb-27 15:45:05.662 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 15:45:05.663 [Task submitter] INFO  nextflow.Session - [37/80817a] Submitted process > trim_galore (5)
+Feb-27 15:45:50.214 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 16; name: trim_galore (5); status: RUNNING; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/37/80817af40634742419d92252080c83]
+Feb-27 15:45:52.671 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 8 -- tasks to be submitted are shown below
+~> TaskHandler[id: 12; name: trim_galore (1); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/4f/ca8d9e5f137b77472463826022ac3e]
+~> TaskHandler[id: 13; name: trim_galore (2); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/cf/b693c5f999dbe4ad7d39b37f447f69]
+~> TaskHandler[id: 15; name: trim_galore (4); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/1b/8ca9789849f8b6bd4e8e1c8f3d70d6]
+~> TaskHandler[id: 14; name: trim_galore (3); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/13/7b67f2bfcdf9e91bb0c29504c3d70b]
+~> TaskHandler[id: 17; name: trim_galore (6); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/de/37b713a4781fd8fe84fb0985d63ed6]
+~> TaskHandler[id: 18; name: trim_galore (7); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/44/7f7169e8a9a5b2ff95309a1d7f63ee]
+~> TaskHandler[id: 19; name: trim_galore (8); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/fd/0548c709022d01a3cce970f711e8aa]
+~> TaskHandler[id: 20; name: trim_galore (9); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/4e/14f4a5dac11aec2e9b87eb8f92b85e]
+Feb-27 15:46:25.355 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 16; name: trim_galore (5); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/37/80817af40634742419d92252080c83]
+Feb-27 15:46:25.360 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 15:46:25.360 [Task submitter] INFO  nextflow.Session - [4f/ca8d9e] Submitted process > trim_galore (1)
+Feb-27 15:46:25.366 [Task monitor] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'PublishDir' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Feb-27 15:49:23.334 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 12; name: trim_galore (1); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/4f/ca8d9e5f137b77472463826022ac3e]
+Feb-27 15:49:23.337 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 15:49:23.337 [Task submitter] INFO  nextflow.Session - [cf/b693c5] Submitted process > trim_galore (2)
+Feb-27 15:50:50.229 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 13; name: trim_galore (2); status: RUNNING; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/cf/b693c5f999dbe4ad7d39b37f447f69]
+Feb-27 15:50:53.351 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 8 -- tasks to be submitted are shown below
+~> TaskHandler[id: 15; name: trim_galore (4); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/1b/8ca9789849f8b6bd4e8e1c8f3d70d6]
+~> TaskHandler[id: 14; name: trim_galore (3); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/13/7b67f2bfcdf9e91bb0c29504c3d70b]
+~> TaskHandler[id: 17; name: trim_galore (6); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/de/37b713a4781fd8fe84fb0985d63ed6]
+~> TaskHandler[id: 18; name: trim_galore (7); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/44/7f7169e8a9a5b2ff95309a1d7f63ee]
+~> TaskHandler[id: 19; name: trim_galore (8); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/fd/0548c709022d01a3cce970f711e8aa]
+~> TaskHandler[id: 20; name: trim_galore (9); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/4e/14f4a5dac11aec2e9b87eb8f92b85e]
+~> TaskHandler[id: 21; name: bowtie_align (1); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/59/9eab559f98b739b37d41fe2f14e06a]
+~> TaskHandler[id: 22; name: bowtie_align (2); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/d9/9b34b24c5ddf5d6b71b4cbc1acba6f]
+Feb-27 15:51:32.388 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 13; name: trim_galore (2); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/cf/b693c5f999dbe4ad7d39b37f447f69]
+Feb-27 15:51:32.390 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 15:51:32.390 [Task submitter] INFO  nextflow.Session - [1b/8ca978] Submitted process > trim_galore (4)
+Feb-27 15:53:20.324 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 15; name: trim_galore (4); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/1b/8ca9789849f8b6bd4e8e1c8f3d70d6]
+Feb-27 15:53:20.326 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 15:53:20.327 [Task submitter] INFO  nextflow.Session - [13/7b67f2] Submitted process > trim_galore (3)
+Feb-27 15:54:50.821 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 14; name: trim_galore (3); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/13/7b67f2bfcdf9e91bb0c29504c3d70b]
+Feb-27 15:54:50.823 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 15:54:50.824 [Task submitter] INFO  nextflow.Session - [de/37b713] Submitted process > trim_galore (6)
+Feb-27 15:55:50.286 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 17; name: trim_galore (6); status: RUNNING; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/de/37b713a4781fd8fe84fb0985d63ed6]
+Feb-27 15:55:53.836 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 8 -- tasks to be submitted are shown below
+~> TaskHandler[id: 18; name: trim_galore (7); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/44/7f7169e8a9a5b2ff95309a1d7f63ee]
+~> TaskHandler[id: 19; name: trim_galore (8); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/fd/0548c709022d01a3cce970f711e8aa]
+~> TaskHandler[id: 20; name: trim_galore (9); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/4e/14f4a5dac11aec2e9b87eb8f92b85e]
+~> TaskHandler[id: 21; name: bowtie_align (1); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/59/9eab559f98b739b37d41fe2f14e06a]
+~> TaskHandler[id: 22; name: bowtie_align (2); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/d9/9b34b24c5ddf5d6b71b4cbc1acba6f]
+~> TaskHandler[id: 23; name: bowtie_align (3); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/92/2e7a8ee3a678e5c652f3f35b8d5eec]
+~> TaskHandler[id: 24; name: bowtie_align (4); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/09/f45362c983d18382f5ed67526cf961]
+~> TaskHandler[id: 25; name: bowtie_align (5); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/52/a5575a2b9978cebadf5548d602fe26]
+Feb-27 15:57:48.201 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 17; name: trim_galore (6); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/de/37b713a4781fd8fe84fb0985d63ed6]
+Feb-27 15:57:48.203 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 15:57:48.203 [Task submitter] INFO  nextflow.Session - [44/7f7169] Submitted process > trim_galore (7)
+Feb-27 16:00:12.767 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 18; name: trim_galore (7); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/44/7f7169e8a9a5b2ff95309a1d7f63ee]
+Feb-27 16:00:12.771 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 16:00:12.771 [Task submitter] INFO  nextflow.Session - [fd/0548c7] Submitted process > trim_galore (8)
+Feb-27 16:00:50.305 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 19; name: trim_galore (8); status: RUNNING; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/fd/0548c709022d01a3cce970f711e8aa]
+Feb-27 16:00:54.778 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 8 -- tasks to be submitted are shown below
+~> TaskHandler[id: 20; name: trim_galore (9); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/4e/14f4a5dac11aec2e9b87eb8f92b85e]
+~> TaskHandler[id: 21; name: bowtie_align (1); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/59/9eab559f98b739b37d41fe2f14e06a]
+~> TaskHandler[id: 22; name: bowtie_align (2); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/d9/9b34b24c5ddf5d6b71b4cbc1acba6f]
+~> TaskHandler[id: 23; name: bowtie_align (3); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/92/2e7a8ee3a678e5c652f3f35b8d5eec]
+~> TaskHandler[id: 24; name: bowtie_align (4); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/09/f45362c983d18382f5ed67526cf961]
+~> TaskHandler[id: 25; name: bowtie_align (5); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/52/a5575a2b9978cebadf5548d602fe26]
+~> TaskHandler[id: 26; name: bowtie_align (6); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/4d/b0ae71c9b552be9fb2c43f6ff49881]
+~> TaskHandler[id: 27; name: bowtie_align (7); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/08/d52400d4a59e88f9e7b1d38a75c20b]
+Feb-27 16:02:34.926 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 19; name: trim_galore (8); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/fd/0548c709022d01a3cce970f711e8aa]
+Feb-27 16:02:34.928 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 16:02:34.928 [Task submitter] INFO  nextflow.Session - [4e/14f4a5] Submitted process > trim_galore (9)
+Feb-27 16:05:50.321 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 20; name: trim_galore (9); status: RUNNING; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/4e/14f4a5dac11aec2e9b87eb8f92b85e]
+Feb-27 16:05:54.962 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 8 -- tasks to be submitted are shown below
+~> TaskHandler[id: 21; name: bowtie_align (1); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/59/9eab559f98b739b37d41fe2f14e06a]
+~> TaskHandler[id: 22; name: bowtie_align (2); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/d9/9b34b24c5ddf5d6b71b4cbc1acba6f]
+~> TaskHandler[id: 23; name: bowtie_align (3); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/92/2e7a8ee3a678e5c652f3f35b8d5eec]
+~> TaskHandler[id: 24; name: bowtie_align (4); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/09/f45362c983d18382f5ed67526cf961]
+~> TaskHandler[id: 25; name: bowtie_align (5); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/52/a5575a2b9978cebadf5548d602fe26]
+~> TaskHandler[id: 26; name: bowtie_align (6); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/4d/b0ae71c9b552be9fb2c43f6ff49881]
+~> TaskHandler[id: 27; name: bowtie_align (7); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/08/d52400d4a59e88f9e7b1d38a75c20b]
+~> TaskHandler[id: 28; name: bowtie_align (8); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/4a/d0562b5997f8164d10fa2a2c4303fb]
+Feb-27 16:10:50.335 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 20; name: trim_galore (9); status: RUNNING; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/4e/14f4a5dac11aec2e9b87eb8f92b85e]
+Feb-27 16:10:55.006 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 8 -- tasks to be submitted are shown below
+~> TaskHandler[id: 21; name: bowtie_align (1); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/59/9eab559f98b739b37d41fe2f14e06a]
+~> TaskHandler[id: 22; name: bowtie_align (2); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/d9/9b34b24c5ddf5d6b71b4cbc1acba6f]
+~> TaskHandler[id: 23; name: bowtie_align (3); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/92/2e7a8ee3a678e5c652f3f35b8d5eec]
+~> TaskHandler[id: 24; name: bowtie_align (4); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/09/f45362c983d18382f5ed67526cf961]
+~> TaskHandler[id: 25; name: bowtie_align (5); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/52/a5575a2b9978cebadf5548d602fe26]
+~> TaskHandler[id: 26; name: bowtie_align (6); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/4d/b0ae71c9b552be9fb2c43f6ff49881]
+~> TaskHandler[id: 27; name: bowtie_align (7); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/08/d52400d4a59e88f9e7b1d38a75c20b]
+~> TaskHandler[id: 28; name: bowtie_align (8); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/4a/d0562b5997f8164d10fa2a2c4303fb]
+Feb-27 16:15:41.250 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 20; name: trim_galore (9); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/4e/14f4a5dac11aec2e9b87eb8f92b85e]
+Feb-27 16:15:41.254 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 16:15:41.254 [Task submitter] INFO  nextflow.Session - [59/9eab55] Submitted process > bowtie_align (1)
+Feb-27 16:15:50.362 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 21; name: bowtie_align (1); status: RUNNING; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/59/9eab559f98b739b37d41fe2f14e06a]
+Feb-27 16:15:55.257 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 8 -- tasks to be submitted are shown below
+~> TaskHandler[id: 22; name: bowtie_align (2); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/d9/9b34b24c5ddf5d6b71b4cbc1acba6f]
+~> TaskHandler[id: 23; name: bowtie_align (3); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/92/2e7a8ee3a678e5c652f3f35b8d5eec]
+~> TaskHandler[id: 24; name: bowtie_align (4); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/09/f45362c983d18382f5ed67526cf961]
+~> TaskHandler[id: 25; name: bowtie_align (5); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/52/a5575a2b9978cebadf5548d602fe26]
+~> TaskHandler[id: 26; name: bowtie_align (6); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/4d/b0ae71c9b552be9fb2c43f6ff49881]
+~> TaskHandler[id: 27; name: bowtie_align (7); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/08/d52400d4a59e88f9e7b1d38a75c20b]
+~> TaskHandler[id: 28; name: bowtie_align (8); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/4a/d0562b5997f8164d10fa2a2c4303fb]
+~> TaskHandler[id: 29; name: bowtie_align (9); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/09/3d595b7e12d0c44fe1ad4b0ed9ed3c]
+Feb-27 16:17:12.231 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 21; name: bowtie_align (1); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/59/9eab559f98b739b37d41fe2f14e06a]
+Feb-27 16:17:12.234 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 16:17:12.234 [Task submitter] INFO  nextflow.Session - [d9/9b34b2] Submitted process > bowtie_align (2)
+Feb-27 16:20:28.969 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 22; name: bowtie_align (2); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/d9/9b34b24c5ddf5d6b71b4cbc1acba6f]
+Feb-27 16:20:28.971 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 16:20:28.972 [Task submitter] INFO  nextflow.Session - [92/2e7a8e] Submitted process > bowtie_align (3)
+Feb-27 16:20:50.400 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 23; name: bowtie_align (3); status: RUNNING; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/92/2e7a8ee3a678e5c652f3f35b8d5eec]
+Feb-27 16:20:55.976 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 10 -- tasks to be submitted are shown below
+~> TaskHandler[id: 24; name: bowtie_align (4); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/09/f45362c983d18382f5ed67526cf961]
+~> TaskHandler[id: 25; name: bowtie_align (5); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/52/a5575a2b9978cebadf5548d602fe26]
+~> TaskHandler[id: 26; name: bowtie_align (6); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/4d/b0ae71c9b552be9fb2c43f6ff49881]
+~> TaskHandler[id: 27; name: bowtie_align (7); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/08/d52400d4a59e88f9e7b1d38a75c20b]
+~> TaskHandler[id: 28; name: bowtie_align (8); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/4a/d0562b5997f8164d10fa2a2c4303fb]
+~> TaskHandler[id: 29; name: bowtie_align (9); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/09/3d595b7e12d0c44fe1ad4b0ed9ed3c]
+~> TaskHandler[id: 30; name: sam2bam (1); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/2f/66ce0ad5445600994ad1be6fb33773]
+~> TaskHandler[id: 31; name: get_read_direction (1); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/6d/bafd55985eb3b1e57fc2705c8f3ad3]
+~> TaskHandler[id: 33; name: get_read_direction (2); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/29/f6c80e20d8d5587af50ee157b39cfd]
+~> TaskHandler[id: 32; name: sam2bam (2); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/71/a5edf9b113d5a3439158b373518f1b]
+Feb-27 16:22:25.616 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 23; name: bowtie_align (3); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/92/2e7a8ee3a678e5c652f3f35b8d5eec]
+Feb-27 16:22:25.619 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 16:22:25.620 [Task submitter] INFO  nextflow.Session - [09/f45362] Submitted process > bowtie_align (4)
+Feb-27 16:23:58.428 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 24; name: bowtie_align (4); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/09/f45362c983d18382f5ed67526cf961]
+Feb-27 16:23:58.431 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 16:23:58.431 [Task submitter] INFO  nextflow.Session - [52/a5575a] Submitted process > bowtie_align (5)
+Feb-27 16:25:16.897 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 25; name: bowtie_align (5); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/52/a5575a2b9978cebadf5548d602fe26]
+Feb-27 16:25:16.899 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 16:25:16.899 [Task submitter] INFO  nextflow.Session - [4d/b0ae71] Submitted process > bowtie_align (6)
+Feb-27 16:25:50.430 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 26; name: bowtie_align (6); status: RUNNING; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/4d/b0ae71c9b552be9fb2c43f6ff49881]
+Feb-27 16:25:56.907 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 13 -- tasks to be submitted are shown below
+~> TaskHandler[id: 27; name: bowtie_align (7); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/08/d52400d4a59e88f9e7b1d38a75c20b]
+~> TaskHandler[id: 28; name: bowtie_align (8); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/4a/d0562b5997f8164d10fa2a2c4303fb]
+~> TaskHandler[id: 29; name: bowtie_align (9); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/09/3d595b7e12d0c44fe1ad4b0ed9ed3c]
+~> TaskHandler[id: 30; name: sam2bam (1); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/2f/66ce0ad5445600994ad1be6fb33773]
+~> TaskHandler[id: 31; name: get_read_direction (1); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/6d/bafd55985eb3b1e57fc2705c8f3ad3]
+~> TaskHandler[id: 33; name: get_read_direction (2); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/29/f6c80e20d8d5587af50ee157b39cfd]
+~> TaskHandler[id: 32; name: sam2bam (2); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/71/a5edf9b113d5a3439158b373518f1b]
+~> TaskHandler[id: 35; name: sam2bam (3); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/ff/bcdd20b986e8ccd61dda7a89c4abcd]
+~> TaskHandler[id: 34; name: get_read_direction (3); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/5d/924a3122cd911e28bc27f7df9daf12]
+~> TaskHandler[id: 37; name: sam2bam (4); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/54/b1b693f8e395fd253a9ceb6b79c8c5]
+.. remaining tasks omitted.
+Feb-27 16:28:02.098 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 26; name: bowtie_align (6); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/4d/b0ae71c9b552be9fb2c43f6ff49881]
+Feb-27 16:28:02.101 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 16:28:02.101 [Task submitter] INFO  nextflow.Session - [08/d52400] Submitted process > bowtie_align (7)
+Feb-27 16:30:07.341 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 27; name: bowtie_align (7); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/08/d52400d4a59e88f9e7b1d38a75c20b]
+Feb-27 16:30:07.345 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 16:30:07.346 [Task submitter] INFO  nextflow.Session - [4a/d0562b] Submitted process > bowtie_align (8)
+Feb-27 16:30:50.481 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 28; name: bowtie_align (8); status: RUNNING; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/4a/d0562b5997f8164d10fa2a2c4303fb]
+Feb-27 16:30:57.358 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 15 -- tasks to be submitted are shown below
+~> TaskHandler[id: 29; name: bowtie_align (9); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/09/3d595b7e12d0c44fe1ad4b0ed9ed3c]
+~> TaskHandler[id: 30; name: sam2bam (1); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/2f/66ce0ad5445600994ad1be6fb33773]
+~> TaskHandler[id: 31; name: get_read_direction (1); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/6d/bafd55985eb3b1e57fc2705c8f3ad3]
+~> TaskHandler[id: 33; name: get_read_direction (2); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/29/f6c80e20d8d5587af50ee157b39cfd]
+~> TaskHandler[id: 32; name: sam2bam (2); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/71/a5edf9b113d5a3439158b373518f1b]
+~> TaskHandler[id: 35; name: sam2bam (3); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/ff/bcdd20b986e8ccd61dda7a89c4abcd]
+~> TaskHandler[id: 34; name: get_read_direction (3); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/5d/924a3122cd911e28bc27f7df9daf12]
+~> TaskHandler[id: 37; name: sam2bam (4); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/54/b1b693f8e395fd253a9ceb6b79c8c5]
+~> TaskHandler[id: 36; name: get_read_direction (4); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/38/ae73c016a5c3ae3039d11b9884ad15]
+~> TaskHandler[id: 38; name: get_read_direction (5); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/b1/8128a3559eafc1c43ddb230401898a]
+.. remaining tasks omitted.
+Feb-27 16:31:43.798 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 28; name: bowtie_align (8); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/4a/d0562b5997f8164d10fa2a2c4303fb]
+Feb-27 16:31:43.801 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 16:31:43.801 [Task submitter] INFO  nextflow.Session - [09/3d595b] Submitted process > bowtie_align (9)
+Feb-27 16:35:50.547 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 29; name: bowtie_align (9); status: RUNNING; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/09/3d595b7e12d0c44fe1ad4b0ed9ed3c]
+Feb-27 16:35:57.844 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 16 -- tasks to be submitted are shown below
+~> TaskHandler[id: 30; name: sam2bam (1); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/2f/66ce0ad5445600994ad1be6fb33773]
+~> TaskHandler[id: 31; name: get_read_direction (1); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/6d/bafd55985eb3b1e57fc2705c8f3ad3]
+~> TaskHandler[id: 33; name: get_read_direction (2); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/29/f6c80e20d8d5587af50ee157b39cfd]
+~> TaskHandler[id: 32; name: sam2bam (2); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/71/a5edf9b113d5a3439158b373518f1b]
+~> TaskHandler[id: 35; name: sam2bam (3); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/ff/bcdd20b986e8ccd61dda7a89c4abcd]
+~> TaskHandler[id: 34; name: get_read_direction (3); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/5d/924a3122cd911e28bc27f7df9daf12]
+~> TaskHandler[id: 37; name: sam2bam (4); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/54/b1b693f8e395fd253a9ceb6b79c8c5]
+~> TaskHandler[id: 36; name: get_read_direction (4); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/38/ae73c016a5c3ae3039d11b9884ad15]
+~> TaskHandler[id: 38; name: get_read_direction (5); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/b1/8128a3559eafc1c43ddb230401898a]
+~> TaskHandler[id: 39; name: sam2bam (5); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/46/22fc2b3991a739922946c2ee1c7e56]
+.. remaining tasks omitted.
+Feb-27 16:40:50.622 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 29; name: bowtie_align (9); status: RUNNING; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/09/3d595b7e12d0c44fe1ad4b0ed9ed3c]
+Feb-27 16:40:57.893 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 16 -- tasks to be submitted are shown below
+~> TaskHandler[id: 30; name: sam2bam (1); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/2f/66ce0ad5445600994ad1be6fb33773]
+~> TaskHandler[id: 31; name: get_read_direction (1); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/6d/bafd55985eb3b1e57fc2705c8f3ad3]
+~> TaskHandler[id: 33; name: get_read_direction (2); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/29/f6c80e20d8d5587af50ee157b39cfd]
+~> TaskHandler[id: 32; name: sam2bam (2); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/71/a5edf9b113d5a3439158b373518f1b]
+~> TaskHandler[id: 35; name: sam2bam (3); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/ff/bcdd20b986e8ccd61dda7a89c4abcd]
+~> TaskHandler[id: 34; name: get_read_direction (3); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/5d/924a3122cd911e28bc27f7df9daf12]
+~> TaskHandler[id: 37; name: sam2bam (4); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/54/b1b693f8e395fd253a9ceb6b79c8c5]
+~> TaskHandler[id: 36; name: get_read_direction (4); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/38/ae73c016a5c3ae3039d11b9884ad15]
+~> TaskHandler[id: 38; name: get_read_direction (5); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/b1/8128a3559eafc1c43ddb230401898a]
+~> TaskHandler[id: 39; name: sam2bam (5); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/46/22fc2b3991a739922946c2ee1c7e56]
+.. remaining tasks omitted.
+Feb-27 16:43:27.947 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 29; name: bowtie_align (9); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/09/3d595b7e12d0c44fe1ad4b0ed9ed3c]
+Feb-27 16:43:27.949 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 16:43:27.949 [Task submitter] INFO  nextflow.Session - [2f/66ce0a] Submitted process > sam2bam (1)
+Feb-27 16:44:09.690 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 30; name: sam2bam (1); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/2f/66ce0ad5445600994ad1be6fb33773]
+Feb-27 16:44:09.692 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 16:44:09.693 [Task submitter] INFO  nextflow.Session - [6d/bafd55] Submitted process > get_read_direction (1)
+Feb-27 16:44:09.694 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 16:44:09.695 [Task submitter] INFO  nextflow.Session - [29/f6c80e] Submitted process > get_read_direction (2)
+Feb-27 16:44:09.697 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 16:44:09.697 [Task submitter] INFO  nextflow.Session - [5d/924a31] Submitted process > get_read_direction (3)
+Feb-27 16:44:09.699 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 16:44:09.700 [Task submitter] INFO  nextflow.Session - [38/ae73c0] Submitted process > get_read_direction (4)
+Feb-27 16:44:09.703 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 16:44:09.703 [Task submitter] INFO  nextflow.Session - [b1/8128a3] Submitted process > get_read_direction (5)
+Feb-27 16:44:09.707 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 16:44:09.707 [Task submitter] INFO  nextflow.Session - [52/a85b70] Submitted process > get_read_direction (6)
+Feb-27 16:44:09.710 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 16:44:09.710 [Task submitter] INFO  nextflow.Session - [f0/d4a59f] Submitted process > get_read_direction (7)
+Feb-27 16:44:09.714 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 16:44:09.716 [Task submitter] INFO  nextflow.Session - [61/2c5d19] Submitted process > get_read_direction (8)
+Feb-27 16:44:41.272 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 38; name: get_read_direction (5); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/b1/8128a3559eafc1c43ddb230401898a]
+Feb-27 16:44:41.277 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 16:44:41.277 [Task submitter] INFO  nextflow.Session - [17/a198f9] Submitted process > get_read_direction (9)
+Feb-27 16:44:43.041 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 31; name: get_read_direction (1); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/6d/bafd55985eb3b1e57fc2705c8f3ad3]
+Feb-27 16:44:46.334 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 36; name: get_read_direction (4); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/38/ae73c016a5c3ae3039d11b9884ad15]
+Feb-27 16:44:46.859 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 44; name: get_read_direction (8); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/61/2c5d19416f5aaef301c2c57caff819]
+Feb-27 16:44:51.083 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 34; name: get_read_direction (3); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/5d/924a3122cd911e28bc27f7df9daf12]
+Feb-27 16:44:53.446 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 43; name: get_read_direction (7); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/f0/d4a59f175496e714bb520c6b3afc6b]
+Feb-27 16:44:59.382 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 41; name: get_read_direction (6); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/52/a85b70847f8f8b92abf2a3976f230e]
+Feb-27 16:45:03.275 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 33; name: get_read_direction (2); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/29/f6c80e20d8d5587af50ee157b39cfd]
+Feb-27 16:45:50.639 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 47; name: get_read_direction (9); status: RUNNING; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/17/a198f9919b02234101d427e1808eac]
+Feb-27 16:45:58.285 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 9 -- tasks to be submitted are shown below
+~> TaskHandler[id: 32; name: sam2bam (2); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/71/a5edf9b113d5a3439158b373518f1b]
+~> TaskHandler[id: 35; name: sam2bam (3); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/ff/bcdd20b986e8ccd61dda7a89c4abcd]
+~> TaskHandler[id: 37; name: sam2bam (4); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/54/b1b693f8e395fd253a9ceb6b79c8c5]
+~> TaskHandler[id: 39; name: sam2bam (5); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/46/22fc2b3991a739922946c2ee1c7e56]
+~> TaskHandler[id: 40; name: sam2bam (6); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/13/45cc7dd800a482ddc54aa22d84040d]
+~> TaskHandler[id: 42; name: sam2bam (7); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/07/c5b1accc46a68caa4039e552dc25a4]
+~> TaskHandler[id: 45; name: sam2bam (8); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/e2/674b5ffee511d67dcffedcf90d7be5]
+~> TaskHandler[id: 46; name: sam2bam (9); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/f7/a867e696be9dedeb30d69378362fad]
+~> TaskHandler[id: 48; name: featureCounts (1); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/f4/baa7265554557168c222d62f3f051c]
+Feb-27 16:46:18.562 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 47; name: get_read_direction (9); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/17/a198f9919b02234101d427e1808eac]
+Feb-27 16:46:18.564 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 16:46:18.564 [Task submitter] INFO  nextflow.Session - [71/a5edf9] Submitted process > sam2bam (2)
+Feb-27 16:47:24.638 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 32; name: sam2bam (2); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/71/a5edf9b113d5a3439158b373518f1b]
+Feb-27 16:47:24.640 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 16:47:24.640 [Task submitter] INFO  nextflow.Session - [ff/bcdd20] Submitted process > sam2bam (3)
+Feb-27 16:48:24.878 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 35; name: sam2bam (3); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/ff/bcdd20b986e8ccd61dda7a89c4abcd]
+Feb-27 16:48:24.880 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 16:48:24.881 [Task submitter] INFO  nextflow.Session - [54/b1b693] Submitted process > sam2bam (4)
+Feb-27 16:48:53.446 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 37; name: sam2bam (4); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/54/b1b693f8e395fd253a9ceb6b79c8c5]
+Feb-27 16:48:53.449 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 16:48:53.449 [Task submitter] INFO  nextflow.Session - [46/22fc2b] Submitted process > sam2bam (5)
+Feb-27 16:49:25.296 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 39; name: sam2bam (5); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/46/22fc2b3991a739922946c2ee1c7e56]
+Feb-27 16:49:25.298 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 16:49:25.298 [Task submitter] INFO  nextflow.Session - [13/45cc7d] Submitted process > sam2bam (6)
+Feb-27 16:50:44.494 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 40; name: sam2bam (6); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/13/45cc7dd800a482ddc54aa22d84040d]
+Feb-27 16:50:44.496 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 16:50:44.497 [Task submitter] INFO  nextflow.Session - [07/c5b1ac] Submitted process > sam2bam (7)
+Feb-27 16:50:50.700 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 42; name: sam2bam (7); status: RUNNING; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/07/c5b1accc46a68caa4039e552dc25a4]
+Feb-27 16:50:58.499 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 8 -- tasks to be submitted are shown below
+~> TaskHandler[id: 45; name: sam2bam (8); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/e2/674b5ffee511d67dcffedcf90d7be5]
+~> TaskHandler[id: 46; name: sam2bam (9); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/f7/a867e696be9dedeb30d69378362fad]
+~> TaskHandler[id: 48; name: featureCounts (1); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/f4/baa7265554557168c222d62f3f051c]
+~> TaskHandler[id: 49; name: featureCounts (2); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/31/c880c87e2f2b82b9bb75ba7269f1ec]
+~> TaskHandler[id: 50; name: featureCounts (3); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/bb/7f545d73a43cabbe8924b4a1a0e7af]
+~> TaskHandler[id: 51; name: featureCounts (4); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/38/39a8b46b76697585cc9048241946b4]
+~> TaskHandler[id: 52; name: featureCounts (5); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/b6/3e1883b7ce50aef6ebc4e5073ac79c]
+~> TaskHandler[id: 53; name: featureCounts (6); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/dd/24c0ae98feb75ac38a8742b9ea54bb]
+Feb-27 16:51:21.913 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 42; name: sam2bam (7); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/07/c5b1accc46a68caa4039e552dc25a4]
+Feb-27 16:51:21.915 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 16:51:21.915 [Task submitter] INFO  nextflow.Session - [e2/674b5f] Submitted process > sam2bam (8)
+Feb-27 16:52:02.635 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 45; name: sam2bam (8); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/e2/674b5ffee511d67dcffedcf90d7be5]
+Feb-27 16:52:02.637 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 16:52:02.638 [Task submitter] INFO  nextflow.Session - [f7/a867e6] Submitted process > sam2bam (9)
+Feb-27 16:55:50.792 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 46; name: sam2bam (9); status: RUNNING; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/f7/a867e696be9dedeb30d69378362fad]
+Feb-27 16:55:58.691 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 8 -- tasks to be submitted are shown below
+~> TaskHandler[id: 48; name: featureCounts (1); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/f4/baa7265554557168c222d62f3f051c]
+~> TaskHandler[id: 49; name: featureCounts (2); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/31/c880c87e2f2b82b9bb75ba7269f1ec]
+~> TaskHandler[id: 50; name: featureCounts (3); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/bb/7f545d73a43cabbe8924b4a1a0e7af]
+~> TaskHandler[id: 51; name: featureCounts (4); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/38/39a8b46b76697585cc9048241946b4]
+~> TaskHandler[id: 52; name: featureCounts (5); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/b6/3e1883b7ce50aef6ebc4e5073ac79c]
+~> TaskHandler[id: 53; name: featureCounts (6); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/dd/24c0ae98feb75ac38a8742b9ea54bb]
+~> TaskHandler[id: 54; name: featureCounts (7); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/6b/a4c3d91f84410465fe5ecec822dad7]
+~> TaskHandler[id: 55; name: featureCounts (8); status: NEW; exit: -; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/6b/d3be6750c616abc3480ad62eb93001]
+Feb-27 16:58:53.125 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 46; name: sam2bam (9); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/f7/a867e696be9dedeb30d69378362fad]
+Feb-27 16:58:53.132 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 16:58:53.133 [Task submitter] INFO  nextflow.Session - [f4/baa726] Submitted process > featureCounts (1)
+Feb-27 16:58:57.975 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 48; name: featureCounts (1); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/f4/baa7265554557168c222d62f3f051c]
+Feb-27 16:58:57.980 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 16:58:57.980 [Task submitter] INFO  nextflow.Session - [31/c880c8] Submitted process > featureCounts (2)
+Feb-27 16:59:05.170 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 49; name: featureCounts (2); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/31/c880c87e2f2b82b9bb75ba7269f1ec]
+Feb-27 16:59:05.172 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 16:59:05.172 [Task submitter] INFO  nextflow.Session - [bb/7f545d] Submitted process > featureCounts (3)
+Feb-27 16:59:10.570 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 50; name: featureCounts (3); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/bb/7f545d73a43cabbe8924b4a1a0e7af]
+Feb-27 16:59:10.572 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 16:59:10.572 [Task submitter] INFO  nextflow.Session - [38/39a8b4] Submitted process > featureCounts (4)
+Feb-27 16:59:15.476 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 51; name: featureCounts (4); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/38/39a8b46b76697585cc9048241946b4]
+Feb-27 16:59:15.478 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 16:59:15.478 [Task submitter] INFO  nextflow.Session - [b6/3e1883] Submitted process > featureCounts (5)
+Feb-27 16:59:20.159 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 52; name: featureCounts (5); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/b6/3e1883b7ce50aef6ebc4e5073ac79c]
+Feb-27 16:59:20.161 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 16:59:20.161 [Task submitter] INFO  nextflow.Session - [dd/24c0ae] Submitted process > featureCounts (6)
+Feb-27 16:59:28.132 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 53; name: featureCounts (6); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/dd/24c0ae98feb75ac38a8742b9ea54bb]
+Feb-27 16:59:28.138 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 16:59:28.139 [Task submitter] INFO  nextflow.Session - [6b/a4c3d9] Submitted process > featureCounts (7)
+Feb-27 16:59:34.309 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 54; name: featureCounts (7); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/6b/a4c3d91f84410465fe5ecec822dad7]
+Feb-27 16:59:34.312 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 16:59:34.312 [Task submitter] INFO  nextflow.Session - [6b/d3be67] Submitted process > featureCounts (8)
+Feb-27 16:59:39.357 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 55; name: featureCounts (8); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/6b/d3be6750c616abc3480ad62eb93001]
+Feb-27 16:59:39.359 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 16:59:39.359 [Task submitter] INFO  nextflow.Session - [b3/1bd431] Submitted process > featureCounts (9)
+Feb-27 17:00:07.686 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 56; name: featureCounts (9); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/b3/1bd431862bb5e82223bf7a383f04b3]
+Feb-27 17:00:07.693 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 17:00:07.693 [Task submitter] INFO  nextflow.Session - [04/9f09cc] Submitted process > assemble_tpm
+Feb-27 17:00:09.041 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 57; name: assemble_tpm; status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/04/9f09cca403588b58dcee2d995f438c]
+Feb-27 17:00:09.044 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 17:00:09.044 [Task submitter] INFO  nextflow.Session - [f7/a588a5] Submitted process > multiqc (1)
+Feb-27 17:00:12.514 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 58; name: multiqc (1); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/f7/a588a560bd070e12eb1684725bde04]
+Feb-27 17:00:12.515 [main] DEBUG nextflow.Session - Session await > all processes finished
+Feb-27 17:00:12.516 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Feb-27 17:00:12.520 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'PublishDir' shutdown completed (hard=false)
+Feb-27 17:00:12.527 [main] DEBUG nextflow.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=53; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=17h 21m 3s; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=8; peakCpus=8; peakMemory=8 GB; ]
+Feb-27 17:00:12.527 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow completed -- saving trace file
+Feb-27 17:00:12.528 [main] DEBUG nextflow.trace.ReportObserver - Workflow completed -- rendering execution report
+Feb-27 17:00:12.567 [main] DEBUG nextflow.trace.ReportObserver - Execution report summary data:
+  [{"cpuUsage":{"mean":80,"min":80,"q1":80,"q2":80,"q3":80,"max":80,"minLabel":"gff2bed","maxLabel":"gff2bed","q1Label":"gff2bed","q2Label":"gff2bed","q3Label":"gff2bed"},"process":"gff2bed","mem":{"mean":5681152,"min":5681152,"q1":5681152,"q2":5681152,"q3":5681152,"max":5681152,"minLabel":"gff2bed","maxLabel":"gff2bed","q1Label":"gff2bed","q2Label":"gff2bed","q3Label":"gff2bed"},"memUsage":{"mean":1.08,"min":1.08,"q1":1.08,"q2":1.08,"q3":1.08,"max":1.08,"minLabel":"gff2bed","maxLabel":"gff2bed","q1Label":"gff2bed","q2Label":"gff2bed","q3Label":"gff2bed"},"timeUsage":null,"vmem":{"mean":23158784,"min":23158784,"q1":23158784,"q2":23158784,"q3":23158784,"max":23158784,"minLabel":"gff2bed","maxLabel":"gff2bed","q1Label":"gff2bed","q2Label":"gff2bed","q3Label":"gff2bed"},"reads":{"mean":675489,"min":675489,"q1":675489,"q2":675489,"q3":675489,"max":675489,"minLabel":"gff2bed","maxLabel":"gff2bed","q1Label":"gff2bed","q2Label":"gff2bed","q3Label":"gff2bed"},"cpu":{"mean":80,"min":80,"q1":80,"q2":80,"q3":80,"max":80,"minLabel":"gff2bed","maxLabel":"gff2bed","q1Label":"gff2bed","q2Label":"gff2bed","q3Label":"gff2bed"},"time":null,"writes":{"mean":631148,"min":631148,"q1":631148,"q2":631148,"q3":631148,"max":631148,"minLabel":"gff2bed","maxLabel":"gff2bed","q1Label":"gff2bed","q2Label":"gff2bed","q3Label":"gff2bed"}},{"cpuUsage":{"mean":98.4,"min":98.4,"q1":98.4,"q2":98.4,"q3":98.4,"max":98.4,"minLabel":"bowtie_build","maxLabel":"bowtie_build","q1Label":"bowtie_build","q2Label":"bowtie_build","q3Label":"bowtie_build"},"process":"bowtie_build","mem":{"mean":105476096,"min":105476096,"q1":105476096,"q2":105476096,"q3":105476096,"max":105476096,"minLabel":"bowtie_build","maxLabel":"bowtie_build","q1Label":"bowtie_build","q2Label":"bowtie_build","q3Label":"bowtie_build"},"memUsage":{"mean":20.12,"min":20.12,"q1":20.12,"q2":20.12,"q3":20.12,"max":20.12,"minLabel":"bowtie_build","maxLabel":"bowtie_build","q1Label":"bowtie_build","q2Label":"bowtie_build","q3Label":"bowtie_build"},"timeUsage":null,"vmem":{"mean":140849152,"min":140849152,"q1":140849152,"q2":140849152,"q3":140849152,"max":140849152,"minLabel":"bowtie_build","maxLabel":"bowtie_build","q1Label":"bowtie_build","q2Label":"bowtie_build","q3Label":"bowtie_build"},"reads":{"mean":35998208,"min":35998208,"q1":35998208,"q2":35998208,"q3":35998208,"max":35998208,"minLabel":"bowtie_build","maxLabel":"bowtie_build","q1Label":"bowtie_build","q2Label":"bowtie_build","q3Label":"bowtie_build"},"cpu":{"mean":98.4,"min":98.4,"q1":98.4,"q2":98.4,"q3":98.4,"max":98.4,"minLabel":"bowtie_build","maxLabel":"bowtie_build","q1Label":"bowtie_build","q2Label":"bowtie_build","q3Label":"bowtie_build"},"time":{"mean":3000,"min":3000,"q1":3000,"q2":3000,"q3":3000,"max":3000,"minLabel":"bowtie_build","maxLabel":"bowtie_build","q1Label":"bowtie_build","q2Label":"bowtie_build","q3Label":"bowtie_build"},"writes":{"mean":27557972,"min":27557972,"q1":27557972,"q2":27557972,"q3":27557972,"max":27557972,"minLabel":"bowtie_build","maxLabel":"bowtie_build","q1Label":"bowtie_build","q2Label":"bowtie_build","q3Label":"bowtie_build"}},{"cpuUsage":{"mean":22.82,"min":15.8,"q1":21.91,"q2":24.49,"q3":25.39,"max":26.5,"minLabel":"download_fastq (9)","maxLabel":"download_fastq (4)","q1Label":"download_fastq (9)","q2Label":"download_fastq (2)","q3Label":"download_fastq (7)"},"process":"download_fastq","mem":{"mean":86358016,"min":84365312,"q1":85548032,"q2":86736896,"q3":87546880,"max":87592960,"minLabel":"download_fastq (2)","maxLabel":"download_fastq (9)","q1Label":"download_fastq (2)","q2Label":"download_fastq (7)","q3Label":"download_fastq (4)"},"memUsage":{"mean":2.01,"min":1.96,"q1":1.99,"q2":2.02,"q3":2.04,"max":2.04,"minLabel":"download_fastq (2)","maxLabel":"download_fastq (9)","q1Label":"download_fastq (2)","q2Label":"download_fastq (7)","q3Label":"download_fastq (4)"},"timeUsage":null,"vmem":{"mean":171010048,"min":169226240,"q1":170233856,"q2":171325440,"q3":172101632,"max":172163072,"minLabel":"download_fastq (2)","maxLabel":"download_fastq (9)","q1Label":"download_fastq (2)","q2Label":"download_fastq (7)","q3Label":"download_fastq (4)"},"reads":{"mean":27137146245.25,"min":12003160757,"q1":14666414627,"q2":16017556545.5,"q3":28488288163.75,"max":64510311133,"minLabel":"download_fastq (7)","maxLabel":"download_fastq (4)","q1Label":"download_fastq (7)","q2Label":"download_fastq (9)","q3Label":"download_fastq (2)"},"cpu":{"mean":91.28,"min":63.2,"q1":87.65,"q2":97.95,"q3":101.57,"max":106,"minLabel":"download_fastq (9)","maxLabel":"download_fastq (4)","q1Label":"download_fastq (9)","q2Label":"download_fastq (2)","q3Label":"download_fastq (7)"},"time":{"mean":1730750,"min":828000,"q1":1034250,"q2":1122500,"q3":1819000,"max":3850000,"minLabel":"download_fastq (7)","maxLabel":"download_fastq (4)","q1Label":"download_fastq (7)","q2Label":"download_fastq (9)","q3Label":"download_fastq (2)"},"writes":{"mean":28210667785.25,"min":12489261535,"q1":15322619342.5,"q2":16667407633,"q3":29555456075.75,"max":67018594340,"minLabel":"download_fastq (7)","maxLabel":"download_fastq (4)","q1Label":"download_fastq (7)","q2Label":"download_fastq (9)","q3Label":"download_fastq (2)"}},{"cpuUsage":{"mean":64.42,"min":58.75,"q1":61.84,"q2":63.41,"q3":67.26,"max":71.65,"minLabel":"trim_galore (5)","maxLabel":"trim_galore (8)","q1Label":"trim_galore (6)","q2Label":"trim_galore (2)","q3Label":"trim_galore (7)"},"process":"trim_galore","mem":{"mean":330325105.78,"min":323887104,"q1":328216576,"q2":328589312,"q3":330883072,"max":338362368,"minLabel":"trim_galore (8)","maxLabel":"trim_galore (9)","q1Label":"trim_galore (3)","q2Label":"trim_galore (7)","q3Label":"trim_galore (1)"},"memUsage":{"mean":3.85,"min":3.77,"q1":3.82,"q2":3.83,"q3":3.85,"max":3.94,"minLabel":"trim_galore (8)","maxLabel":"trim_galore (9)","q1Label":"trim_galore (3)","q2Label":"trim_galore (7)","q3Label":"trim_galore (1)"},"timeUsage":{"mean":0.7,"min":0.27,"q1":0.37,"q2":0.49,"q3":0.61,"max":2.72,"minLabel":"trim_galore (5)","maxLabel":"trim_galore (9)","q1Label":"trim_galore (4)","q2Label":"trim_galore (8)","q3Label":"trim_galore (6)"},"vmem":{"mean":3274176739.56,"min":3222802432,"q1":3286315008,"q2":3286315008,"q3":3288412160,"max":3299770368,"minLabel":"trim_galore (2)","maxLabel":"trim_galore (5)","q1Label":"trim_galore (1)","q2Label":"trim_galore (7)","q3Label":"trim_galore (8)"},"reads":{"mean":33534448182.44,"min":13650029556,"q1":17014831586,"q2":22290276968,"q3":30661529288,"max":123009306002,"minLabel":"trim_galore (3)","maxLabel":"trim_galore (9)","q1Label":"trim_galore (4)","q2Label":"trim_galore (7)","q3Label":"trim_galore (6)"},"cpu":{"mean":515.38,"min":470,"q1":494.7,"q2":507.3,"q3":538.1,"max":573.2,"minLabel":"trim_galore (5)","maxLabel":"trim_galore (8)","q1Label":"trim_galore (6)","q2Label":"trim_galore (2)","q3Label":"trim_galore (7)"},"time":{"mean":202111.11,"min":78000,"q1":106000,"q2":140000,"q3":175000,"max":784000,"minLabel":"trim_galore (5)","maxLabel":"trim_galore (9)","q1Label":"trim_galore (4)","q2Label":"trim_galore (8)","q3Label":"trim_galore (6)"},"writes":{"mean":31011950529.56,"min":12606328117,"q1":15669027451,"q2":20540437807,"q3":28486786374,"max":114285830154,"minLabel":"trim_galore (3)","maxLabel":"trim_galore (9)","q1Label":"trim_galore (4)","q2Label":"trim_galore (7)","q3Label":"trim_galore (6)"}},{"cpuUsage":{"mean":96.88,"min":96.39,"q1":96.65,"q2":96.95,"q3":97.14,"max":97.29,"minLabel":"bowtie_align (2)","maxLabel":"bowtie_align (4)","q1Label":"bowtie_align (7)","q2Label":"bowtie_align (6)","q3Label":"bowtie_align (9)"},"process":"bowtie_align","mem":{"mean":32189098.67,"min":31428608,"q1":31911936,"q2":32083968,"q3":32546816,"max":32911360,"minLabel":"bowtie_align (1)","maxLabel":"bowtie_align (6)","q1Label":"bowtie_align (8)","q2Label":"bowtie_align (7)","q3Label":"bowtie_align (9)"},"memUsage":{"mean":0.37,"min":0.37,"q1":0.37,"q2":0.37,"q3":0.38,"max":0.38,"minLabel":"bowtie_align (1)","maxLabel":"bowtie_align (6)","q1Label":"bowtie_align (8)","q2Label":"bowtie_align (7)","q3Label":"bowtie_align (9)"},"timeUsage":null,"vmem":{"mean":162045041.78,"min":156913664,"q1":161112064,"q2":161112064,"q3":165310464,"max":165310464,"minLabel":"bowtie_align (8)","maxLabel":"bowtie_align (7)","q1Label":"bowtie_align (2)","q2Label":"bowtie_align (6)","q3Label":"bowtie_align (3)"},"reads":{"mean":1276267463.78,"min":552087088,"q1":663859915,"q2":814429869,"q3":1074188862,"max":4981161050,"minLabel":"bowtie_align (5)","maxLabel":"bowtie_align (9)","q1Label":"bowtie_align (4)","q2Label":"bowtie_align (3)","q3Label":"bowtie_align (6)"},"cpu":{"mean":775.04,"min":771.1,"q1":773.2,"q2":775.6,"q3":777.1,"max":778.3,"minLabel":"bowtie_align (2)","maxLabel":"bowtie_align (4)","q1Label":"bowtie_align (7)","q2Label":"bowtie_align (6)","q3Label":"bowtie_align (9)"},"time":{"mean":181666.67,"min":77000,"q1":92000,"q2":115000,"q3":158000,"max":701000,"minLabel":"bowtie_align (5)","maxLabel":"bowtie_align (9)","q1Label":"bowtie_align (4)","q2Label":"bowtie_align (3)","q3Label":"bowtie_align (6)"},"writes":{"mean":3159742772.22,"min":1348921645,"q1":1607886415,"q2":2036942241,"q3":2789837889,"max":12322387639,"minLabel":"bowtie_align (5)","maxLabel":"bowtie_align (9)","q1Label":"bowtie_align (8)","q2Label":"bowtie_align (3)","q3Label":"bowtie_align (6)"}},{"cpuUsage":{"mean":47.41,"min":35.63,"q1":39.21,"q2":43.25,"q3":55.83,"max":63.06,"minLabel":"sam2bam (3)","maxLabel":"sam2bam (4)","q1Label":"sam2bam (9)","q2Label":"sam2bam (8)","q3Label":"sam2bam (2)"},"process":"sam2bam","mem":{"mean":3493173475.56,"min":1996431360,"q1":2360664064,"q2":2980331520,"q3":4087091200,"max":7789899776,"minLabel":"sam2bam (5)","maxLabel":"sam2bam (9)","q1Label":"sam2bam (8)","q2Label":"sam2bam (3)","q3Label":"sam2bam (6)"},"memUsage":{"mean":40.67,"min":23.24,"q1":27.48,"q2":34.7,"q3":47.58,"max":90.69,"minLabel":"sam2bam (5)","maxLabel":"sam2bam (9)","q1Label":"sam2bam (8)","q2Label":"sam2bam (3)","q3Label":"sam2bam (6)"},"timeUsage":null,"vmem":{"mean":8314071722.67,"min":8047149056,"q1":8101109760,"q2":8168218624,"q3":8315584512,"max":9508560896,"minLabel":"sam2bam (4)","maxLabel":"sam2bam (9)","q1Label":"sam2bam (7)","q2Label":"sam2bam (1)","q3Label":"sam2bam (6)"},"reads":{"mean":4708741065,"min":1818502050,"q1":2185541941,"q2":2733640941,"q3":3726179232,"max":20676846181,"minLabel":"sam2bam (5)","maxLabel":"sam2bam (9)","q1Label":"sam2bam (4)","q2Label":"sam2bam (3)","q3Label":"sam2bam (6)"},"cpu":{"mean":379.26,"min":285,"q1":313.7,"q2":346,"q3":446.6,"max":504.5,"minLabel":"sam2bam (3)","maxLabel":"sam2bam (4)","q1Label":"sam2bam (9)","q2Label":"sam2bam (8)","q3Label":"sam2bam (2)"},"time":{"mean":86666.67,"min":27000,"q1":36000,"q2":40000,"q3":64000,"max":408000,"minLabel":"sam2bam (4)","maxLabel":"sam2bam (9)","q1Label":"sam2bam (7)","q2Label":"sam2bam (1)","q3Label":"sam2bam (2)"},"writes":{"mean":2643010451.89,"min":936422885,"q1":1129357528,"q2":1388957351,"q3":1862218891,"max":12659877249,"minLabel":"sam2bam (5)","maxLabel":"sam2bam (9)","q1Label":"sam2bam (4)","q2Label":"sam2bam (3)","q3Label":"sam2bam (6)"}},{"cpuUsage":{"mean":93.92,"min":92.3,"q1":93.2,"q2":93.5,"q3":94.2,"max":97.8,"minLabel":"get_read_direction (8)","maxLabel":"get_read_direction (9)","q1Label":"get_read_direction (4)","q2Label":"get_read_direction (2)","q3Label":"get_read_direction (5)"},"process":"get_read_direction","mem":{"mean":37853411.56,"min":37748736,"q1":37761024,"q2":37822464,"q3":37920768,"max":38027264,"minLabel":"get_read_direction (3)","maxLabel":"get_read_direction (9)","q1Label":"get_read_direction (6)","q2Label":"get_read_direction (2)","q3Label":"get_read_direction (1)"},"memUsage":{"mean":7.22,"min":7.2,"q1":7.2,"q2":7.21,"q3":7.23,"max":7.25,"minLabel":"get_read_direction (3)","maxLabel":"get_read_direction (9)","q1Label":"get_read_direction (6)","q2Label":"get_read_direction (2)","q3Label":"get_read_direction (1)"},"timeUsage":null,"vmem":{"mean":389419008,"min":389419008,"q1":389419008,"q2":389419008,"q3":389419008,"max":389419008,"minLabel":"get_read_direction (5)","maxLabel":"get_read_direction (9)","q1Label":"get_read_direction (4)","q2Label":"get_read_direction (3)","q3Label":"get_read_direction (6)"},"reads":{"mean":3164592540.22,"min":1353771411,"q1":1612736181,"q2":2041792009,"q3":2794687674,"max":12327237403,"minLabel":"get_read_direction (5)","maxLabel":"get_read_direction (9)","q1Label":"get_read_direction (8)","q2Label":"get_read_direction (3)","q3Label":"get_read_direction (6)"},"cpu":{"mean":93.92,"min":92.3,"q1":93.2,"q2":93.5,"q3":94.2,"max":97.8,"minLabel":"get_read_direction (8)","maxLabel":"get_read_direction (9)","q1Label":"get_read_direction (4)","q2Label":"get_read_direction (2)","q3Label":"get_read_direction (5)"},"time":{"mean":44444.44,"min":28000,"q1":33000,"q2":39000,"q3":48000,"max":96000,"minLabel":"get_read_direction (5)","maxLabel":"get_read_direction (9)","q1Label":"get_read_direction (4)","q2Label":"get_read_direction (3)","q3Label":"get_read_direction (6)"},"writes":{"mean":484.11,"min":482,"q1":482,"q2":482,"q3":483,"max":498,"minLabel":"get_read_direction (5)","maxLabel":"get_read_direction (6)","q1Label":"get_read_direction (4)","q2Label":"get_read_direction (7)","q3Label":"get_read_direction (2)"}},{"cpuUsage":{"mean":87.61,"min":75.78,"q1":87.06,"q2":88.55,"q3":89.86,"max":93.26,"minLabel":"featureCounts (1)","maxLabel":"featureCounts (9)","q1Label":"featureCounts (4)","q2Label":"featureCounts (3)","q3Label":"featureCounts (2)"},"process":"featureCounts","mem":{"mean":133671139.56,"min":133582848,"q1":133591040,"q2":133685248,"q3":133718016,"max":133783552,"minLabel":"featureCounts (1)","maxLabel":"featureCounts (5)","q1Label":"featureCounts (6)","q2Label":"featureCounts (7)","q3Label":"featureCounts (8)"},"memUsage":{"mean":1.56,"min":1.56,"q1":1.56,"q2":1.56,"q3":1.56,"max":1.56,"minLabel":"featureCounts (1)","maxLabel":"featureCounts (5)","q1Label":"featureCounts (6)","q2Label":"featureCounts (7)","q3Label":"featureCounts (8)"},"timeUsage":null,"vmem":{"mean":636917987.56,"min":636915712,"q1":636915712,"q2":636919808,"q3":636919808,"max":636919808,"minLabel":"featureCounts (1)","maxLabel":"featureCounts (9)","q1Label":"featureCounts (5)","q2Label":"featureCounts (2)","q3Label":"featureCounts (6)"},"reads":{"mean":2194213699.33,"min":939855496,"q1":1132498421,"q2":1390689908,"q3":1857926489,"max":8617169274,"minLabel":"featureCounts (5)","maxLabel":"featureCounts (9)","q1Label":"featureCounts (4)","q2Label":"featureCounts (3)","q3Label":"featureCounts (6)"},"cpu":{"mean":700.9,"min":606.2,"q1":696.5,"q2":708.4,"q3":718.9,"max":746.1,"minLabel":"featureCounts (1)","maxLabel":"featureCounts (9)","q1Label":"featureCounts (4)","q2Label":"featureCounts (3)","q3Label":"featureCounts (2)"},"time":{"mean":6555.56,"min":3000,"q1":3000,"q2":4000,"q3":5000,"max":27000,"minLabel":"featureCounts (1)","maxLabel":"featureCounts (9)","q1Label":"featureCounts (8)","q2Label":"featureCounts (4)","q3Label":"featureCounts (2)"},"writes":{"mean":2110107.33,"min":2109716,"q1":2109719,"q2":2109741,"q3":2110554,"max":2111066,"minLabel":"featureCounts (4)","maxLabel":"featureCounts (2)","q1Label":"featureCounts (8)","q2Label":"featureCounts (3)","q3Label":"featureCounts (6)"}},{"cpuUsage":{"mean":22.63,"min":22.63,"q1":22.63,"q2":22.63,"q3":22.63,"max":22.63,"minLabel":"assemble_tpm","maxLabel":"assemble_tpm","q1Label":"assemble_tpm","q2Label":"assemble_tpm","q3Label":"assemble_tpm"},"process":"assemble_tpm","mem":{"mean":10899456,"min":10899456,"q1":10899456,"q2":10899456,"q3":10899456,"max":10899456,"minLabel":"assemble_tpm","maxLabel":"assemble_tpm","q1Label":"assemble_tpm","q2Label":"assemble_tpm","q3Label":"assemble_tpm"},"memUsage":{"mean":0.13,"min":0.13,"q1":0.13,"q2":0.13,"q3":0.13,"max":0.13,"minLabel":"assemble_tpm","maxLabel":"assemble_tpm","q1Label":"assemble_tpm","q2Label":"assemble_tpm","q3Label":"assemble_tpm"},"timeUsage":null,"vmem":{"mean":16273408,"min":16273408,"q1":16273408,"q2":16273408,"q3":16273408,"max":16273408,"minLabel":"assemble_tpm","maxLabel":"assemble_tpm","q1Label":"assemble_tpm","q2Label":"assemble_tpm","q3Label":"assemble_tpm"},"reads":{"mean":9598169,"min":9598169,"q1":9598169,"q2":9598169,"q3":9598169,"max":9598169,"minLabel":"assemble_tpm","maxLabel":"assemble_tpm","q1Label":"assemble_tpm","q2Label":"assemble_tpm","q3Label":"assemble_tpm"},"cpu":{"mean":181,"min":181,"q1":181,"q2":181,"q3":181,"max":181,"minLabel":"assemble_tpm","maxLabel":"assemble_tpm","q1Label":"assemble_tpm","q2Label":"assemble_tpm","q3Label":"assemble_tpm"},"time":{"mean":569,"min":569,"q1":569,"q2":569,"q3":569,"max":569,"minLabel":"assemble_tpm","maxLabel":"assemble_tpm","q1Label":"assemble_tpm","q2Label":"assemble_tpm","q3Label":"assemble_tpm"},"writes":{"mean":558924,"min":558924,"q1":558924,"q2":558924,"q3":558924,"max":558924,"minLabel":"assemble_tpm","maxLabel":"assemble_tpm","q1Label":"assemble_tpm","q2Label":"assemble_tpm","q3Label":"assemble_tpm"}},{"cpuUsage":{"mean":14.24,"min":14.24,"q1":14.24,"q2":14.24,"q3":14.24,"max":14.24,"minLabel":"multiqc (1)","maxLabel":"multiqc (1)","q1Label":"multiqc (1)","q2Label":"multiqc (1)","q3Label":"multiqc (1)"},"process":"multiqc","mem":{"mean":64315392,"min":64315392,"q1":64315392,"q2":64315392,"q3":64315392,"max":64315392,"minLabel":"multiqc (1)","maxLabel":"multiqc (1)","q1Label":"multiqc (1)","q2Label":"multiqc (1)","q3Label":"multiqc (1)"},"memUsage":{"mean":0.75,"min":0.75,"q1":0.75,"q2":0.75,"q3":0.75,"max":0.75,"minLabel":"multiqc (1)","maxLabel":"multiqc (1)","q1Label":"multiqc (1)","q2Label":"multiqc (1)","q3Label":"multiqc (1)"},"timeUsage":null,"vmem":{"mean":1111920640,"min":1111920640,"q1":1111920640,"q2":1111920640,"q3":1111920640,"max":1111920640,"minLabel":"multiqc (1)","maxLabel":"multiqc (1)","q1Label":"multiqc (1)","q2Label":"multiqc (1)","q3Label":"multiqc (1)"},"reads":{"mean":43855210,"min":43855210,"q1":43855210,"q2":43855210,"q3":43855210,"max":43855210,"minLabel":"multiqc (1)","maxLabel":"multiqc (1)","q1Label":"multiqc (1)","q2Label":"multiqc (1)","q3Label":"multiqc (1)"},"cpu":{"mean":113.9,"min":113.9,"q1":113.9,"q2":113.9,"q3":113.9,"max":113.9,"minLabel":"multiqc (1)","maxLabel":"multiqc (1)","q1Label":"multiqc (1)","q2Label":"multiqc (1)","q3Label":"multiqc (1)"},"time":{"mean":2425,"min":2425,"q1":2425,"q2":2425,"q3":2425,"max":2425,"minLabel":"multiqc (1)","maxLabel":"multiqc (1)","q1Label":"multiqc (1)","q2Label":"multiqc (1)","q3Label":"multiqc (1)"},"writes":{"mean":3883634,"min":3883634,"q1":3883634,"q2":3883634,"q3":3883634,"max":3883634,"minLabel":"multiqc (1)","maxLabel":"multiqc (1)","q1Label":"multiqc (1)","q2Label":"multiqc (1)","q3Label":"multiqc (1)"}}]
+Feb-27 17:00:12.952 [main] DEBUG nextflow.trace.TimelineObserver - Workflow completed -- rendering execution timeline
+Feb-27 17:00:13.052 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Feb-27 17:00:13.062 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
+Feb-27 17:00:13.063 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

@@ -1,0 +1,81 @@
+Module	Section	Sample Name	Source
+featureCounts	all_sections	SRX080710	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/featureCounts/SRX080710_all.txt.summary
+featureCounts	all_sections	SRX156371	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/featureCounts/SRX156371_all.txt.summary
+featureCounts	all_sections	SRX080708	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/featureCounts/SRX080708_all.txt.summary
+featureCounts	all_sections	SRX080712	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/featureCounts/SRX080712_all.txt.summary
+featureCounts	all_sections	SRX156378	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/featureCounts/SRX156378_all.txt.summary
+featureCounts	all_sections	SRX080707	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/featureCounts/SRX080707_all.txt.summary
+featureCounts	all_sections	SRX080705	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/featureCounts/SRX080705_all.txt.summary
+featureCounts	all_sections	SRX156370	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/featureCounts/SRX156370_all.txt.summary
+featureCounts	all_sections	SRX080704	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/featureCounts/SRX080704_all.txt.summary
+featureCounts	all_sections	SRX080711	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/featureCounts/SRX080711_all.txt.summary
+featureCounts	all_sections	SRX080709	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/featureCounts/SRX080709_all.txt.summary
+featureCounts	all_sections	SRX156375	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/featureCounts/SRX156375_all.txt.summary
+featureCounts	all_sections	SRX156372	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/featureCounts/SRX156372_all.txt.summary
+featureCounts	all_sections	SRX156368	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/featureCounts/SRX156368_all.txt.summary
+featureCounts	all_sections	SRX156377	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/featureCounts/SRX156377_all.txt.summary
+featureCounts	all_sections	SRX156379	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/featureCounts/SRX156379_all.txt.summary
+Bowtie 1	all_sections	SRX080711	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/bowtie/SRX080711_bowtie.txt
+Bowtie 1	all_sections	SRX156368	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/bowtie/SRX156368_bowtie.txt
+Bowtie 1	all_sections	SRX156370	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/bowtie/SRX156370_bowtie.txt
+Bowtie 1	all_sections	SRX156375	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/bowtie/SRX156375_bowtie.txt
+Bowtie 1	all_sections	SRX080704	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/bowtie/SRX080704_bowtie.txt
+Bowtie 1	all_sections	SRX156378	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/bowtie/SRX156378_bowtie.txt
+Bowtie 1	all_sections	SRX080705	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/bowtie/SRX080705_bowtie.txt
+Bowtie 1	all_sections	SRX080709	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/bowtie/SRX080709_bowtie.txt
+Bowtie 1	all_sections	SRX080712	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/bowtie/SRX080712_bowtie.txt
+Bowtie 1	all_sections	SRX156377	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/bowtie/SRX156377_bowtie.txt
+Bowtie 1	all_sections	SRX156371	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/bowtie/SRX156371_bowtie.txt
+Bowtie 1	all_sections	SRX080708	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/bowtie/SRX080708_bowtie.txt
+Bowtie 1	all_sections	SRX080707	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/bowtie/SRX080707_bowtie.txt
+Bowtie 1	all_sections	SRX156379	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/bowtie/SRX156379_bowtie.txt
+Bowtie 1	all_sections	SRX156372	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/bowtie/SRX156372_bowtie.txt
+Bowtie 1	all_sections	SRX080710	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/bowtie/SRX080710_bowtie.txt
+RSeQC	infer_experiment	SRX080711	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/rseqc/SRX080711.infer_experiment.txt
+RSeQC	infer_experiment	SRX080707	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/rseqc/SRX080707.infer_experiment.txt
+RSeQC	infer_experiment	SRX156375	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/rseqc/SRX156375.infer_experiment.txt
+RSeQC	infer_experiment	SRX156379	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/rseqc/SRX156379.infer_experiment.txt
+RSeQC	infer_experiment	SRX080704	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/rseqc/SRX080704.infer_experiment.txt
+RSeQC	infer_experiment	SRX080708	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/rseqc/SRX080708.infer_experiment.txt
+RSeQC	infer_experiment	SRX156372	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/rseqc/SRX156372.infer_experiment.txt
+RSeQC	infer_experiment	SRX156371	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/rseqc/SRX156371.infer_experiment.txt
+RSeQC	infer_experiment	SRX156378	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/rseqc/SRX156378.infer_experiment.txt
+RSeQC	infer_experiment	SRX080710	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/rseqc/SRX080710.infer_experiment.txt
+RSeQC	infer_experiment	SRX080709	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/rseqc/SRX080709.infer_experiment.txt
+RSeQC	infer_experiment	SRX156370	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/rseqc/SRX156370.infer_experiment.txt
+RSeQC	infer_experiment	SRX080705	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/rseqc/SRX080705.infer_experiment.txt
+RSeQC	infer_experiment	SRX080712	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/rseqc/SRX080712.infer_experiment.txt
+RSeQC	infer_experiment	SRX156377	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/rseqc/SRX156377.infer_experiment.txt
+RSeQC	infer_experiment	SRX156368	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/rseqc/SRX156368.infer_experiment.txt
+Cutadapt	all_sections	SRX156368	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/cutadapt/SRX156368_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX080712	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/cutadapt/SRX080712_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX080711	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/cutadapt/SRX080711_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX156371	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/cutadapt/SRX156371_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX080709	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/cutadapt/SRX080709_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX080707	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/cutadapt/SRX080707_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX080710	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/cutadapt/SRX080710_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX156375	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/cutadapt/SRX156375_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX080704	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/cutadapt/SRX080704_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX080705	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/cutadapt/SRX080705_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX080708	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/cutadapt/SRX080708_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX156378	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/cutadapt/SRX156378_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX156377	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/cutadapt/SRX156377_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX156372	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/cutadapt/SRX156372_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX156379	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/cutadapt/SRX156379_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX156370	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/cutadapt/SRX156370_1.fastq.gz_trimming_report.txt
+FastQC	all_sections	SRX080704	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/fastqc/SRX080704_trimmed_fastqc.zip
+FastQC	all_sections	SRX080707	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/fastqc/SRX080707_trimmed_fastqc.zip
+FastQC	all_sections	SRX156372	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/fastqc/SRX156372_trimmed_fastqc.zip
+FastQC	all_sections	SRX156371	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/fastqc/SRX156371_trimmed_fastqc.zip
+FastQC	all_sections	SRX156375	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/fastqc/SRX156375_trimmed_fastqc.zip
+FastQC	all_sections	SRX156377	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/fastqc/SRX156377_trimmed_fastqc.zip
+FastQC	all_sections	SRX156368	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/fastqc/SRX156368_trimmed_fastqc.zip
+FastQC	all_sections	SRX080710	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/fastqc/SRX080710_trimmed_fastqc.zip
+FastQC	all_sections	SRX080709	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/fastqc/SRX080709_trimmed_fastqc.zip
+FastQC	all_sections	SRX080705	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/fastqc/SRX080705_trimmed_fastqc.zip
+FastQC	all_sections	SRX080711	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/fastqc/SRX080711_trimmed_fastqc.zip
+FastQC	all_sections	SRX156379	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/fastqc/SRX156379_trimmed_fastqc.zip
+FastQC	all_sections	SRX080708	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/fastqc/SRX080708_trimmed_fastqc.zip
+FastQC	all_sections	SRX156378	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/fastqc/SRX156378_trimmed_fastqc.zip
+FastQC	all_sections	SRX156370	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/fastqc/SRX156370_trimmed_fastqc.zip
+FastQC	all_sections	SRX080712	/home/alvaro/github/ica_preprocessing/work/7d/5a2efebedeadead6b1d33d87c24367/fastqc/SRX080712_trimmed_fastqc.zip

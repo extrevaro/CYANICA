@@ -1,0 +1,10 @@
+Sample	Filename	File type	Encoding	Total Sequences	Sequences flagged as poor quality	Sequence length	%GC	total_deduplicated_percentage	avg_sequence_length	basic_statistics	per_base_sequence_quality	per_sequence_quality_scores	per_base_sequence_content	per_sequence_gc_content	per_base_n_content	sequence_length_distribution	sequence_duplication_levels	overrepresented_sequences	adapter_content
+SRX030112	SRX030112_trimmed.fq.gz	Conventional base calls	Sanger / Illumina 1.9	10774458.0	0.0	20-50	52.0	42.69435687291339	43.8294083099122	pass	fail	warn	fail	warn	pass	warn	fail	fail	fail
+SRX030114	SRX030114_trimmed.fq.gz	Conventional base calls	Sanger / Illumina 1.9	22026261.0	0.0	18-50	53.0	22.65803932648153	44.23175839966665	pass	fail	warn	fail	fail	pass	warn	fail	fail	fail
+SRX030115	SRX030115_trimmed.fq.gz	Conventional base calls	Sanger / Illumina 1.9	11754562.0	0.0	20-50	51.0	39.34953370905047	44.454207141023204	pass	warn	warn	fail	fail	pass	warn	fail	fail	fail
+SRX030116	SRX030116_trimmed.fq.gz	Conventional base calls	Sanger / Illumina 1.9	96085826.0	0.0	20-50	51.0	29.64789382496504	45.14143227534933	pass	warn	warn	fail	fail	pass	warn	fail	fail	pass
+SRX030117	SRX030117_trimmed.fq.gz	Conventional base calls	Sanger / Illumina 1.9	15949908.0	0.0	20-50	53.0	40.12233998802909	44.912587583577285	pass	fail	warn	fail	fail	pass	warn	fail	fail	pass
+SRX030118	SRX030118_trimmed.fq.gz	Conventional base calls	Sanger / Illumina 1.9	24787436.0	0.0	18-50	52.0	40.95395828311258	43.60923816404407	pass	fail	warn	fail	fail	pass	warn	fail	fail	pass
+SRX030119	SRX030119_trimmed.fq.gz	Conventional base calls	Sanger / Illumina 1.9	16535242.0	0.0	20-50	52.0	43.30298443052753	44.86395028267503	pass	warn	warn	fail	fail	pass	warn	fail	fail	pass
+SRX030120	SRX030120_trimmed.fq.gz	Conventional base calls	Sanger / Illumina 1.9	12708707.0	0.0	20-50	52.0	42.90368860549225	44.868451526972805	pass	warn	warn	fail	fail	pass	warn	fail	fail	pass
+SRX040435	SRX040435_trimmed.fq.gz	Conventional base calls	Sanger / Illumina 1.9	12695697.0	0.0	20-50	50.0	61.60157434967631	44.38306199336673	pass	fail	warn	fail	warn	pass	warn	warn	fail	fail

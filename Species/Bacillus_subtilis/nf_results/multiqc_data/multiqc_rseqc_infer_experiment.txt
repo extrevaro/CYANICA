@@ -1,0 +1,4 @@
+Sample	se_sense	se_antisense	failed	pe_sense	pe_antisense
+ERX1320318	0.0176	0.4243	0.5581		
+ERX3440931			0.4694	0.0302	0.5004
+SRX315307	0.1732	0.3087	0.5182		

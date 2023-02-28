@@ -1,0 +1,232 @@
+Feb-25 09:37:52.272 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main_2.nf -profile local --organism bacillus_subtilis --metadata test/test_metadata.tsv --sequence_dir test/sequence_files/ --outdir test/nf_results/
+Feb-25 09:37:52.345 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 22.10.6
+Feb-25 09:37:52.361 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/alvaro/.nextflow/plugins; core-plugins: nf-amazon@1.11.3,nf-azure@0.14.2,nf-codecommit@0.1.2,nf-console@1.0.4,nf-ga4gh@1.0.4,nf-google@1.4.5,nf-tower@1.5.6,nf-wave@0.5.3
+Feb-25 09:37:52.370 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Feb-25 09:37:52.371 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Feb-25 09:37:52.374 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Feb-25 09:37:52.383 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Feb-25 09:37:52.397 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /home/alvaro/github/ica_preprocessing/nextflow.config
+Feb-25 09:37:52.398 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/alvaro/github/ica_preprocessing/nextflow.config
+Feb-25 09:37:52.419 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `local`
+Feb-25 09:37:53.074 [main] DEBUG nextflow.config.ConfigBuilder - Available config profiles: [local]
+Feb-25 09:37:53.105 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=1 by probing script field
+Feb-25 09:37:53.124 [main] INFO  nextflow.cli.CmdRun - Launching `main_2.nf` [fervent_pare] DSL1 - revision: eb9c278bd2
+Feb-25 09:37:53.124 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Feb-25 09:37:53.124 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Feb-25 09:37:53.134 [main] DEBUG nextflow.secret.LocalSecretsProvider - Secrets store: /home/alvaro/.nextflow/secrets/store.json
+Feb-25 09:37:53.137 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@5dbb50f3] - activable => nextflow.secret.LocalSecretsProvider@5dbb50f3
+Feb-25 09:37:53.199 [main] DEBUG nextflow.Session - Session UUID: c1ec2d23-3d1e-49be-96db-6cdfe233f98f
+Feb-25 09:37:53.199 [main] DEBUG nextflow.Session - Run name: fervent_pare
+Feb-25 09:37:53.199 [main] DEBUG nextflow.Session - Executor pool size: 8
+Feb-25 09:37:53.209 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Feb-25 09:37:53.236 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 22.10.6 build 5843
+  Created: 23-01-2023 23:20 UTC (24-01-2023 00:20 CEST)
+  System: Linux 5.11.0-44-generic
+  Runtime: Groovy 3.0.13 on OpenJDK 64-Bit Server VM 11.0.13+7-b1751.21
+  Encoding: UTF-8 (UTF-8)
+  Process: 34842@alvaro-Modern-14-B11MO [127.0.1.1]
+  CPUs: 8 - Mem: 15.3 GB (3 GB) - Swap: 2 GB (2 GB)
+Feb-25 09:37:53.257 [main] DEBUG nextflow.Session - Work-dir: /home/alvaro/github/ica_preprocessing/work [ext2/ext3]
+Feb-25 09:37:53.273 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Feb-25 09:37:53.283 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Feb-25 09:37:53.363 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Feb-25 09:37:53.375 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 9; maxThreads: 1000
+Feb-25 09:37:53.430 [main] DEBUG nextflow.Session - Session start
+Feb-25 09:37:53.434 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow started -- trace file: /home/alvaro/github/ica_preprocessing/trace/trace.txt
+Feb-25 09:37:54.362 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Feb-25 09:37:54.391 [PathVisitor-1] DEBUG nextflow.file.PathVisitor - files for syntax: glob; folder: test/sequence_files/; pattern: *.{fasta,gff3}; options: [checkIfExists:true]
+Feb-25 09:37:54.522 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:bowtie` matches labels `bowtie,small` for process with name bowtie_build
+Feb-25 09:37:54.523 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:small` matches labels `bowtie,small` for process with name bowtie_build
+Feb-25 09:37:54.525 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Feb-25 09:37:54.526 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-25 09:37:54.534 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Feb-25 09:37:54.540 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=8; memory=15.3 GB; capacity=8; pollInterval=100ms; dumpInterval=5m
+Feb-25 09:37:54.608 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:small` matches labels `small` for process with name gff2bed
+Feb-25 09:37:54.608 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:gff2bed` matches process gff2bed
+Feb-25 09:37:54.609 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Feb-25 09:37:54.609 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-25 09:37:54.715 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:fastq` matches labels `fastq,medium,stage` for process with name download_fastq
+Feb-25 09:37:54.716 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:medium` matches labels `fastq,medium,stage` for process with name download_fastq
+Feb-25 09:37:54.716 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:stage` matches labels `fastq,medium,stage` for process with name download_fastq
+Feb-25 09:37:54.717 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Feb-25 09:37:54.717 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-25 09:37:54.725 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:fastq` matches labels `fastq,medium,stage` for process with name stage_fastq_single
+Feb-25 09:37:54.727 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:medium` matches labels `fastq,medium,stage` for process with name stage_fastq_single
+Feb-25 09:37:54.728 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:stage` matches labels `fastq,medium,stage` for process with name stage_fastq_single
+Feb-25 09:37:54.729 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Feb-25 09:37:54.729 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-25 09:37:54.734 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:fastq` matches labels `fastq,medium,stage` for process with name stage_fastq_paired
+Feb-25 09:37:54.735 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:medium` matches labels `fastq,medium,stage` for process with name stage_fastq_paired
+Feb-25 09:37:54.735 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:stage` matches labels `fastq,medium,stage` for process with name stage_fastq_paired
+Feb-25 09:37:54.736 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Feb-25 09:37:54.737 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-25 09:37:54.750 [Actor Thread 2] INFO  nextflow.processor.TaskProcessor - [skipping] Stored process > download_fastq (2)
+Feb-25 09:37:54.751 [Actor Thread 3] INFO  nextflow.processor.TaskProcessor - [skipping] Stored process > download_fastq (1)
+Feb-25 09:37:54.751 [Actor Thread 1] INFO  nextflow.processor.TaskProcessor - [skipping] Stored process > download_fastq (3)
+Feb-25 09:37:54.762 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:trim_galore` matches labels `large,trim_galore` for process with name trim_galore
+Feb-25 09:37:54.762 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `large,trim_galore` for process with name trim_galore
+Feb-25 09:37:54.762 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Feb-25 09:37:54.762 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-25 09:37:54.785 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:bowtie` matches labels `bowtie,large` for process with name bowtie_align
+Feb-25 09:37:54.786 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `bowtie,large` for process with name bowtie_align
+Feb-25 09:37:54.787 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Feb-25 09:37:54.787 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-25 09:37:54.793 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `large` for process with name sam2bam
+Feb-25 09:37:54.793 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:sam2bam` matches process sam2bam
+Feb-25 09:37:54.793 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Feb-25 09:37:54.793 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-25 09:37:54.799 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:python` matches labels `python,small` for process with name get_read_direction
+Feb-25 09:37:54.799 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:small` matches labels `python,small` for process with name get_read_direction
+Feb-25 09:37:54.799 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:get_read_direction` matches process get_read_direction
+Feb-25 09:37:54.799 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Feb-25 09:37:54.799 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-25 09:37:54.808 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:medium` matches labels `medium` for process with name featureCounts
+Feb-25 09:37:54.808 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:featureCounts` matches process featureCounts
+Feb-25 09:37:54.808 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Feb-25 09:37:54.808 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-25 09:37:54.812 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-25 09:37:54.814 [Task submitter] INFO  nextflow.Session - [c4/8a5cbd] Submitted process > bowtie_build
+Feb-25 09:37:54.819 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:medium` matches labels `medium` for process with name multiqc
+Feb-25 09:37:54.819 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:multiqc` matches process multiqc
+Feb-25 09:37:54.820 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Feb-25 09:37:54.820 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-25 09:37:54.824 [main] DEBUG nextflow.Session - Workflow process names [dsl1]: sam2bam, gff2bed, download_fastq, get_read_direction, stage_fastq_single, featureCounts, bowtie_align, bowtie_build, stage_fastq_paired, multiqc, trim_galore
+Feb-25 09:37:54.825 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Feb-25 09:37:54.825 [main] DEBUG nextflow.Session - Session await
+Feb-25 09:37:54.832 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-25 09:37:54.832 [Task submitter] INFO  nextflow.Session - [2e/7c85dc] Submitted process > gff2bed
+Feb-25 09:37:56.630 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: gff2bed; status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/2e/7c85dcee9e17b9813444855078e062]
+Feb-25 09:38:01.143 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: bowtie_build; status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/c4/8a5cbda31b7132349fcb9f38731891]
+Feb-25 09:38:01.147 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-25 09:38:01.147 [Task submitter] INFO  nextflow.Session - [ef/5f2015] Submitted process > trim_galore (1)
+Feb-25 09:38:21.966 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 6; name: trim_galore (1); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/ef/5f20151360bdafa7edc7d28835496d]
+Feb-25 09:38:21.971 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-25 09:38:21.971 [Task submitter] INFO  nextflow.Session - [ae/e87cbb] Submitted process > trim_galore (2)
+Feb-25 09:38:21.978 [Task monitor] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'PublishDir' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Feb-25 09:40:13.365 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 7; name: trim_galore (2); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/ae/e87cbb5b3b2e65fd22d68711c5a151]
+Feb-25 09:40:13.370 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-25 09:40:13.370 [Task submitter] INFO  nextflow.Session - [f0/c79697] Submitted process > trim_galore (3)
+Feb-25 09:40:41.090 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 8; name: trim_galore (3); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/f0/c7969776dfb193f513d73944d5064c]
+Feb-25 09:40:41.094 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-25 09:40:41.094 [Task submitter] INFO  nextflow.Session - [5a/eeb43e] Submitted process > bowtie_align (1)
+Feb-25 09:40:48.029 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 9; name: bowtie_align (1); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/5a/eeb43eb7466dd9ae9548f1f42ccb9a]
+Feb-25 09:40:48.032 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-25 09:40:48.033 [Task submitter] INFO  nextflow.Session - [b3/9cd116] Submitted process > bowtie_align (2)
+Feb-25 09:41:16.287 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 10; name: bowtie_align (2); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/b3/9cd11695925f16494f5c590637d3a6]
+Feb-25 09:41:16.290 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-25 09:41:16.290 [Task submitter] INFO  nextflow.Session - [6c/875b6d] Submitted process > bowtie_align (3)
+Feb-25 09:41:34.872 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 11; name: bowtie_align (3); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/6c/875b6d09cef878295b253c8b3d6c8c]
+Feb-25 09:41:34.876 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-25 09:41:34.876 [Task submitter] INFO  nextflow.Session - [23/b19033] Submitted process > sam2bam (1)
+Feb-25 09:41:41.008 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 13; name: sam2bam (1); status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/23/b19033fb6f4da33b09c34ed0572b22]
+Feb-25 09:41:41.012 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-25 09:41:41.012 [Task submitter] INFO  nextflow.Session - [a6/c28d2d] Submitted process > get_read_direction (1)
+Feb-25 09:41:41.015 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-25 09:41:41.015 [Task submitter] INFO  nextflow.Session - [4f/bb8296] Submitted process > get_read_direction (2)
+Feb-25 09:41:41.019 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-25 09:41:41.019 [Task submitter] INFO  nextflow.Session - [45/ad083c] Submitted process > get_read_direction (3)
+Feb-25 09:41:42.677 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 15; name: get_read_direction (2); status: COMPLETED; exit: 1; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/4f/bb82966d2df875a69626afccd7b533]
+Feb-25 09:41:42.690 [Task monitor] INFO  nextflow.processor.TaskProcessor - [4f/bb8296] NOTE: Process `get_read_direction (2)` terminated with an error exit status (1) -- Execution is retried (1)
+Feb-25 09:41:42.735 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 12; name: get_read_direction (1); status: COMPLETED; exit: 1; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/a6/c28d2d56d95cb61e730d23517b076c]
+Feb-25 09:41:42.735 [Task monitor] INFO  nextflow.processor.TaskProcessor - [a6/c28d2d] NOTE: Process `get_read_direction (1)` terminated with an error exit status (1) -- Execution is retried (1)
+Feb-25 09:41:42.738 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-25 09:41:42.738 [Task submitter] INFO  nextflow.Session - [15/38ee2c] Re-submitted process > get_read_direction (2)
+Feb-25 09:41:42.741 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-25 09:41:42.742 [Task submitter] INFO  nextflow.Session - [eb/4fe6ce] Re-submitted process > get_read_direction (1)
+Feb-25 09:41:44.385 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 19; name: get_read_direction (1); status: COMPLETED; exit: 1; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/eb/4fe6ce4fbb4ce266bb85a34aaade53]
+Feb-25 09:41:44.386 [Task monitor] INFO  nextflow.processor.TaskProcessor - [eb/4fe6ce] NOTE: Process `get_read_direction (1)` terminated with an error exit status (1) -- Execution is retried (2)
+Feb-25 09:41:44.440 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 18; name: get_read_direction (2); status: COMPLETED; exit: 1; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/15/38ee2c14bb61366587d85b9b1633aa]
+Feb-25 09:41:44.441 [Task monitor] INFO  nextflow.processor.TaskProcessor - [15/38ee2c] NOTE: Process `get_read_direction (2)` terminated with an error exit status (1) -- Execution is retried (2)
+Feb-25 09:41:44.443 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-25 09:41:44.444 [Task submitter] INFO  nextflow.Session - [70/26cb5c] Re-submitted process > get_read_direction (1)
+Feb-25 09:41:44.447 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-25 09:41:44.447 [Task submitter] INFO  nextflow.Session - [a2/3a5e50] Re-submitted process > get_read_direction (2)
+Feb-25 09:41:45.181 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 16; name: get_read_direction (3); status: COMPLETED; exit: 1; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/45/ad083ca3baebcc637e52448f713cf2]
+Feb-25 09:41:45.181 [Task monitor] INFO  nextflow.processor.TaskProcessor - [45/ad083c] NOTE: Process `get_read_direction (3)` terminated with an error exit status (1) -- Execution is retried (1)
+Feb-25 09:41:46.088 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 21; name: get_read_direction (2); status: COMPLETED; exit: 1; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/a2/3a5e5016639330eebd77c0ff50ffe3]
+Feb-25 09:41:46.089 [Task monitor] INFO  nextflow.processor.TaskProcessor - [a2/3a5e50] NOTE: Process `get_read_direction (2)` terminated with an error exit status (1) -- Execution is retried (3)
+Feb-25 09:41:46.093 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-25 09:41:46.093 [Task submitter] INFO  nextflow.Session - [40/e38ac7] Re-submitted process > get_read_direction (3)
+Feb-25 09:41:46.097 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-25 09:41:46.097 [Task submitter] INFO  nextflow.Session - [b9/9288ab] Re-submitted process > get_read_direction (2)
+Feb-25 09:41:46.145 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 20; name: get_read_direction (1); status: COMPLETED; exit: 1; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/70/26cb5c3e5e8a6e40f0a5fd0c8e2453]
+Feb-25 09:41:46.146 [Task monitor] INFO  nextflow.processor.TaskProcessor - [70/26cb5c] NOTE: Process `get_read_direction (1)` terminated with an error exit status (1) -- Execution is retried (3)
+Feb-25 09:41:47.148 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-25 09:41:47.148 [Task submitter] INFO  nextflow.Session - [96/828f7e] Re-submitted process > get_read_direction (1)
+Feb-25 09:41:47.659 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 23; name: get_read_direction (2); status: COMPLETED; exit: 1; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/b9/9288ab6208f3ef8a1a7ed2428eb285]
+Feb-25 09:41:47.660 [Task monitor] INFO  nextflow.processor.TaskProcessor - [b9/9288ab] NOTE: Process `get_read_direction (2)` terminated with an error exit status (1) -- Execution is retried (4)
+Feb-25 09:41:48.457 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 24; name: get_read_direction (1); status: COMPLETED; exit: 1; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/96/828f7e19fafffb593bde0bff411061]
+Feb-25 09:41:48.458 [Task monitor] INFO  nextflow.processor.TaskProcessor - [96/828f7e] NOTE: Process `get_read_direction (1)` terminated with an error exit status (1) -- Execution is retried (4)
+Feb-25 09:41:48.460 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-25 09:41:48.460 [Task submitter] INFO  nextflow.Session - [b2/a8824c] Re-submitted process > get_read_direction (2)
+Feb-25 09:41:48.465 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-25 09:41:48.465 [Task submitter] INFO  nextflow.Session - [6c/454202] Re-submitted process > get_read_direction (1)
+Feb-25 09:41:50.105 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 26; name: get_read_direction (1); status: COMPLETED; exit: 1; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/6c/45420209a384fbdd7bb2211e1b887f]
+Feb-25 09:41:50.105 [Task monitor] INFO  nextflow.processor.TaskProcessor - [6c/454202] NOTE: Process `get_read_direction (1)` terminated with an error exit status (1) -- Execution is retried (5)
+Feb-25 09:41:50.146 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 22; name: get_read_direction (3); status: COMPLETED; exit: 1; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/40/e38ac7f1c413f0f315bf7536854a61]
+Feb-25 09:41:50.147 [Task monitor] INFO  nextflow.processor.TaskProcessor - [40/e38ac7] NOTE: Process `get_read_direction (3)` terminated with an error exit status (1) -- Execution is retried (2)
+Feb-25 09:41:50.149 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-25 09:41:50.149 [Task submitter] INFO  nextflow.Session - [3a/da1742] Re-submitted process > get_read_direction (1)
+Feb-25 09:41:50.153 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-25 09:41:50.153 [Task submitter] INFO  nextflow.Session - [1b/7b41c7] Re-submitted process > get_read_direction (3)
+Feb-25 09:41:50.347 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 25; name: get_read_direction (2); status: COMPLETED; exit: 1; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/b2/a8824c82cb6674e02c8f7c27406a0f]
+Feb-25 09:41:50.347 [Task monitor] INFO  nextflow.processor.TaskProcessor - [b2/a8824c] NOTE: Process `get_read_direction (2)` terminated with an error exit status (1) -- Execution is retried (5)
+Feb-25 09:41:51.350 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-25 09:41:51.350 [Task submitter] INFO  nextflow.Session - [11/5a27ad] Re-submitted process > get_read_direction (2)
+Feb-25 09:41:51.606 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 27; name: get_read_direction (1); status: COMPLETED; exit: 1; error: -; workDir: /home/alvaro/github/ica_preprocessing/work/3a/da174247c193c15ee1f15a1721228c]
+Feb-25 09:41:51.615 [Task monitor] ERROR nextflow.processor.TaskProcessor - Error executing process > 'get_read_direction (1)'
+
+Caused by:
+  Process `get_read_direction (1)` terminated with an error exit status (1)
+
+Command executed:
+
+  infer_experiment.py -r genome.bed -i ERX1320318.sam > ERX1320318.infer_experiment.txt
+      parse_direction.py ERX1320318.infer_experiment.txt SINGLE | tr -d '
+  '
+
+Command exit status:
+  1
+
+Command output:
+  (empty)
+
+Command error:
+  Reading reference gene model genome.bed ... Done
+  Loading SAM/BAM file ...  Total 200000 usable reads were sampled
+  .command.sh: line 3: /home/alvaro/github/ica_preprocessing/bin/parse_direction.py: Permission denied
+
+Work dir:
+  /home/alvaro/github/ica_preprocessing/work/3a/da174247c193c15ee1f15a1721228c
+
+Tip: you can try to figure out what's wrong by changing to the process work dir and showing the script file named `.command.sh`
+Feb-25 09:41:51.619 [Task monitor] DEBUG nextflow.Session - Session aborted -- Cause: Process `get_read_direction (1)` terminated with an error exit status (1)
+Feb-25 09:41:51.634 [Task monitor] DEBUG nextflow.Session - The following nodes are still active:
+[process] featureCounts
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: gff
+  port 2: (cntrl) -     ; channel: $
+
+[process] multiqc
+  status=ACTIVE
+  port 0: (value) bound ; channel: fastqc/*
+  port 1: (value) bound ; channel: cutadapt/*
+  port 2: (value) OPEN  ; channel: rseqc/*
+  port 3: (value) bound ; channel: bowtie/*
+  port 4: (value) OPEN  ; channel: featureCounts/*
+  port 5: (queue) OPEN  ; channel: myconfig
+  port 6: (cntrl) -     ; channel: $
+
+Feb-25 09:41:51.635 [main] DEBUG nextflow.Session - Session await > all processes finished
+Feb-25 09:41:51.636 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Feb-25 09:41:51.642 [main] WARN  n.processor.TaskPollingMonitor - Killing running tasks (2)
+Feb-25 09:41:51.650 [main] DEBUG nextflow.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=9; failedCount=13; ignoredCount=0; cachedCount=0; pendingCount=2; submittedCount=0; runningCount=0; retriesCount=12; abortedCount=2; succeedDuration=27m 40s; failedDuration=25s; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=3; peakCpus=8; peakMemory=8 GB; ]
+Feb-25 09:41:51.650 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow completed -- saving trace file
+Feb-25 09:41:51.651 [main] DEBUG nextflow.trace.ReportObserver - Workflow completed -- rendering execution report
+Feb-25 09:41:51.691 [main] DEBUG nextflow.trace.ReportObserver - Execution report summary data:
+  [{"cpuUsage":{"mean":90.3,"min":90.3,"q1":90.3,"q2":90.3,"q3":90.3,"max":90.3,"minLabel":"gff2bed","maxLabel":"gff2bed","q1Label":"gff2bed","q2Label":"gff2bed","q3Label":"gff2bed"},"process":"gff2bed","mem":{"mean":9326592,"min":9326592,"q1":9326592,"q2":9326592,"q3":9326592,"max":9326592,"minLabel":"gff2bed","maxLabel":"gff2bed","q1Label":"gff2bed","q2Label":"gff2bed","q3Label":"gff2bed"},"memUsage":{"mean":1.78,"min":1.78,"q1":1.78,"q2":1.78,"q3":1.78,"max":1.78,"minLabel":"gff2bed","maxLabel":"gff2bed","q1Label":"gff2bed","q2Label":"gff2bed","q3Label":"gff2bed"},"timeUsage":null,"vmem":{"mean":399073280,"min":399073280,"q1":399073280,"q2":399073280,"q3":399073280,"max":399073280,"minLabel":"gff2bed","maxLabel":"gff2bed","q1Label":"gff2bed","q2Label":"gff2bed","q3Label":"gff2bed"},"reads":{"mean":22123438,"min":22123438,"q1":22123438,"q2":22123438,"q3":22123438,"max":22123438,"minLabel":"gff2bed","maxLabel":"gff2bed","q1Label":"gff2bed","q2Label":"gff2bed","q3Label":"gff2bed"},"cpu":{"mean":90.3,"min":90.3,"q1":90.3,"q2":90.3,"q3":90.3,"max":90.3,"minLabel":"gff2bed","maxLabel":"gff2bed","q1Label":"gff2bed","q2Label":"gff2bed","q3Label":"gff2bed"},"time":null,"writes":{"mean":22213453,"min":22213453,"q1":22213453,"q2":22213453,"q3":22213453,"max":22213453,"minLabel":"gff2bed","maxLabel":"gff2bed","q1Label":"gff2bed","q2Label":"gff2bed","q3Label":"gff2bed"}},{"cpuUsage":{"mean":96.8,"min":96.8,"q1":96.8,"q2":96.8,"q3":96.8,"max":96.8,"minLabel":"bowtie_build","maxLabel":"bowtie_build","q1Label":"bowtie_build","q2Label":"bowtie_build","q3Label":"bowtie_build"},"process":"bowtie_build","mem":{"mean":108666880,"min":108666880,"q1":108666880,"q2":108666880,"q3":108666880,"max":108666880,"minLabel":"bowtie_build","maxLabel":"bowtie_build","q1Label":"bowtie_build","q2Label":"bowtie_build","q3Label":"bowtie_build"},"memUsage":{"mean":20.73,"min":20.73,"q1":20.73,"q2":20.73,"q3":20.73,"max":20.73,"minLabel":"bowtie_build","maxLabel":"bowtie_build","q1Label":"bowtie_build","q2Label":"bowtie_build","q3Label":"bowtie_build"},"timeUsage":null,"vmem":{"mean":141672448,"min":141672448,"q1":141672448,"q2":141672448,"q3":141672448,"max":141672448,"minLabel":"bowtie_build","maxLabel":"bowtie_build","q1Label":"bowtie_build","q2Label":"bowtie_build","q3Label":"bowtie_build"},"reads":{"mean":44165505,"min":44165505,"q1":44165505,"q2":44165505,"q3":44165505,"max":44165505,"minLabel":"bowtie_build","maxLabel":"bowtie_build","q1Label":"bowtie_build","q2Label":"bowtie_build","q3Label":"bowtie_build"},"cpu":{"mean":96.8,"min":96.8,"q1":96.8,"q2":96.8,"q3":96.8,"max":96.8,"minLabel":"bowtie_build","maxLabel":"bowtie_build","q1Label":"bowtie_build","q2Label":"bowtie_build","q3Label":"bowtie_build"},"time":{"mean":4000,"min":4000,"q1":4000,"q2":4000,"q3":4000,"max":4000,"minLabel":"bowtie_build","maxLabel":"bowtie_build","q1Label":"bowtie_build","q2Label":"bowtie_build","q3Label":"bowtie_build"},"writes":{"mean":30098830,"min":30098830,"q1":30098830,"q2":30098830,"q3":30098830,"max":30098830,"minLabel":"bowtie_build","maxLabel":"bowtie_build","q1Label":"bowtie_build","q2Label":"bowtie_build","q3Label":"bowtie_build"}},{"cpuUsage":{"mean":59.27,"min":47.16,"q1":53.18,"q2":59.19,"q3":65.33,"max":71.46,"minLabel":"trim_galore (1)","maxLabel":"trim_galore (2)","q1Label":"trim_galore (1)","q2Label":"trim_galore (3)","q3Label":"trim_galore (3)"},"process":"trim_galore","mem":{"mean":330728789.33,"min":320217088,"q1":322080768,"q2":323944448,"q3":335984640,"max":348024832,"minLabel":"trim_galore (3)","maxLabel":"trim_galore (2)","q1Label":"trim_galore (3)","q2Label":"trim_galore (1)","q3Label":"trim_galore (1)"},"memUsage":{"mean":3.85,"min":3.73,"q1":3.75,"q2":3.77,"q3":3.91,"max":4.05,"minLabel":"trim_galore (3)","maxLabel":"trim_galore (2)","q1Label":"trim_galore (3)","q2Label":"trim_galore (1)","q3Label":"trim_galore (1)"},"timeUsage":{"mean":0.18,"min":0.07,"q1":0.08,"q2":0.09,"q3":0.24,"max":0.38,"minLabel":"trim_galore (1)","maxLabel":"trim_galore (2)","q1Label":"trim_galore (1)","q2Label":"trim_galore (3)","q3Label":"trim_galore (3)"},"vmem":{"mean":3265885525.33,"min":3222802432,"q1":3254622208,"q2":3286441984,"q3":3287427072,"max":3288412160,"minLabel":"trim_galore (3)","maxLabel":"trim_galore (1)","q1Label":"trim_galore (3)","q2Label":"trim_galore (2)","q3Label":"trim_galore (2)"},"reads":{"mean":5439443622.67,"min":2729057701,"q1":3021595666,"q2":3314133631,"q3":6794636583.5,"max":10275139536,"minLabel":"trim_galore (1)","maxLabel":"trim_galore (2)","q1Label":"trim_galore (1)","q2Label":"trim_galore (3)","q3Label":"trim_galore (3)"},"cpu":{"mean":474.17,"min":377.3,"q1":425.4,"q2":473.5,"q3":522.6,"max":571.7,"minLabel":"trim_galore (1)","maxLabel":"trim_galore (2)","q1Label":"trim_galore (1)","q2Label":"trim_galore (3)","q3Label":"trim_galore (3)"},"time":{"mean":51666.67,"min":19000,"q1":22500,"q2":26000,"q3":68000,"max":110000,"minLabel":"trim_galore (1)","maxLabel":"trim_galore (2)","q1Label":"trim_galore (1)","q2Label":"trim_galore (3)","q3Label":"trim_galore (3)"},"writes":{"mean":5179570673.33,"min":2577531038,"q1":2830726519.5,"q2":3083922001,"q3":6480590491,"max":9877258981,"minLabel":"trim_galore (1)","maxLabel":"trim_galore (2)","q1Label":"trim_galore (1)","q2Label":"trim_galore (3)","q3Label":"trim_galore (3)"}},{"cpuUsage":{"mean":96.86,"min":94.85,"q1":96.05,"q2":97.25,"q3":97.87,"max":98.49,"minLabel":"bowtie_align (1)","maxLabel":"bowtie_align (2)","q1Label":"bowtie_align (1)","q2Label":"bowtie_align (3)","q3Label":"bowtie_align (3)"},"process":"bowtie_align","mem":{"mean":29786112,"min":27557888,"q1":28278784,"q2":28999680,"q3":30900224,"max":32800768,"minLabel":"bowtie_align (2)","maxLabel":"bowtie_align (3)","q1Label":"bowtie_align (2)","q2Label":"bowtie_align (1)","q3Label":"bowtie_align (1)"},"memUsage":{"mean":0.35,"min":0.32,"q1":0.33,"q2":0.34,"q3":0.36,"max":0.38,"minLabel":"bowtie_align (2)","maxLabel":"bowtie_align (3)","q1Label":"bowtie_align (2)","q2Label":"bowtie_align (1)","q3Label":"bowtie_align (1)"},"timeUsage":null,"vmem":{"mean":346710016,"min":152014848,"q1":155695104,"q2":159375360,"q3":444057600,"max":728739840,"minLabel":"bowtie_align (1)","maxLabel":"bowtie_align (2)","q1Label":"bowtie_align (1)","q2Label":"bowtie_align (3)","q3Label":"bowtie_align (3)"},"reads":{"mean":159870445.67,"min":85904509,"q1":90346091,"q2":94787673,"q3":196853414,"max":298919155,"minLabel":"bowtie_align (1)","maxLabel":"bowtie_align (2)","q1Label":"bowtie_align (1)","q2Label":"bowtie_align (3)","q3Label":"bowtie_align (3)"},"cpu":{"mean":774.9,"min":758.8,"q1":768.4,"q2":778,"q3":782.95,"max":787.9,"minLabel":"bowtie_align (1)","maxLabel":"bowtie_align (2)","q1Label":"bowtie_align (1)","q2Label":"bowtie_align (3)","q3Label":"bowtie_align (3)"},"time":{"mean":16000,"min":5000,"q1":11000,"q2":17000,"q3":21500,"max":26000,"minLabel":"bowtie_align (1)","maxLabel":"bowtie_align (2)","q1Label":"bowtie_align (1)","q2Label":"bowtie_align (3)","q3Label":"bowtie_align (3)"},"writes":{"mean":745161200.67,"min":353956928,"q1":357833897.5,"q2":361710867,"q3":940763337,"max":1519815807,"minLabel":"bowtie_align (3)","maxLabel":"bowtie_align (2)","q1Label":"bowtie_align (3)","q2Label":"bowtie_align (1)","q3Label":"bowtie_align (1)"}},{"cpuUsage":{"mean":68.99,"min":68.99,"q1":68.99,"q2":68.99,"q3":68.99,"max":68.99,"minLabel":"sam2bam (1)","maxLabel":"sam2bam (1)","q1Label":"sam2bam (1)","q2Label":"sam2bam (1)","q3Label":"sam2bam (1)"},"process":"sam2bam","mem":{"mean":452816896,"min":452816896,"q1":452816896,"q2":452816896,"q3":452816896,"max":452816896,"minLabel":"sam2bam (1)","maxLabel":"sam2bam (1)","q1Label":"sam2bam (1)","q2Label":"sam2bam (1)","q3Label":"sam2bam (1)"},"memUsage":{"mean":5.27,"min":5.27,"q1":5.27,"q2":5.27,"q3":5.27,"max":5.27,"minLabel":"sam2bam (1)","maxLabel":"sam2bam (1)","q1Label":"sam2bam (1)","q2Label":"sam2bam (1)","q3Label":"sam2bam (1)"},"timeUsage":null,"vmem":{"mean":7778709504,"min":7778709504,"q1":7778709504,"q2":7778709504,"q3":7778709504,"max":7778709504,"minLabel":"sam2bam (1)","maxLabel":"sam2bam (1)","q1Label":"sam2bam (1)","q2Label":"sam2bam (1)","q3Label":"sam2bam (1)"},"reads":{"mean":436092387,"min":436092387,"q1":436092387,"q2":436092387,"q3":436092387,"max":436092387,"minLabel":"sam2bam (1)","maxLabel":"sam2bam (1)","q1Label":"sam2bam (1)","q2Label":"sam2bam (1)","q3Label":"sam2bam (1)"},"cpu":{"mean":551.9,"min":551.9,"q1":551.9,"q2":551.9,"q3":551.9,"max":551.9,"minLabel":"sam2bam (1)","maxLabel":"sam2bam (1)","q1Label":"sam2bam (1)","q2Label":"sam2bam (1)","q3Label":"sam2bam (1)"},"time":{"mean":4000,"min":4000,"q1":4000,"q2":4000,"q3":4000,"max":4000,"minLabel":"sam2bam (1)","maxLabel":"sam2bam (1)","q1Label":"sam2bam (1)","q2Label":"sam2bam (1)","q3Label":"sam2bam (1)"},"writes":{"mean":122821941,"min":122821941,"q1":122821941,"q2":122821941,"q3":122821941,"max":122821941,"minLabel":"sam2bam (1)","maxLabel":"sam2bam (1)","q1Label":"sam2bam (1)","q2Label":"sam2bam (1)","q3Label":"sam2bam (1)"}},{"cpuUsage":null,"process":"get_read_direction","mem":null,"memUsage":null,"timeUsage":null,"vmem":null,"reads":null,"cpu":null,"time":{"mean":1920.85,"min":1212,"q1":1540,"q2":1568,"q3":1627,"max":4071,"minLabel":"get_read_direction (1)","maxLabel":"get_read_direction (3)","q1Label":"get_read_direction (1)","q2Label":"get_read_direction (2)","q3Label":"get_read_direction (1)"},"writes":null}]
+Feb-25 09:41:52.140 [main] DEBUG nextflow.trace.TimelineObserver - Workflow completed -- rendering execution timeline
+Feb-25 09:41:52.193 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Feb-25 09:41:52.202 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

@@ -1,0 +1,4 @@
+Sample	reads_processed	reads_aligned	reads_aligned_percentage	not_aligned	not_aligned_percentage
+ERX1320318	2135572.0	1946467.0	91.14	189105.0	8.86
+ERX3440931	3238676.0	3052226.0	94.24	186450.0	5.76
+SRX315307	2973066.0	122858.0	4.13	2850208.0	95.87

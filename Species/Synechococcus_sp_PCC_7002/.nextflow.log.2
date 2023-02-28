@@ -1,0 +1,137 @@
+feb.-24 15:30:33.234 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main.nf -profile local --organism Synechococcus_sp_PCC_7002 --metadata metadata/Synechococcus_sp_PCC_7002.tsv --sequence_dir sequence_files/ --outdir nf_results/
+feb.-24 15:30:33.304 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 22.10.6
+feb.-24 15:30:33.319 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/alvaro/.nextflow/plugins; core-plugins: nf-amazon@1.11.3,nf-azure@0.14.2,nf-codecommit@0.1.2,nf-console@1.0.4,nf-ga4gh@1.0.4,nf-google@1.4.5,nf-tower@1.5.6,nf-wave@0.5.3
+feb.-24 15:30:33.326 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+feb.-24 15:30:33.327 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+feb.-24 15:30:33.330 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+feb.-24 15:30:33.339 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+feb.-24 15:30:33.394 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=1 by probing script field
+feb.-24 15:30:33.410 [main] INFO  nextflow.cli.CmdRun - Launching `main.nf` [intergalactic_visvesvaraya] DSL1 - revision: f687a666aa
+feb.-24 15:30:33.411 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+feb.-24 15:30:33.411 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+feb.-24 15:30:33.418 [main] DEBUG nextflow.secret.LocalSecretsProvider - Secrets store: /home/alvaro/.nextflow/secrets/store.json
+feb.-24 15:30:33.423 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@16073fa8] - activable => nextflow.secret.LocalSecretsProvider@16073fa8
+feb.-24 15:30:33.480 [main] DEBUG nextflow.Session - Session UUID: 1bf84663-be11-4793-8c48-9e918c881962
+feb.-24 15:30:33.480 [main] DEBUG nextflow.Session - Run name: intergalactic_visvesvaraya
+feb.-24 15:30:33.481 [main] DEBUG nextflow.Session - Executor pool size: 16
+feb.-24 15:30:33.492 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=48; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+feb.-24 15:30:33.516 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 22.10.6 build 5843
+  Created: 23-01-2023 23:20 UTC (24-01-2023 00:20 CEST)
+  System: Linux 5.15.0-60-generic
+  Runtime: Groovy 3.0.13 on OpenJDK 64-Bit Server VM 11.0.13+7-b1751.21
+  Encoding: UTF-8 (UTF-8)
+  Process: 866808@alvaro-MS-7C75 [127.0.1.1]
+  CPUs: 16 - Mem: 62.7 GB (6.3 GB) - Swap: 2 GB (2 GB)
+feb.-24 15:30:33.537 [main] DEBUG nextflow.Session - Work-dir: /home/alvaro/github/ica_preprocessing/Synechococcus_sp_PCC_7002/work [ext2/ext3]
+feb.-24 15:30:33.562 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+feb.-24 15:30:33.570 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+feb.-24 15:30:33.588 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+feb.-24 15:30:33.596 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 17; maxThreads: 1000
+feb.-24 15:30:33.642 [main] DEBUG nextflow.Session - Session start
+feb.-24 15:30:35.029 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+feb.-24 15:30:35.034 [main] WARN  nextflow.script.ScriptBinding - Access to undefined parameter `help` -- Initialise it to a default value eg. `params.help = some_value`
+feb.-24 15:30:35.054 [PathVisitor-1] DEBUG nextflow.file.PathVisitor - files for syntax: glob; folder: sequence_files/; pattern: *.{fasta,gff3}; options: [checkIfExists:true]
+feb.-24 15:30:35.165 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+feb.-24 15:30:35.165 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+feb.-24 15:30:35.170 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+feb.-24 15:30:35.173 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=16; memory=62.7 GB; capacity=16; pollInterval=100ms; dumpInterval=5m
+feb.-24 15:30:35.225 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+feb.-24 15:30:35.225 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+feb.-24 15:30:35.290 [main] WARN  nextflow.script.ScriptBinding - Access to undefined parameter `force` -- Initialise it to a default value eg. `params.force = some_value`
+feb.-24 15:30:35.340 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+feb.-24 15:30:35.340 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+feb.-24 15:30:35.354 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+feb.-24 15:30:35.354 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+feb.-24 15:30:35.365 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+feb.-24 15:30:35.365 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+feb.-24 15:30:35.381 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+feb.-24 15:30:35.383 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+feb.-24 15:30:35.383 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+feb.-24 15:30:35.387 [Task submitter] INFO  nextflow.Session - [92/35a210] Submitted process > bowtie_build
+feb.-24 15:30:35.392 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+feb.-24 15:30:35.395 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+feb.-24 15:30:35.395 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+feb.-24 15:30:35.395 [Task submitter] INFO  nextflow.Session - [a9/91d305] Submitted process > gff2bed
+feb.-24 15:30:35.398 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+feb.-24 15:30:35.398 [Task submitter] INFO  nextflow.Session - [8b/ff79cd] Submitted process > download_fastq (3)
+feb.-24 15:30:35.402 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+feb.-24 15:30:35.403 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+feb.-24 15:30:35.403 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+feb.-24 15:30:35.403 [Task submitter] INFO  nextflow.Session - [5d/77f3e3] Submitted process > download_fastq (10)
+feb.-24 15:30:35.409 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+feb.-24 15:30:35.409 [Task submitter] INFO  nextflow.Session - [06/3807cd] Submitted process > download_fastq (11)
+feb.-24 15:30:35.411 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+feb.-24 15:30:35.412 [Task submitter] INFO  nextflow.Session - [89/cc9b9a] Submitted process > download_fastq (1)
+feb.-24 15:30:35.414 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+feb.-24 15:30:35.415 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+feb.-24 15:30:35.415 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+feb.-24 15:30:35.437 [Task submitter] INFO  nextflow.Session - [ad/f07abb] Submitted process > download_fastq (12)
+feb.-24 15:30:35.444 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+feb.-24 15:30:35.444 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+feb.-24 15:30:35.447 [main] WARN  nextflow.script.ScriptBinding - Access to undefined parameter `multiqc_config` -- Initialise it to a default value eg. `params.multiqc_config = some_value`
+feb.-24 15:30:35.448 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+feb.-24 15:30:35.448 [Task submitter] INFO  nextflow.Session - [7e/4932bf] Submitted process > download_fastq (14)
+feb.-24 15:30:35.450 [main] DEBUG nextflow.Session - Session aborted -- Cause: Missing `fromPath` parameter
+feb.-24 15:30:35.450 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: gff2bed; status: COMPLETED; exit: 0; error: -; workDir: /home/alvaro/github/ica_preprocessing/Synechococcus_sp_PCC_7002/work/a9/91d305558d64ff2716a276f09b134e]
+feb.-24 15:30:35.456 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+feb.-24 15:30:35.457 [Task submitter] INFO  nextflow.Session - [e0/f3b2da] Submitted process > download_fastq (6)
+feb.-24 15:30:35.484 [main] DEBUG nextflow.Session - The following nodes are still active:
+[process] download_fastq
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] trim_galore
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] bowtie_align
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) OPEN  ; channel: index
+  port 2: (value) OPEN  ; channel: cspace_index
+  port 3: (cntrl) -     ; channel: $
+
+[process] sam2bam
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+[process] get_read_direction
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: bed_file
+  port 2: (cntrl) -     ; channel: $
+
+[process] featureCounts
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (value) bound ; channel: gff
+  port 2: (cntrl) -     ; channel: $
+
+feb.-24 15:30:35.501 [main] DEBUG nextflow.cli.Launcher - Operation aborted
+nextflow.exception.AbortOperationException: Missing `fromPath` parameter
+	at nextflow.Channel.fromPath(Channel.groovy:267)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1529)
+	at groovy.lang.DelegatingMetaClass.invokeStaticMethod(DelegatingMetaClass.java:154)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:50)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:148)
+	at Script_ec514071.runScript(Script_ec514071:490)
+	at nextflow.script.BaseScript.runDsl1(BaseScript.groovy:164)
+	at nextflow.script.BaseScript.run(BaseScript.groovy:217)
+	at nextflow.script.ScriptParser.runScript(ScriptParser.groovy:230)
+	at nextflow.script.ScriptRunner.run(ScriptRunner.groovy:225)
+	at nextflow.script.ScriptRunner.execute(ScriptRunner.groovy:131)
+	at nextflow.cli.CmdRun.run(CmdRun.groovy:354)
+	at nextflow.cli.Launcher.run(Launcher.groovy:487)
+	at nextflow.cli.Launcher.main(Launcher.groovy:646)

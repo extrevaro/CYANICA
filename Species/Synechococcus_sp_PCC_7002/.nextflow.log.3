@@ -1,0 +1,149 @@
+feb.-24 15:26:17.245 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main.nf -profile local --organism Synechococcus_sp_PCC_7002 --metadata metadata/Synechococcus_sp_PCC_7002.tsv --sequence_dir sequence_files/ --outdir nf_results/
+feb.-24 15:26:17.313 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 22.10.6
+feb.-24 15:26:17.328 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/alvaro/.nextflow/plugins; core-plugins: nf-amazon@1.11.3,nf-azure@0.14.2,nf-codecommit@0.1.2,nf-console@1.0.4,nf-ga4gh@1.0.4,nf-google@1.4.5,nf-tower@1.5.6,nf-wave@0.5.3
+feb.-24 15:26:17.336 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+feb.-24 15:26:17.337 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+feb.-24 15:26:17.340 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+feb.-24 15:26:17.349 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+feb.-24 15:26:17.361 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /home/alvaro/github/ica_preprocessing/Synechococcus_sp_PCC_7002/nextflow.config
+feb.-24 15:26:17.361 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/alvaro/github/ica_preprocessing/Synechococcus_sp_PCC_7002/nextflow.config
+feb.-24 15:26:17.378 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `local`
+feb.-24 15:26:18.061 [main] DEBUG nextflow.config.ConfigBuilder - Available config profiles: [local]
+feb.-24 15:26:18.092 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=1 by probing script field
+feb.-24 15:26:18.110 [main] INFO  nextflow.cli.CmdRun - Launching `main.nf` [loving_keller] DSL1 - revision: f687a666aa
+feb.-24 15:26:18.110 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+feb.-24 15:26:18.110 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+feb.-24 15:26:18.119 [main] DEBUG nextflow.secret.LocalSecretsProvider - Secrets store: /home/alvaro/.nextflow/secrets/store.json
+feb.-24 15:26:18.122 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@7c1447b5] - activable => nextflow.secret.LocalSecretsProvider@7c1447b5
+feb.-24 15:26:18.171 [main] DEBUG nextflow.Session - Session UUID: e3abbe38-649b-4a9a-a100-53f00df2d2e8
+feb.-24 15:26:18.171 [main] DEBUG nextflow.Session - Run name: loving_keller
+feb.-24 15:26:18.171 [main] DEBUG nextflow.Session - Executor pool size: 16
+feb.-24 15:26:18.179 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=48; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+feb.-24 15:26:18.197 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 22.10.6 build 5843
+  Created: 23-01-2023 23:20 UTC (24-01-2023 00:20 CEST)
+  System: Linux 5.15.0-60-generic
+  Runtime: Groovy 3.0.13 on OpenJDK 64-Bit Server VM 11.0.13+7-b1751.21
+  Encoding: UTF-8 (UTF-8)
+  Process: 864883@alvaro-MS-7C75 [127.0.1.1]
+  CPUs: 16 - Mem: 62.7 GB (6 GB) - Swap: 2 GB (2 GB)
+feb.-24 15:26:18.211 [main] DEBUG nextflow.Session - Work-dir: /home/alvaro/github/ica_preprocessing/Synechococcus_sp_PCC_7002/work [ext2/ext3]
+feb.-24 15:26:18.222 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+feb.-24 15:26:18.229 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+feb.-24 15:26:18.268 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+feb.-24 15:26:18.276 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 17; maxThreads: 1000
+feb.-24 15:26:18.321 [main] DEBUG nextflow.Session - Session start
+feb.-24 15:26:18.325 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow started -- trace file: /home/alvaro/github/ica_preprocessing/Synechococcus_sp_PCC_7002/trace/trace.txt
+feb.-24 15:26:19.209 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+feb.-24 15:26:19.238 [PathVisitor-1] DEBUG nextflow.file.PathVisitor - files for syntax: glob; folder: sequence_files/; pattern: *.{fasta,gff3}; options: [checkIfExists:true]
+feb.-24 15:26:19.331 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:bowtie` matches labels `bowtie,small` for process with name bowtie_build
+feb.-24 15:26:19.332 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:small` matches labels `bowtie,small` for process with name bowtie_build
+feb.-24 15:26:19.333 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+feb.-24 15:26:19.333 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+feb.-24 15:26:19.339 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+feb.-24 15:26:19.343 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=16; memory=62.7 GB; capacity=16; pollInterval=100ms; dumpInterval=5m
+feb.-24 15:26:19.391 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:small` matches labels `small` for process with name gff2bed
+feb.-24 15:26:19.392 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:gff2bed` matches process gff2bed
+feb.-24 15:26:19.392 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+feb.-24 15:26:19.393 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+feb.-24 15:26:19.498 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:fastq` matches labels `fastq,medium,stage` for process with name download_fastq
+feb.-24 15:26:19.499 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:medium` matches labels `fastq,medium,stage` for process with name download_fastq
+feb.-24 15:26:19.499 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:stage` matches labels `fastq,medium,stage` for process with name download_fastq
+feb.-24 15:26:19.499 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+feb.-24 15:26:19.499 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+feb.-24 15:26:19.510 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:fastq` matches labels `fastq,medium,stage` for process with name stage_fastq_single
+feb.-24 15:26:19.510 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:medium` matches labels `fastq,medium,stage` for process with name stage_fastq_single
+feb.-24 15:26:19.510 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:stage` matches labels `fastq,medium,stage` for process with name stage_fastq_single
+feb.-24 15:26:19.510 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+feb.-24 15:26:19.510 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+feb.-24 15:26:19.516 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:fastq` matches labels `fastq,medium,stage` for process with name stage_fastq_paired
+feb.-24 15:26:19.517 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:medium` matches labels `fastq,medium,stage` for process with name stage_fastq_paired
+feb.-24 15:26:19.517 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:stage` matches labels `fastq,medium,stage` for process with name stage_fastq_paired
+feb.-24 15:26:19.517 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+feb.-24 15:26:19.517 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+feb.-24 15:26:19.548 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:trim_galore` matches labels `large,trim_galore` for process with name trim_galore
+feb.-24 15:26:19.548 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `large,trim_galore` for process with name trim_galore
+feb.-24 15:26:19.549 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+feb.-24 15:26:19.549 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+feb.-24 15:26:19.552 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+feb.-24 15:26:19.557 [Task submitter] INFO  nextflow.Session - [25/6e868b] Submitted process > gff2bed
+feb.-24 15:26:19.563 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:bowtie` matches labels `bowtie,large` for process with name bowtie_align
+feb.-24 15:26:19.568 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `bowtie,large` for process with name bowtie_align
+feb.-24 15:26:19.569 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+feb.-24 15:26:19.569 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+feb.-24 15:26:19.585 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `large` for process with name sam2bam
+feb.-24 15:26:19.585 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:sam2bam` matches process sam2bam
+feb.-24 15:26:19.585 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+feb.-24 15:26:19.586 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+feb.-24 15:26:19.595 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+feb.-24 15:26:19.596 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:python` matches labels `python,small` for process with name get_read_direction
+feb.-24 15:26:19.596 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:small` matches labels `python,small` for process with name get_read_direction
+feb.-24 15:26:19.596 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:get_read_direction` matches process get_read_direction
+feb.-24 15:26:19.597 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+feb.-24 15:26:19.597 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+feb.-24 15:26:19.604 [Task submitter] INFO  nextflow.Session - [57/2ef08a] Submitted process > bowtie_build
+feb.-24 15:26:19.610 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+feb.-24 15:26:19.610 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `large` for process with name featureCounts
+feb.-24 15:26:19.610 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:featureCounts` matches process featureCounts
+feb.-24 15:26:19.611 [Task submitter] INFO  nextflow.Session - [f9/ca2a71] Submitted process > download_fastq (10)
+feb.-24 15:26:19.611 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+feb.-24 15:26:19.611 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+feb.-24 15:26:19.621 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+feb.-24 15:26:19.621 [Task submitter] INFO  nextflow.Session - [57/1ca03d] Submitted process > download_fastq (1)
+feb.-24 15:26:19.631 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+feb.-24 15:26:19.631 [Task submitter] INFO  nextflow.Session - [6a/cc3929] Submitted process > download_fastq (12)
+feb.-24 15:26:19.686 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `large` for process with name multiqc
+feb.-24 15:26:19.686 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:multiqc` matches process multiqc
+feb.-24 15:26:19.686 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+feb.-24 15:26:19.686 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+feb.-24 15:26:19.695 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:python` matches labels `python,large` for process with name assemble_tpm
+feb.-24 15:26:19.695 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:large` matches labels `python,large` for process with name assemble_tpm
+feb.-24 15:26:19.696 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+feb.-24 15:26:19.696 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+feb.-24 15:26:19.698 [main] DEBUG nextflow.Session - Workflow process names [dsl1]: sam2bam, gff2bed, download_fastq, assemble_tpm, get_read_direction, stage_fastq_single, featureCounts, bowtie_align, bowtie_build, stage_fastq_paired, multiqc, trim_galore
+feb.-24 15:26:19.700 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+feb.-24 15:26:19.700 [main] DEBUG nextflow.Session - Session await
+feb.-24 15:26:20.361 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: bowtie_build; status: COMPLETED; exit: 1; error: -; workDir: /home/alvaro/github/ica_preprocessing/Synechococcus_sp_PCC_7002/work/57/2ef08a509a480efe0d49ce7083ca66]
+feb.-24 15:26:20.370 [Task monitor] ERROR nextflow.processor.TaskProcessor - Error executing process > 'bowtie_build'
+
+Caused by:
+  Process `bowtie_build` terminated with an error exit status (1)
+
+Command executed:
+
+  cat plasmid_pAQ5.fasta plasmid_pAQ3.fasta plasmid_pAQ6.fasta plasmid_pAQ1.fasta genome.fasta plasmid_pAQ7.fasta plasmid_pAQ4.fasta > Synechococcus_sp_PCC_7002.fasta
+  bowtie-build --threads 1 Synechococcus_sp_PCC_7002.fasta index
+  bowtie-build -C --threads 1 Synechococcus_sp_PCC_7002.fasta cspace_index
+
+Command exit status:
+  1
+
+Command output:
+  (empty)
+
+Command error:
+  touch: .command.trace: Permission denied
+
+Work dir:
+  /home/alvaro/github/ica_preprocessing/Synechococcus_sp_PCC_7002/work/57/2ef08a509a480efe0d49ce7083ca66
+
+Tip: you can replicate the issue by changing to the process work dir and entering the command `bash .command.run`
+feb.-24 15:26:20.384 [Task monitor] INFO  nextflow.Session - Execution cancelled -- Finishing pending tasks before exit
+feb.-24 15:26:20.387 [main] DEBUG nextflow.Session - Session await > all processes finished
+feb.-24 15:26:20.529 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: download_fastq (1); status: COMPLETED; exit: 1; error: -; workDir: /home/alvaro/github/ica_preprocessing/Synechococcus_sp_PCC_7002/work/57/1ca03dbe47193aa03d044ac46d5168]
+feb.-24 15:26:20.534 [Task monitor] INFO  nextflow.processor.TaskProcessor - [57/1ca03d] NOTE: Process `download_fastq (1)` terminated with an error exit status (1) -- Execution is retried (1)
+feb.-24 15:26:20.539 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: gff2bed; status: COMPLETED; exit: 1; error: -; workDir: /home/alvaro/github/ica_preprocessing/Synechococcus_sp_PCC_7002/work/25/6e868bd156896fc6e0e60b9b29e139]
+feb.-24 15:26:20.558 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 12; name: download_fastq (10); status: COMPLETED; exit: 1; error: -; workDir: /home/alvaro/github/ica_preprocessing/Synechococcus_sp_PCC_7002/work/f9/ca2a71f1998c6aa3475b3d6ed03919]
+feb.-24 15:26:20.559 [Task monitor] INFO  nextflow.processor.TaskProcessor - [f9/ca2a71] NOTE: Process `download_fastq (10)` terminated with an error exit status (1) -- Execution is retried (1)
+feb.-24 15:26:20.626 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 14; name: download_fastq (12); status: COMPLETED; exit: 1; error: -; workDir: /home/alvaro/github/ica_preprocessing/Synechococcus_sp_PCC_7002/work/6a/cc39290b508cffbbb3c8a5fa9e12d4]
+feb.-24 15:26:20.627 [Task monitor] INFO  nextflow.processor.TaskProcessor - [6a/cc3929] NOTE: Process `download_fastq (12)` terminated with an error exit status (1) -- Execution is retried (1)
+feb.-24 15:26:20.628 [main] DEBUG nextflow.Session - Session await > all barriers passed
+feb.-24 15:26:20.632 [main] DEBUG nextflow.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=0; failedCount=5; ignoredCount=0; cachedCount=0; pendingCount=160; submittedCount=0; runningCount=0; retriesCount=3; abortedCount=0; succeedDuration=0ms; failedDuration=12.6s; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=5; peakCpus=14; peakMemory=13 GB; ]
+feb.-24 15:26:20.632 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow completed -- saving trace file
+feb.-24 15:26:20.633 [main] DEBUG nextflow.trace.ReportObserver - Workflow completed -- rendering execution report
+feb.-24 15:26:20.652 [main] DEBUG nextflow.trace.ReportObserver - Execution report summary data:
+  [{"cpuUsage":null,"process":"bowtie_build","mem":null,"memUsage":null,"timeUsage":null,"vmem":null,"reads":null,"cpu":null,"time":{"mean":706,"min":706,"q1":706,"q2":706,"q3":706,"max":706,"minLabel":"bowtie_build","maxLabel":"bowtie_build","q1Label":"bowtie_build","q2Label":"bowtie_build","q3Label":"bowtie_build"},"writes":null},{"cpuUsage":null,"process":"download_fastq","mem":null,"memUsage":null,"timeUsage":null,"vmem":null,"reads":null,"cpu":null,"time":{"mean":916,"min":874,"q1":888.5,"q2":903,"q3":937,"max":971,"minLabel":"download_fastq (1)","maxLabel":"download_fastq (12)","q1Label":"download_fastq (1)","q2Label":"download_fastq (10)","q3Label":"download_fastq (10)"},"writes":null},{"cpuUsage":null,"process":"gff2bed","mem":null,"memUsage":null,"timeUsage":null,"vmem":null,"reads":null,"cpu":null,"time":{"mean":888,"min":888,"q1":888,"q2":888,"q3":888,"max":888,"minLabel":"gff2bed","maxLabel":"gff2bed","q1Label":"gff2bed","q2Label":"gff2bed","q3Label":"gff2bed"},"writes":null}]
+feb.-24 15:26:21.060 [main] DEBUG nextflow.trace.TimelineObserver - Workflow completed -- rendering execution timeline
+feb.-24 15:26:21.182 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+feb.-24 15:26:21.189 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
+feb.-24 15:26:21.189 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

@@ -1,0 +1,83 @@
+feb.-24 15:31:45.978 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main.nf -profile local
+feb.-24 15:31:46.032 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 22.10.6
+feb.-24 15:31:46.045 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/alvaro/.nextflow/plugins; core-plugins: nf-amazon@1.11.3,nf-azure@0.14.2,nf-codecommit@0.1.2,nf-console@1.0.4,nf-ga4gh@1.0.4,nf-google@1.4.5,nf-tower@1.5.6,nf-wave@0.5.3
+feb.-24 15:31:46.053 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+feb.-24 15:31:46.053 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+feb.-24 15:31:46.055 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+feb.-24 15:31:46.063 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+feb.-24 15:31:46.106 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=1 by probing script field
+feb.-24 15:31:46.125 [main] INFO  nextflow.cli.CmdRun - Launching `main.nf` [desperate_marconi] DSL1 - revision: f687a666aa
+feb.-24 15:31:46.125 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+feb.-24 15:31:46.126 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+feb.-24 15:31:46.134 [main] DEBUG nextflow.secret.LocalSecretsProvider - Secrets store: /home/alvaro/.nextflow/secrets/store.json
+feb.-24 15:31:46.141 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@1549bba7] - activable => nextflow.secret.LocalSecretsProvider@1549bba7
+feb.-24 15:31:46.186 [main] DEBUG nextflow.Session - Session UUID: a0fd9ffb-81ea-486c-966c-31be961147db
+feb.-24 15:31:46.186 [main] DEBUG nextflow.Session - Run name: desperate_marconi
+feb.-24 15:31:46.186 [main] DEBUG nextflow.Session - Executor pool size: 16
+feb.-24 15:31:46.194 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=48; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+feb.-24 15:31:46.215 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 22.10.6 build 5843
+  Created: 23-01-2023 23:20 UTC (24-01-2023 00:20 CEST)
+  System: Linux 5.15.0-60-generic
+  Runtime: Groovy 3.0.13 on OpenJDK 64-Bit Server VM 11.0.13+7-b1751.21
+  Encoding: UTF-8 (UTF-8)
+  Process: 867398@alvaro-MS-7C75 [127.0.1.1]
+  CPUs: 16 - Mem: 62.7 GB (6.3 GB) - Swap: 2 GB (2 GB)
+feb.-24 15:31:46.231 [main] DEBUG nextflow.Session - Work-dir: /home/alvaro/github/ica_preprocessing/Synechococcus_sp_PCC_7002/work [ext2/ext3]
+feb.-24 15:31:46.255 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+feb.-24 15:31:46.262 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+feb.-24 15:31:46.275 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+feb.-24 15:31:46.283 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 17; maxThreads: 1000
+feb.-24 15:31:46.325 [main] DEBUG nextflow.Session - Session start
+feb.-24 15:31:47.810 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+feb.-24 15:31:47.816 [main] WARN  nextflow.script.ScriptBinding - Access to undefined parameter `help` -- Initialise it to a default value eg. `params.help = some_value`
+feb.-24 15:31:47.816 [main] WARN  nextflow.script.ScriptBinding - Access to undefined parameter `organism` -- Initialise it to a default value eg. `params.organism = some_value`
+feb.-24 15:31:47.817 [main] WARN  nextflow.script.ScriptBinding - Access to undefined parameter `metadata` -- Initialise it to a default value eg. `params.metadata = some_value`
+feb.-24 15:31:47.817 [main] WARN  nextflow.script.ScriptBinding - Access to undefined parameter `sequence_dir` -- Initialise it to a default value eg. `params.sequence_dir = some_value`
+feb.-24 15:31:47.836 [PathVisitor-1] DEBUG nextflow.file.PathVisitor - files for syntax: glob; folder: null/; pattern: *.{fasta,gff3}; options: [checkIfExists:true]
+feb.-24 15:31:47.840 [PathVisitor-1] DEBUG nextflow.file.PathVisitor - No such file: null/ -- Skipping visit
+feb.-24 15:31:47.843 [PathVisitor-1] ERROR nextflow.Channel - No files match pattern `*.{fasta,gff3}` at path: null/
+java.lang.IllegalArgumentException: No files match pattern `*.{fasta,gff3}` at path: null/
+	at nextflow.file.PathVisitor.pathImpl(PathVisitor.groovy:173)
+	at nextflow.file.PathVisitor.applyGlobPattern0(PathVisitor.groovy:131)
+	at nextflow.file.PathVisitor.apply(PathVisitor.groovy:69)
+	at nextflow.file.PathVisitor$_applyAsync_closure1.doCall(PathVisitor.groovy:78)
+	at nextflow.file.PathVisitor$_applyAsync_closure1.call(PathVisitor.groovy)
+	at groovy.lang.Closure.run(Closure.java:493)
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:783)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+feb.-24 15:31:47.849 [PathVisitor-1] DEBUG nextflow.Session - Session aborted -- Cause: No files match pattern `*.{fasta,gff3}` at path: null/
+feb.-24 15:31:47.954 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+feb.-24 15:31:47.954 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+feb.-24 15:31:47.960 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+feb.-24 15:31:47.964 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=16; memory=62.7 GB; capacity=16; pollInterval=100ms; dumpInterval=5m
+feb.-24 15:31:48.012 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+feb.-24 15:31:48.012 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+feb.-24 15:31:48.015 [main] ERROR nextflow.cli.Launcher - @unknown
+groovy.lang.GroovyRuntimeException: Ambiguous method overloading for method java.io.File#<init>.
+Cannot resolve which method to invoke for [null] due to overlapping prototypes between:
+	[class java.net.URI]
+	[class java.lang.String]
+	at groovy.lang.MetaClassImpl.doChooseMostSpecificParams(MetaClassImpl.java:3354)
+	at groovy.lang.MetaClassImpl.chooseMostSpecificParams(MetaClassImpl.java:3330)
+	at groovy.lang.MetaClassImpl.chooseMethodInternal(MetaClassImpl.java:3320)
+	at groovy.lang.MetaClassImpl.chooseMethod(MetaClassImpl.java:3264)
+	at groovy.lang.MetaClassImpl.invokeConstructor(MetaClassImpl.java:1824)
+	at groovy.lang.MetaClassImpl.invokeConstructor(MetaClassImpl.java:1615)
+	at groovy.lang.DelegatingMetaClass.invokeConstructor(DelegatingMetaClass.java:133)
+	at org.codehaus.groovy.runtime.callsite.MetaClassConstructorSite.callConstructor(MetaClassConstructorSite.java:46)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at Script_ec514071.runScript(Script_ec514071:129)
+	at nextflow.script.BaseScript.runDsl1(BaseScript.groovy:164)
+	at nextflow.script.BaseScript.run(BaseScript.groovy:217)
+	at nextflow.script.ScriptParser.runScript(ScriptParser.groovy:230)
+	at nextflow.script.ScriptRunner.run(ScriptRunner.groovy:225)
+	at nextflow.script.ScriptRunner.execute(ScriptRunner.groovy:131)
+	at nextflow.cli.CmdRun.run(CmdRun.groovy:354)
+	at nextflow.cli.Launcher.run(Launcher.groovy:487)
+	at nextflow.cli.Launcher.main(Launcher.groovy:646)
