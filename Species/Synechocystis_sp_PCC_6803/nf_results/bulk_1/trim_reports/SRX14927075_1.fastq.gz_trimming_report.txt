@@ -1,0 +1,132 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: SRX14927075_1.fastq.gz
+Trimming mode: single-end
+Trim Galore version: 0.6.4_dev
+Cutadapt version: 2.6
+Python version: could not detect
+Number of cores used for trimming: 8
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Using Illumina adapter for trimming (count: 13). Second best hit was Nextera (count: 0)
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length before a sequence gets removed: 20 bp
+Running FastQC on the data once trimming has completed
+Output file will be GZIP compressed
+
+
+This is cutadapt 2.6 with Python 3.7.3
+Command line parameters: -j 8 -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC SRX14927075_1.fastq.gz
+Processing reads on 8 cores in single-end mode ...
+Finished in 188.32 s (4 us/read; 14.36 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              45,056,876
+Reads with adapters:                 6,952,462 (15.4%)
+Reads written (passing filters):    45,056,876 (100.0%)
+
+Total basepairs processed: 3,382,256,329 bp
+Quality-trimmed:              20,477,041 bp (0.6%)
+Total written (filtered):  3,353,141,176 bp (99.1%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 6952462 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 35.5%
+  C: 25.9%
+  G: 19.4%
+  T: 19.3%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	5909700	11264219.0	0	5909700
+2	613210	2816054.8	0	613210
+3	354985	704013.7	0	354985
+4	58353	176003.4	0	58353
+5	9326	44000.9	0	9326
+6	1475	11000.2	0	1475
+7	268	2750.1	0	268
+8	54	687.5	0	54
+9	61	171.9	0	24 37
+10	194	43.0	1	14 180
+11	164	10.7	1	11 153
+12	98	2.7	1	5 93
+13	136	0.7	1	7 129
+14	167	0.7	1	6 161
+15	237	0.7	1	21 216
+16	227	0.7	1	22 205
+17	330	0.7	1	43 287
+18	283	0.7	1	64 219
+19	251	0.7	1	48 203
+20	149	0.7	1	23 126
+21	94	0.7	1	17 77
+22	123	0.7	1	30 93
+23	104	0.7	1	18 86
+24	83	0.7	1	21 62
+25	142	0.7	1	39 103
+26	196	0.7	1	47 149
+27	249	0.7	1	63 186
+28	254	0.7	1	74 180
+29	31	0.7	1	10 21
+30	31	0.7	1	9 22
+31	43	0.7	1	9 34
+32	70	0.7	1	9 61
+33	36	0.7	1	12 24
+34	94	0.7	1	19 75
+35	79	0.7	1	19 60
+36	108	0.7	1	25 83
+37	95	0.7	1	29 66
+38	82	0.7	1	21 61
+39	13	0.7	1	3 10
+40	17	0.7	1	0 17
+41	23	0.7	1	4 19
+42	43	0.7	1	11 32
+43	30	0.7	1	4 26
+44	34	0.7	1	14 20
+45	8	0.7	1	1 7
+46	16	0.7	1	1 15
+47	11	0.7	1	0 11
+48	16	0.7	1	2 14
+49	9	0.7	1	1 8
+50	10	0.7	1	1 9
+51	11	0.7	1	0 11
+52	7	0.7	1	4 3
+53	8	0.7	1	0 8
+54	6	0.7	1	0 6
+55	14	0.7	1	0 14
+56	3	0.7	1	0 3
+57	6	0.7	1	0 6
+59	14	0.7	1	1 13
+60	1	0.7	1	0 1
+61	6	0.7	1	0 6
+62	9	0.7	1	0 9
+63	1	0.7	1	0 1
+64	3	0.7	1	0 3
+65	2	0.7	1	0 2
+66	1	0.7	1	0 1
+67	6	0.7	1	1 5
+68	8	0.7	1	0 8
+69	5	0.7	1	0 5
+70	40	0.7	1	0 40
+71	60	0.7	1	0 60
+72	76	0.7	1	0 76
+73	120	0.7	1	0 120
+74	108	0.7	1	0 108
+75	86	0.7	1	0 86
+76	49	0.7	1	0 49
+
+RUN STATISTICS FOR INPUT FILE: SRX14927075_1.fastq.gz
+=============================================
+45056876 sequences processed in total
+Sequences removed because they became shorter than the length cutoff of 20 bp:	281113 (0.6%)
+

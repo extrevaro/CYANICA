@@ -1,0 +1,51 @@
+Module	Section	Sample Name	Source
+featureCounts	all_sections	SRX2492746	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/featureCounts/SRX2492746_all.txt.summary
+featureCounts	all_sections	SRX2694286	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/featureCounts/SRX2694286_all.txt.summary
+featureCounts	all_sections	SRX2694288	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/featureCounts/SRX2694288_all.txt.summary
+featureCounts	all_sections	SRX2492751	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/featureCounts/SRX2492751_all.txt.summary
+featureCounts	all_sections	SRX2492747	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/featureCounts/SRX2492747_all.txt.summary
+featureCounts	all_sections	SRX2694287	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/featureCounts/SRX2694287_all.txt.summary
+featureCounts	all_sections	SRX2492749	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/featureCounts/SRX2492749_all.txt.summary
+featureCounts	all_sections	SRX2492748	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/featureCounts/SRX2492748_all.txt.summary
+featureCounts	all_sections	SRX2492750	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/featureCounts/SRX2492750_all.txt.summary
+featureCounts	all_sections	SRX2694285	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/featureCounts/SRX2694285_all.txt.summary
+Bowtie 1	all_sections	SRX2694288	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/bowtie/SRX2694288_bowtie.txt
+Bowtie 1	all_sections	SRX2694287	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/bowtie/SRX2694287_bowtie.txt
+Bowtie 1	all_sections	SRX2492746	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/bowtie/SRX2492746_bowtie.txt
+Bowtie 1	all_sections	SRX2694285	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/bowtie/SRX2694285_bowtie.txt
+Bowtie 1	all_sections	SRX2492749	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/bowtie/SRX2492749_bowtie.txt
+Bowtie 1	all_sections	SRX2492747	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/bowtie/SRX2492747_bowtie.txt
+Bowtie 1	all_sections	SRX2694286	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/bowtie/SRX2694286_bowtie.txt
+Bowtie 1	all_sections	SRX2492750	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/bowtie/SRX2492750_bowtie.txt
+Bowtie 1	all_sections	SRX2492751	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/bowtie/SRX2492751_bowtie.txt
+Bowtie 1	all_sections	SRX2492748	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/bowtie/SRX2492748_bowtie.txt
+RSeQC	infer_experiment	SRX2492746	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/rseqc/SRX2492746.infer_experiment.txt
+RSeQC	infer_experiment	SRX2492747	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/rseqc/SRX2492747.infer_experiment.txt
+RSeQC	infer_experiment	SRX2694288	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/rseqc/SRX2694288.infer_experiment.txt
+RSeQC	infer_experiment	SRX2492749	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/rseqc/SRX2492749.infer_experiment.txt
+RSeQC	infer_experiment	SRX2694287	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/rseqc/SRX2694287.infer_experiment.txt
+RSeQC	infer_experiment	SRX2492748	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/rseqc/SRX2492748.infer_experiment.txt
+RSeQC	infer_experiment	SRX2492750	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/rseqc/SRX2492750.infer_experiment.txt
+RSeQC	infer_experiment	SRX2694286	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/rseqc/SRX2694286.infer_experiment.txt
+RSeQC	infer_experiment	SRX2492751	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/rseqc/SRX2492751.infer_experiment.txt
+RSeQC	infer_experiment	SRX2694285	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/rseqc/SRX2694285.infer_experiment.txt
+Cutadapt	all_sections	SRX2694286	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/cutadapt/SRX2694286_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX2492746	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/cutadapt/SRX2492746_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX2694285	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/cutadapt/SRX2694285_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX2492749	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/cutadapt/SRX2492749_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX2694287	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/cutadapt/SRX2694287_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX2492748	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/cutadapt/SRX2492748_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX2492751	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/cutadapt/SRX2492751_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX2694288	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/cutadapt/SRX2694288_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX2492750	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/cutadapt/SRX2492750_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX2492747	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/cutadapt/SRX2492747_1.fastq.gz_trimming_report.txt
+FastQC	all_sections	SRX2492747	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/fastqc/SRX2492747_trimmed_fastqc.zip
+FastQC	all_sections	SRX2694287	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/fastqc/SRX2694287_trimmed_fastqc.zip
+FastQC	all_sections	SRX2694288	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/fastqc/SRX2694288_trimmed_fastqc.zip
+FastQC	all_sections	SRX2492750	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/fastqc/SRX2492750_trimmed_fastqc.zip
+FastQC	all_sections	SRX2694286	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/fastqc/SRX2694286_trimmed_fastqc.zip
+FastQC	all_sections	SRX2694285	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/fastqc/SRX2694285_trimmed_fastqc.zip
+FastQC	all_sections	SRX2492749	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/fastqc/SRX2492749_trimmed_fastqc.zip
+FastQC	all_sections	SRX2492751	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/fastqc/SRX2492751_trimmed_fastqc.zip
+FastQC	all_sections	SRX2492746	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/fastqc/SRX2492746_trimmed_fastqc.zip
+FastQC	all_sections	SRX2492748	/home/alvaro/github/CYANICA/work/df/5a779972cf1c93994ca65d29375177/fastqc/SRX2492748_trimmed_fastqc.zip

@@ -1,0 +1,233 @@
+[2023-03-07 13:56:55,450] multiqc                                            [DEBUG  ]  This is MultiQC v1.11
+[2023-03-07 13:56:55,450] multiqc                                            [DEBUG  ]  No MultiQC config found: /usr/local/lib/python3.9/site-packages/multiqc_config.yaml
+[2023-03-07 13:56:55,450] multiqc                                            [DEBUG  ]  No MultiQC config found: /.multiqc_config.yaml
+[2023-03-07 13:56:55,453] multiqc                                            [DEBUG  ]  Loading config settings from: multiqc_config.yaml
+[2023-03-07 13:56:55,453] multiqc                                            [DEBUG  ]  New config 'title': Modulome
+[2023-03-07 13:56:55,453] multiqc                                            [DEBUG  ]  New config 'subtitle': Analysis of public microbial RNA-seq data
+[2023-03-07 13:56:55,453] multiqc                                            [DEBUG  ]  New config 'report_header_info': [{'Contact E-mail': 'avsastry@ucsd.edu'}, {'Application Type': 'Microbial RNA-seq Analysis'}]
+[2023-03-07 13:56:55,453] multiqc                                            [DEBUG  ]  New config 'custom_logo': None
+[2023-03-07 13:56:55,453] multiqc                                            [DEBUG  ]  New config 'custom_logo_url': None
+[2023-03-07 13:56:55,453] multiqc                                            [DEBUG  ]  New config 'custom_logo_title': None
+[2023-03-07 13:56:55,454] multiqc                                            [DEBUG  ]  New config 'custom_content': {'order': []}
+[2023-03-07 13:56:55,454] multiqc                                            [DEBUG  ]  Added to filename clean extensions: ['val_1', '_val_2', '_1.fastq', '_2.fastq', '.infer_experiment', '_bowtie.txt', '_all.txt.summary']
+[2023-03-07 13:56:55,454] multiqc                                            [DEBUG  ]  New config 'rseqc_sections': ['infer_experiment']
+[2023-03-07 13:56:55,454] multiqc                                            [DEBUG  ]  New config 'run_modules': ['featureCounts', 'bowtie1', 'rseqc', 'cutadapt', 'fastqc']
+[2023-03-07 13:56:55,454] multiqc                                            [DEBUG  ]  New config 'top_modules': []
+[2023-03-07 13:56:55,454] multiqc                                            [DEBUG  ]  New config 'module_order': ['featureCounts', 'bowtie1', 'rseqc', 'cutadapt', 'fastqc']
+[2023-03-07 13:56:55,456] multiqc                                            [DEBUG  ]  Loading config settings from: multiqc_config.yaml
+[2023-03-07 13:56:55,456] multiqc                                            [DEBUG  ]  New config 'title': Modulome
+[2023-03-07 13:56:55,456] multiqc                                            [DEBUG  ]  New config 'subtitle': Analysis of public microbial RNA-seq data
+[2023-03-07 13:56:55,456] multiqc                                            [DEBUG  ]  New config 'report_header_info': [{'Contact E-mail': 'avsastry@ucsd.edu'}, {'Application Type': 'Microbial RNA-seq Analysis'}]
+[2023-03-07 13:56:55,456] multiqc                                            [DEBUG  ]  New config 'custom_logo': None
+[2023-03-07 13:56:55,456] multiqc                                            [DEBUG  ]  New config 'custom_logo_url': None
+[2023-03-07 13:56:55,456] multiqc                                            [DEBUG  ]  New config 'custom_logo_title': None
+[2023-03-07 13:56:55,456] multiqc                                            [DEBUG  ]  New config 'custom_content': {'order': []}
+[2023-03-07 13:56:55,456] multiqc                                            [DEBUG  ]  Added to filename clean extensions: ['val_1', '_val_2', '_1.fastq', '_2.fastq', '.infer_experiment', '_bowtie.txt', '_all.txt.summary']
+[2023-03-07 13:56:55,457] multiqc                                            [DEBUG  ]  New config 'rseqc_sections': ['infer_experiment']
+[2023-03-07 13:56:55,457] multiqc                                            [DEBUG  ]  New config 'run_modules': ['featureCounts', 'bowtie1', 'rseqc', 'cutadapt', 'fastqc']
+[2023-03-07 13:56:55,457] multiqc                                            [DEBUG  ]  New config 'top_modules': []
+[2023-03-07 13:56:55,457] multiqc                                            [DEBUG  ]  New config 'module_order': ['featureCounts', 'bowtie1', 'rseqc', 'cutadapt', 'fastqc']
+[2023-03-07 13:56:55,457] multiqc                                            [DEBUG  ]  Command used: /usr/local/bin/multiqc -f -c multiqc_config.yaml .
+[2023-03-07 13:56:55,737] multiqc                                            [WARNING]  MultiQC Version v1.14 now available!
+[2023-03-07 13:56:55,737] multiqc                                            [DEBUG  ]  Command     : /usr/local/bin/multiqc -f -c multiqc_config.yaml .
+[2023-03-07 13:56:55,737] multiqc                                            [DEBUG  ]  Working dir : /data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64
+[2023-03-07 13:56:55,738] multiqc                                            [DEBUG  ]  Template    : default
+[2023-03-07 13:56:55,738] multiqc                                            [DEBUG  ]  Running Python 3.9.5 | packaged by conda-forge | (default, Jun 19 2021, 00:32:32)  [GCC 9.3.0]
+[2023-03-07 13:56:55,738] multiqc                                            [INFO   ]  Report title: Modulome
+[2023-03-07 13:56:55,739] multiqc                                            [INFO   ]  Only using modules: featureCounts, bowtie1, rseqc, cutadapt, fastqc
+[2023-03-07 13:56:55,739] multiqc                                            [DEBUG  ]  Analysing modules: featureCounts, bowtie1, rseqc, cutadapt, fastqc
+[2023-03-07 13:56:55,739] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /tmp/tmpd90akk4t
+[2023-03-07 13:56:55,809] multiqc                                            [INFO   ]  Search path : /data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64
+[2023-03-07 13:56:55,809] multiqc                                            [DEBUG  ]  Ignored 258 search patterns as didn't match running modules.
+[2023-03-07 13:56:55,820] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX13465662_trimmed_fastqc.html
+[2023-03-07 13:56:55,820] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX13465662_trimmed_fastqc.html
+[2023-03-07 13:56:55,820] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX13465662_trimmed_fastqc.html
+[2023-03-07 13:56:55,820] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX13465662_trimmed_fastqc.html
+[2023-03-07 13:56:55,840] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX13465657_trimmed_fastqc.html
+[2023-03-07 13:56:55,841] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX13465657_trimmed_fastqc.html
+[2023-03-07 13:56:55,841] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX13465657_trimmed_fastqc.html
+[2023-03-07 13:56:55,841] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX13465657_trimmed_fastqc.html
+[2023-03-07 13:56:55,844] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX13465664_trimmed_fastqc.html
+[2023-03-07 13:56:55,844] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX13465664_trimmed_fastqc.html
+[2023-03-07 13:56:55,844] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX13465664_trimmed_fastqc.html
+[2023-03-07 13:56:55,844] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX13465664_trimmed_fastqc.html
+[2023-03-07 13:56:55,848] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX13465666_trimmed_fastqc.html
+[2023-03-07 13:56:55,848] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX13465666_trimmed_fastqc.html
+[2023-03-07 13:56:55,848] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX13465666_trimmed_fastqc.html
+[2023-03-07 13:56:55,848] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX13465666_trimmed_fastqc.html
+[2023-03-07 13:56:55,852] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX13465645_trimmed_fastqc.html
+[2023-03-07 13:56:55,852] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX13465645_trimmed_fastqc.html
+[2023-03-07 13:56:55,852] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX13465645_trimmed_fastqc.html
+[2023-03-07 13:56:55,852] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX13465645_trimmed_fastqc.html
+[2023-03-07 13:56:55,856] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX13465639_trimmed_fastqc.html
+[2023-03-07 13:56:55,856] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX13465639_trimmed_fastqc.html
+[2023-03-07 13:56:55,856] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX13465639_trimmed_fastqc.html
+[2023-03-07 13:56:55,856] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX13465639_trimmed_fastqc.html
+[2023-03-07 13:56:55,860] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX13465624_trimmed_fastqc.html
+[2023-03-07 13:56:55,860] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX13465624_trimmed_fastqc.html
+[2023-03-07 13:56:55,860] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX13465624_trimmed_fastqc.html
+[2023-03-07 13:56:55,860] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX13465624_trimmed_fastqc.html
+[2023-03-07 13:56:55,863] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX13465661_trimmed_fastqc.html
+[2023-03-07 13:56:55,863] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX13465661_trimmed_fastqc.html
+[2023-03-07 13:56:55,863] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX13465661_trimmed_fastqc.html
+[2023-03-07 13:56:55,863] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX13465661_trimmed_fastqc.html
+[2023-03-07 13:56:55,866] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX13465658_trimmed_fastqc.html
+[2023-03-07 13:56:55,866] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX13465658_trimmed_fastqc.html
+[2023-03-07 13:56:55,866] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX13465658_trimmed_fastqc.html
+[2023-03-07 13:56:55,866] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX13465658_trimmed_fastqc.html
+[2023-03-07 13:56:55,869] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX13465652_trimmed_fastqc.html
+[2023-03-07 13:56:55,869] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX13465652_trimmed_fastqc.html
+[2023-03-07 13:56:55,869] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX13465652_trimmed_fastqc.html
+[2023-03-07 13:56:55,869] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX13465652_trimmed_fastqc.html
+[2023-03-07 13:56:55,871] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX13465638_trimmed_fastqc.html
+[2023-03-07 13:56:55,871] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX13465638_trimmed_fastqc.html
+[2023-03-07 13:56:55,871] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX13465638_trimmed_fastqc.html
+[2023-03-07 13:56:55,871] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX13465638_trimmed_fastqc.html
+[2023-03-07 13:56:55,874] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX13465632_trimmed_fastqc.html
+[2023-03-07 13:56:55,874] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX13465632_trimmed_fastqc.html
+[2023-03-07 13:56:55,874] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX13465632_trimmed_fastqc.html
+[2023-03-07 13:56:55,874] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX13465632_trimmed_fastqc.html
+[2023-03-07 13:56:55,877] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX13465636_trimmed_fastqc.html
+[2023-03-07 13:56:55,877] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX13465636_trimmed_fastqc.html
+[2023-03-07 13:56:55,877] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX13465636_trimmed_fastqc.html
+[2023-03-07 13:56:55,877] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX13465636_trimmed_fastqc.html
+[2023-03-07 13:56:55,879] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX13465660_trimmed_fastqc.html
+[2023-03-07 13:56:55,879] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX13465660_trimmed_fastqc.html
+[2023-03-07 13:56:55,879] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX13465660_trimmed_fastqc.html
+[2023-03-07 13:56:55,879] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX13465660_trimmed_fastqc.html
+[2023-03-07 13:56:55,882] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX13465651_trimmed_fastqc.html
+[2023-03-07 13:56:55,882] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX13465651_trimmed_fastqc.html
+[2023-03-07 13:56:55,882] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX13465651_trimmed_fastqc.html
+[2023-03-07 13:56:55,882] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX13465651_trimmed_fastqc.html
+[2023-03-07 13:56:55,885] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX13465647_trimmed_fastqc.html
+[2023-03-07 13:56:55,885] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX13465647_trimmed_fastqc.html
+[2023-03-07 13:56:55,885] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX13465647_trimmed_fastqc.html
+[2023-03-07 13:56:55,885] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX13465647_trimmed_fastqc.html
+[2023-03-07 13:56:55,887] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX13465653_trimmed_fastqc.html
+[2023-03-07 13:56:55,887] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX13465653_trimmed_fastqc.html
+[2023-03-07 13:56:55,887] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX13465653_trimmed_fastqc.html
+[2023-03-07 13:56:55,887] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX13465653_trimmed_fastqc.html
+[2023-03-07 13:56:55,890] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX13465648_trimmed_fastqc.html
+[2023-03-07 13:56:55,890] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX13465648_trimmed_fastqc.html
+[2023-03-07 13:56:55,890] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX13465648_trimmed_fastqc.html
+[2023-03-07 13:56:55,890] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX13465648_trimmed_fastqc.html
+[2023-03-07 13:56:55,892] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX13465649_trimmed_fastqc.html
+[2023-03-07 13:56:55,893] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX13465649_trimmed_fastqc.html
+[2023-03-07 13:56:55,893] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX13465649_trimmed_fastqc.html
+[2023-03-07 13:56:55,893] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX13465649_trimmed_fastqc.html
+[2023-03-07 13:56:55,895] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX13465642_trimmed_fastqc.html
+[2023-03-07 13:56:55,895] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX13465642_trimmed_fastqc.html
+[2023-03-07 13:56:55,895] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX13465642_trimmed_fastqc.html
+[2023-03-07 13:56:55,895] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX13465642_trimmed_fastqc.html
+[2023-03-07 13:56:55,898] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX13465625_trimmed_fastqc.html
+[2023-03-07 13:56:55,898] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX13465625_trimmed_fastqc.html
+[2023-03-07 13:56:55,898] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX13465625_trimmed_fastqc.html
+[2023-03-07 13:56:55,898] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX13465625_trimmed_fastqc.html
+[2023-03-07 13:56:55,901] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX13465663_trimmed_fastqc.html
+[2023-03-07 13:56:55,901] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX13465663_trimmed_fastqc.html
+[2023-03-07 13:56:55,901] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX13465663_trimmed_fastqc.html
+[2023-03-07 13:56:55,901] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX13465663_trimmed_fastqc.html
+[2023-03-07 13:56:55,903] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX13465659_trimmed_fastqc.html
+[2023-03-07 13:56:55,903] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX13465659_trimmed_fastqc.html
+[2023-03-07 13:56:55,903] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX13465659_trimmed_fastqc.html
+[2023-03-07 13:56:55,903] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX13465659_trimmed_fastqc.html
+[2023-03-07 13:56:55,906] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX13465633_trimmed_fastqc.html
+[2023-03-07 13:56:55,906] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX13465633_trimmed_fastqc.html
+[2023-03-07 13:56:55,906] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX13465633_trimmed_fastqc.html
+[2023-03-07 13:56:55,906] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX13465633_trimmed_fastqc.html
+[2023-03-07 13:56:55,909] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX13465634_trimmed_fastqc.html
+[2023-03-07 13:56:55,909] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX13465634_trimmed_fastqc.html
+[2023-03-07 13:56:55,909] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX13465634_trimmed_fastqc.html
+[2023-03-07 13:56:55,909] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX13465634_trimmed_fastqc.html
+[2023-03-07 13:56:55,911] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX13465630_trimmed_fastqc.html
+[2023-03-07 13:56:55,911] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX13465630_trimmed_fastqc.html
+[2023-03-07 13:56:55,911] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX13465630_trimmed_fastqc.html
+[2023-03-07 13:56:55,911] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX13465630_trimmed_fastqc.html
+[2023-03-07 13:56:55,914] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX13465654_trimmed_fastqc.html
+[2023-03-07 13:56:55,914] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX13465654_trimmed_fastqc.html
+[2023-03-07 13:56:55,914] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX13465654_trimmed_fastqc.html
+[2023-03-07 13:56:55,914] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX13465654_trimmed_fastqc.html
+[2023-03-07 13:56:55,917] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX13465656_trimmed_fastqc.html
+[2023-03-07 13:56:55,917] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX13465656_trimmed_fastqc.html
+[2023-03-07 13:56:55,917] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX13465656_trimmed_fastqc.html
+[2023-03-07 13:56:55,917] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX13465656_trimmed_fastqc.html
+[2023-03-07 13:56:55,920] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX13465655_trimmed_fastqc.html
+[2023-03-07 13:56:55,920] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX13465655_trimmed_fastqc.html
+[2023-03-07 13:56:55,920] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX13465655_trimmed_fastqc.html
+[2023-03-07 13:56:55,920] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX13465655_trimmed_fastqc.html
+[2023-03-07 13:56:55,922] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX13465631_trimmed_fastqc.html
+[2023-03-07 13:56:55,922] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX13465631_trimmed_fastqc.html
+[2023-03-07 13:56:55,923] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX13465631_trimmed_fastqc.html
+[2023-03-07 13:56:55,923] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX13465631_trimmed_fastqc.html
+[2023-03-07 13:56:55,925] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX13465665_trimmed_fastqc.html
+[2023-03-07 13:56:55,925] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX13465665_trimmed_fastqc.html
+[2023-03-07 13:56:55,925] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX13465665_trimmed_fastqc.html
+[2023-03-07 13:56:55,925] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX13465665_trimmed_fastqc.html
+[2023-03-07 13:56:55,928] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX13465627_trimmed_fastqc.html
+[2023-03-07 13:56:55,928] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX13465627_trimmed_fastqc.html
+[2023-03-07 13:56:55,928] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX13465627_trimmed_fastqc.html
+[2023-03-07 13:56:55,928] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX13465627_trimmed_fastqc.html
+[2023-03-07 13:56:55,930] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX13465646_trimmed_fastqc.html
+[2023-03-07 13:56:55,931] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX13465646_trimmed_fastqc.html
+[2023-03-07 13:56:55,931] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX13465646_trimmed_fastqc.html
+[2023-03-07 13:56:55,931] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX13465646_trimmed_fastqc.html
+[2023-03-07 13:56:55,933] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX13465641_trimmed_fastqc.html
+[2023-03-07 13:56:55,933] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX13465641_trimmed_fastqc.html
+[2023-03-07 13:56:55,933] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX13465641_trimmed_fastqc.html
+[2023-03-07 13:56:55,933] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX13465641_trimmed_fastqc.html
+[2023-03-07 13:56:55,936] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX13465650_trimmed_fastqc.html
+[2023-03-07 13:56:55,936] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX13465650_trimmed_fastqc.html
+[2023-03-07 13:56:55,936] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX13465650_trimmed_fastqc.html
+[2023-03-07 13:56:55,936] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX13465650_trimmed_fastqc.html
+[2023-03-07 13:56:55,939] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX13465668_trimmed_fastqc.html
+[2023-03-07 13:56:55,939] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX13465668_trimmed_fastqc.html
+[2023-03-07 13:56:55,939] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX13465668_trimmed_fastqc.html
+[2023-03-07 13:56:55,939] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX13465668_trimmed_fastqc.html
+[2023-03-07 13:56:55,941] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX13465635_trimmed_fastqc.html
+[2023-03-07 13:56:55,941] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX13465635_trimmed_fastqc.html
+[2023-03-07 13:56:55,941] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX13465635_trimmed_fastqc.html
+[2023-03-07 13:56:55,941] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX13465635_trimmed_fastqc.html
+[2023-03-07 13:56:55,944] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX13465626_trimmed_fastqc.html
+[2023-03-07 13:56:55,944] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX13465626_trimmed_fastqc.html
+[2023-03-07 13:56:55,944] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX13465626_trimmed_fastqc.html
+[2023-03-07 13:56:55,944] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX13465626_trimmed_fastqc.html
+[2023-03-07 13:56:55,947] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX13465644_trimmed_fastqc.html
+[2023-03-07 13:56:55,947] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX13465644_trimmed_fastqc.html
+[2023-03-07 13:56:55,947] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX13465644_trimmed_fastqc.html
+[2023-03-07 13:56:55,947] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX13465644_trimmed_fastqc.html
+[2023-03-07 13:56:55,949] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX13465640_trimmed_fastqc.html
+[2023-03-07 13:56:55,949] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX13465640_trimmed_fastqc.html
+[2023-03-07 13:56:55,949] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX13465640_trimmed_fastqc.html
+[2023-03-07 13:56:55,949] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX13465640_trimmed_fastqc.html
+[2023-03-07 13:56:55,952] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX13465628_trimmed_fastqc.html
+[2023-03-07 13:56:55,952] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX13465628_trimmed_fastqc.html
+[2023-03-07 13:56:55,952] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX13465628_trimmed_fastqc.html
+[2023-03-07 13:56:55,952] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX13465628_trimmed_fastqc.html
+[2023-03-07 13:56:55,955] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX13465643_trimmed_fastqc.html
+[2023-03-07 13:56:55,955] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX13465643_trimmed_fastqc.html
+[2023-03-07 13:56:55,955] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX13465643_trimmed_fastqc.html
+[2023-03-07 13:56:55,955] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX13465643_trimmed_fastqc.html
+[2023-03-07 13:56:55,957] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX13465629_trimmed_fastqc.html
+[2023-03-07 13:56:55,958] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX13465629_trimmed_fastqc.html
+[2023-03-07 13:56:55,958] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX13465629_trimmed_fastqc.html
+[2023-03-07 13:56:55,958] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX13465629_trimmed_fastqc.html
+[2023-03-07 13:56:55,960] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX13465667_trimmed_fastqc.html
+[2023-03-07 13:56:55,960] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX13465667_trimmed_fastqc.html
+[2023-03-07 13:56:55,960] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX13465667_trimmed_fastqc.html
+[2023-03-07 13:56:55,960] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX13465667_trimmed_fastqc.html
+[2023-03-07 13:56:55,963] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: SRX13465637_trimmed_fastqc.html
+[2023-03-07 13:56:55,963] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: SRX13465637_trimmed_fastqc.html
+[2023-03-07 13:56:55,963] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: SRX13465637_trimmed_fastqc.html
+[2023-03-07 13:56:55,963] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: SRX13465637_trimmed_fastqc.html
+[2023-03-07 13:56:56,978] multiqc.plots.bargraph                             [DEBUG  ]  Using matplotlib version 3.4.2
+[2023-03-07 13:56:57,004] multiqc.modules.featureCounts.feature_counts       [INFO   ]  Found 45 reports
+[2023-03-07 13:56:57,016] multiqc.modules.bowtie1.bowtie1                    [INFO   ]  Found 45 reports
+[2023-03-07 13:56:57,027] multiqc.modules.rseqc.rseqc                        [INFO   ]  Found 45 infer_experiment reports
+[2023-03-07 13:56:57,030] multiqc.plots.linegraph                            [DEBUG  ]  Using matplotlib version 3.4.2
+[2023-03-07 13:56:57,074] multiqc.modules.cutadapt.cutadapt                  [INFO   ]  Found 45 reports
+[2023-03-07 13:56:58,188] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 45 reports
+[2023-03-07 13:56:58,490] multiqc                                            [INFO   ]  Compressing plot data
+[2023-03-07 13:56:59,007] multiqc                                            [INFO   ]  Report      : multiqc_report.html
+[2023-03-07 13:56:59,007] multiqc                                            [INFO   ]  Data        : multiqc_data
+[2023-03-07 13:56:59,007] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpd90akk4t/multiqc_data' to '/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/multiqc_data'
+[2023-03-07 13:56:59,078] multiqc                                            [INFO   ]  MultiQC complete

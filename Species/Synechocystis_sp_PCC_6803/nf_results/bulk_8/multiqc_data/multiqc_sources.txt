@@ -1,0 +1,226 @@
+Module	Section	Sample Name	Source
+featureCounts	all_sections	SRX13465625	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/featureCounts/SRX13465625_all.txt.summary
+featureCounts	all_sections	SRX13465646	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/featureCounts/SRX13465646_all.txt.summary
+featureCounts	all_sections	SRX13465655	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/featureCounts/SRX13465655_all.txt.summary
+featureCounts	all_sections	SRX13465644	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/featureCounts/SRX13465644_all.txt.summary
+featureCounts	all_sections	SRX13465658	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/featureCounts/SRX13465658_all.txt.summary
+featureCounts	all_sections	SRX13465626	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/featureCounts/SRX13465626_all.txt.summary
+featureCounts	all_sections	SRX13465635	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/featureCounts/SRX13465635_all.txt.summary
+featureCounts	all_sections	SRX13465636	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/featureCounts/SRX13465636_all.txt.summary
+featureCounts	all_sections	SRX13465637	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/featureCounts/SRX13465637_all.txt.summary
+featureCounts	all_sections	SRX13465645	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/featureCounts/SRX13465645_all.txt.summary
+featureCounts	all_sections	SRX13465629	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/featureCounts/SRX13465629_all.txt.summary
+featureCounts	all_sections	SRX13465664	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/featureCounts/SRX13465664_all.txt.summary
+featureCounts	all_sections	SRX13465642	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/featureCounts/SRX13465642_all.txt.summary
+featureCounts	all_sections	SRX13465647	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/featureCounts/SRX13465647_all.txt.summary
+featureCounts	all_sections	SRX13465668	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/featureCounts/SRX13465668_all.txt.summary
+featureCounts	all_sections	SRX13465656	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/featureCounts/SRX13465656_all.txt.summary
+featureCounts	all_sections	SRX13465659	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/featureCounts/SRX13465659_all.txt.summary
+featureCounts	all_sections	SRX13465641	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/featureCounts/SRX13465641_all.txt.summary
+featureCounts	all_sections	SRX13465662	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/featureCounts/SRX13465662_all.txt.summary
+featureCounts	all_sections	SRX13465651	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/featureCounts/SRX13465651_all.txt.summary
+featureCounts	all_sections	SRX13465633	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/featureCounts/SRX13465633_all.txt.summary
+featureCounts	all_sections	SRX13465640	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/featureCounts/SRX13465640_all.txt.summary
+featureCounts	all_sections	SRX13465653	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/featureCounts/SRX13465653_all.txt.summary
+featureCounts	all_sections	SRX13465624	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/featureCounts/SRX13465624_all.txt.summary
+featureCounts	all_sections	SRX13465627	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/featureCounts/SRX13465627_all.txt.summary
+featureCounts	all_sections	SRX13465654	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/featureCounts/SRX13465654_all.txt.summary
+featureCounts	all_sections	SRX13465660	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/featureCounts/SRX13465660_all.txt.summary
+featureCounts	all_sections	SRX13465648	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/featureCounts/SRX13465648_all.txt.summary
+featureCounts	all_sections	SRX13465649	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/featureCounts/SRX13465649_all.txt.summary
+featureCounts	all_sections	SRX13465657	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/featureCounts/SRX13465657_all.txt.summary
+featureCounts	all_sections	SRX13465661	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/featureCounts/SRX13465661_all.txt.summary
+featureCounts	all_sections	SRX13465638	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/featureCounts/SRX13465638_all.txt.summary
+featureCounts	all_sections	SRX13465650	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/featureCounts/SRX13465650_all.txt.summary
+featureCounts	all_sections	SRX13465632	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/featureCounts/SRX13465632_all.txt.summary
+featureCounts	all_sections	SRX13465652	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/featureCounts/SRX13465652_all.txt.summary
+featureCounts	all_sections	SRX13465634	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/featureCounts/SRX13465634_all.txt.summary
+featureCounts	all_sections	SRX13465665	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/featureCounts/SRX13465665_all.txt.summary
+featureCounts	all_sections	SRX13465643	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/featureCounts/SRX13465643_all.txt.summary
+featureCounts	all_sections	SRX13465639	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/featureCounts/SRX13465639_all.txt.summary
+featureCounts	all_sections	SRX13465630	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/featureCounts/SRX13465630_all.txt.summary
+featureCounts	all_sections	SRX13465628	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/featureCounts/SRX13465628_all.txt.summary
+featureCounts	all_sections	SRX13465666	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/featureCounts/SRX13465666_all.txt.summary
+featureCounts	all_sections	SRX13465631	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/featureCounts/SRX13465631_all.txt.summary
+featureCounts	all_sections	SRX13465663	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/featureCounts/SRX13465663_all.txt.summary
+featureCounts	all_sections	SRX13465667	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/featureCounts/SRX13465667_all.txt.summary
+Bowtie 1	all_sections	SRX13465665	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/bowtie/SRX13465665_bowtie.txt
+Bowtie 1	all_sections	SRX13465662	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/bowtie/SRX13465662_bowtie.txt
+Bowtie 1	all_sections	SRX13465661	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/bowtie/SRX13465661_bowtie.txt
+Bowtie 1	all_sections	SRX13465659	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/bowtie/SRX13465659_bowtie.txt
+Bowtie 1	all_sections	SRX13465630	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/bowtie/SRX13465630_bowtie.txt
+Bowtie 1	all_sections	SRX13465639	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/bowtie/SRX13465639_bowtie.txt
+Bowtie 1	all_sections	SRX13465664	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/bowtie/SRX13465664_bowtie.txt
+Bowtie 1	all_sections	SRX13465634	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/bowtie/SRX13465634_bowtie.txt
+Bowtie 1	all_sections	SRX13465627	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/bowtie/SRX13465627_bowtie.txt
+Bowtie 1	all_sections	SRX13465650	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/bowtie/SRX13465650_bowtie.txt
+Bowtie 1	all_sections	SRX13465644	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/bowtie/SRX13465644_bowtie.txt
+Bowtie 1	all_sections	SRX13465631	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/bowtie/SRX13465631_bowtie.txt
+Bowtie 1	all_sections	SRX13465635	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/bowtie/SRX13465635_bowtie.txt
+Bowtie 1	all_sections	SRX13465642	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/bowtie/SRX13465642_bowtie.txt
+Bowtie 1	all_sections	SRX13465651	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/bowtie/SRX13465651_bowtie.txt
+Bowtie 1	all_sections	SRX13465625	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/bowtie/SRX13465625_bowtie.txt
+Bowtie 1	all_sections	SRX13465641	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/bowtie/SRX13465641_bowtie.txt
+Bowtie 1	all_sections	SRX13465632	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/bowtie/SRX13465632_bowtie.txt
+Bowtie 1	all_sections	SRX13465649	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/bowtie/SRX13465649_bowtie.txt
+Bowtie 1	all_sections	SRX13465643	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/bowtie/SRX13465643_bowtie.txt
+Bowtie 1	all_sections	SRX13465666	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/bowtie/SRX13465666_bowtie.txt
+Bowtie 1	all_sections	SRX13465660	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/bowtie/SRX13465660_bowtie.txt
+Bowtie 1	all_sections	SRX13465638	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/bowtie/SRX13465638_bowtie.txt
+Bowtie 1	all_sections	SRX13465626	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/bowtie/SRX13465626_bowtie.txt
+Bowtie 1	all_sections	SRX13465655	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/bowtie/SRX13465655_bowtie.txt
+Bowtie 1	all_sections	SRX13465640	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/bowtie/SRX13465640_bowtie.txt
+Bowtie 1	all_sections	SRX13465629	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/bowtie/SRX13465629_bowtie.txt
+Bowtie 1	all_sections	SRX13465637	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/bowtie/SRX13465637_bowtie.txt
+Bowtie 1	all_sections	SRX13465663	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/bowtie/SRX13465663_bowtie.txt
+Bowtie 1	all_sections	SRX13465653	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/bowtie/SRX13465653_bowtie.txt
+Bowtie 1	all_sections	SRX13465657	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/bowtie/SRX13465657_bowtie.txt
+Bowtie 1	all_sections	SRX13465654	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/bowtie/SRX13465654_bowtie.txt
+Bowtie 1	all_sections	SRX13465647	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/bowtie/SRX13465647_bowtie.txt
+Bowtie 1	all_sections	SRX13465668	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/bowtie/SRX13465668_bowtie.txt
+Bowtie 1	all_sections	SRX13465646	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/bowtie/SRX13465646_bowtie.txt
+Bowtie 1	all_sections	SRX13465656	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/bowtie/SRX13465656_bowtie.txt
+Bowtie 1	all_sections	SRX13465633	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/bowtie/SRX13465633_bowtie.txt
+Bowtie 1	all_sections	SRX13465658	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/bowtie/SRX13465658_bowtie.txt
+Bowtie 1	all_sections	SRX13465645	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/bowtie/SRX13465645_bowtie.txt
+Bowtie 1	all_sections	SRX13465652	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/bowtie/SRX13465652_bowtie.txt
+Bowtie 1	all_sections	SRX13465667	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/bowtie/SRX13465667_bowtie.txt
+Bowtie 1	all_sections	SRX13465648	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/bowtie/SRX13465648_bowtie.txt
+Bowtie 1	all_sections	SRX13465636	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/bowtie/SRX13465636_bowtie.txt
+Bowtie 1	all_sections	SRX13465628	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/bowtie/SRX13465628_bowtie.txt
+Bowtie 1	all_sections	SRX13465624	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/bowtie/SRX13465624_bowtie.txt
+RSeQC	infer_experiment	SRX13465632	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/rseqc/SRX13465632.infer_experiment.txt
+RSeQC	infer_experiment	SRX13465636	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/rseqc/SRX13465636.infer_experiment.txt
+RSeQC	infer_experiment	SRX13465630	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/rseqc/SRX13465630.infer_experiment.txt
+RSeQC	infer_experiment	SRX13465625	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/rseqc/SRX13465625.infer_experiment.txt
+RSeQC	infer_experiment	SRX13465654	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/rseqc/SRX13465654.infer_experiment.txt
+RSeQC	infer_experiment	SRX13465663	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/rseqc/SRX13465663.infer_experiment.txt
+RSeQC	infer_experiment	SRX13465656	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/rseqc/SRX13465656.infer_experiment.txt
+RSeQC	infer_experiment	SRX13465646	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/rseqc/SRX13465646.infer_experiment.txt
+RSeQC	infer_experiment	SRX13465648	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/rseqc/SRX13465648.infer_experiment.txt
+RSeQC	infer_experiment	SRX13465647	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/rseqc/SRX13465647.infer_experiment.txt
+RSeQC	infer_experiment	SRX13465626	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/rseqc/SRX13465626.infer_experiment.txt
+RSeQC	infer_experiment	SRX13465635	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/rseqc/SRX13465635.infer_experiment.txt
+RSeQC	infer_experiment	SRX13465662	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/rseqc/SRX13465662.infer_experiment.txt
+RSeQC	infer_experiment	SRX13465642	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/rseqc/SRX13465642.infer_experiment.txt
+RSeQC	infer_experiment	SRX13465637	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/rseqc/SRX13465637.infer_experiment.txt
+RSeQC	infer_experiment	SRX13465653	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/rseqc/SRX13465653.infer_experiment.txt
+RSeQC	infer_experiment	SRX13465659	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/rseqc/SRX13465659.infer_experiment.txt
+RSeQC	infer_experiment	SRX13465624	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/rseqc/SRX13465624.infer_experiment.txt
+RSeQC	infer_experiment	SRX13465660	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/rseqc/SRX13465660.infer_experiment.txt
+RSeQC	infer_experiment	SRX13465661	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/rseqc/SRX13465661.infer_experiment.txt
+RSeQC	infer_experiment	SRX13465638	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/rseqc/SRX13465638.infer_experiment.txt
+RSeQC	infer_experiment	SRX13465631	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/rseqc/SRX13465631.infer_experiment.txt
+RSeQC	infer_experiment	SRX13465650	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/rseqc/SRX13465650.infer_experiment.txt
+RSeQC	infer_experiment	SRX13465668	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/rseqc/SRX13465668.infer_experiment.txt
+RSeQC	infer_experiment	SRX13465651	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/rseqc/SRX13465651.infer_experiment.txt
+RSeQC	infer_experiment	SRX13465641	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/rseqc/SRX13465641.infer_experiment.txt
+RSeQC	infer_experiment	SRX13465640	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/rseqc/SRX13465640.infer_experiment.txt
+RSeQC	infer_experiment	SRX13465629	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/rseqc/SRX13465629.infer_experiment.txt
+RSeQC	infer_experiment	SRX13465655	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/rseqc/SRX13465655.infer_experiment.txt
+RSeQC	infer_experiment	SRX13465633	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/rseqc/SRX13465633.infer_experiment.txt
+RSeQC	infer_experiment	SRX13465649	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/rseqc/SRX13465649.infer_experiment.txt
+RSeQC	infer_experiment	SRX13465664	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/rseqc/SRX13465664.infer_experiment.txt
+RSeQC	infer_experiment	SRX13465627	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/rseqc/SRX13465627.infer_experiment.txt
+RSeQC	infer_experiment	SRX13465639	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/rseqc/SRX13465639.infer_experiment.txt
+RSeQC	infer_experiment	SRX13465667	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/rseqc/SRX13465667.infer_experiment.txt
+RSeQC	infer_experiment	SRX13465658	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/rseqc/SRX13465658.infer_experiment.txt
+RSeQC	infer_experiment	SRX13465666	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/rseqc/SRX13465666.infer_experiment.txt
+RSeQC	infer_experiment	SRX13465645	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/rseqc/SRX13465645.infer_experiment.txt
+RSeQC	infer_experiment	SRX13465665	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/rseqc/SRX13465665.infer_experiment.txt
+RSeQC	infer_experiment	SRX13465657	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/rseqc/SRX13465657.infer_experiment.txt
+RSeQC	infer_experiment	SRX13465628	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/rseqc/SRX13465628.infer_experiment.txt
+RSeQC	infer_experiment	SRX13465644	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/rseqc/SRX13465644.infer_experiment.txt
+RSeQC	infer_experiment	SRX13465652	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/rseqc/SRX13465652.infer_experiment.txt
+RSeQC	infer_experiment	SRX13465643	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/rseqc/SRX13465643.infer_experiment.txt
+RSeQC	infer_experiment	SRX13465634	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/rseqc/SRX13465634.infer_experiment.txt
+Cutadapt	all_sections	SRX13465647	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/cutadapt/SRX13465647_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX13465654	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/cutadapt/SRX13465654_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX13465664	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/cutadapt/SRX13465664_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX13465666	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/cutadapt/SRX13465666_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX13465641	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/cutadapt/SRX13465641_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX13465630	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/cutadapt/SRX13465630_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX13465627	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/cutadapt/SRX13465627_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX13465638	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/cutadapt/SRX13465638_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX13465661	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/cutadapt/SRX13465661_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX13465660	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/cutadapt/SRX13465660_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX13465649	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/cutadapt/SRX13465649_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX13465640	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/cutadapt/SRX13465640_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX13465629	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/cutadapt/SRX13465629_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX13465658	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/cutadapt/SRX13465658_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX13465665	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/cutadapt/SRX13465665_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX13465667	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/cutadapt/SRX13465667_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX13465656	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/cutadapt/SRX13465656_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX13465624	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/cutadapt/SRX13465624_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX13465637	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/cutadapt/SRX13465637_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX13465652	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/cutadapt/SRX13465652_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX13465631	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/cutadapt/SRX13465631_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX13465650	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/cutadapt/SRX13465650_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX13465659	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/cutadapt/SRX13465659_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX13465663	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/cutadapt/SRX13465663_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX13465655	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/cutadapt/SRX13465655_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX13465643	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/cutadapt/SRX13465643_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX13465633	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/cutadapt/SRX13465633_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX13465645	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/cutadapt/SRX13465645_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX13465657	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/cutadapt/SRX13465657_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX13465662	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/cutadapt/SRX13465662_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX13465639	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/cutadapt/SRX13465639_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX13465625	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/cutadapt/SRX13465625_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX13465635	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/cutadapt/SRX13465635_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX13465646	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/cutadapt/SRX13465646_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX13465626	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/cutadapt/SRX13465626_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX13465651	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/cutadapt/SRX13465651_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX13465644	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/cutadapt/SRX13465644_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX13465653	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/cutadapt/SRX13465653_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX13465634	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/cutadapt/SRX13465634_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX13465636	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/cutadapt/SRX13465636_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX13465628	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/cutadapt/SRX13465628_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX13465668	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/cutadapt/SRX13465668_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX13465642	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/cutadapt/SRX13465642_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX13465648	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/cutadapt/SRX13465648_1.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	SRX13465632	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/cutadapt/SRX13465632_1.fastq.gz_trimming_report.txt
+FastQC	all_sections	SRX13465635	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/fastqc/SRX13465635_trimmed_fastqc.zip
+FastQC	all_sections	SRX13465652	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/fastqc/SRX13465652_trimmed_fastqc.zip
+FastQC	all_sections	SRX13465634	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/fastqc/SRX13465634_trimmed_fastqc.zip
+FastQC	all_sections	SRX13465654	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/fastqc/SRX13465654_trimmed_fastqc.zip
+FastQC	all_sections	SRX13465639	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/fastqc/SRX13465639_trimmed_fastqc.zip
+FastQC	all_sections	SRX13465628	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/fastqc/SRX13465628_trimmed_fastqc.zip
+FastQC	all_sections	SRX13465641	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/fastqc/SRX13465641_trimmed_fastqc.zip
+FastQC	all_sections	SRX13465666	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/fastqc/SRX13465666_trimmed_fastqc.zip
+FastQC	all_sections	SRX13465661	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/fastqc/SRX13465661_trimmed_fastqc.zip
+FastQC	all_sections	SRX13465627	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/fastqc/SRX13465627_trimmed_fastqc.zip
+FastQC	all_sections	SRX13465663	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/fastqc/SRX13465663_trimmed_fastqc.zip
+FastQC	all_sections	SRX13465656	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/fastqc/SRX13465656_trimmed_fastqc.zip
+FastQC	all_sections	SRX13465624	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/fastqc/SRX13465624_trimmed_fastqc.zip
+FastQC	all_sections	SRX13465668	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/fastqc/SRX13465668_trimmed_fastqc.zip
+FastQC	all_sections	SRX13465667	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/fastqc/SRX13465667_trimmed_fastqc.zip
+FastQC	all_sections	SRX13465638	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/fastqc/SRX13465638_trimmed_fastqc.zip
+FastQC	all_sections	SRX13465655	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/fastqc/SRX13465655_trimmed_fastqc.zip
+FastQC	all_sections	SRX13465660	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/fastqc/SRX13465660_trimmed_fastqc.zip
+FastQC	all_sections	SRX13465647	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/fastqc/SRX13465647_trimmed_fastqc.zip
+FastQC	all_sections	SRX13465629	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/fastqc/SRX13465629_trimmed_fastqc.zip
+FastQC	all_sections	SRX13465658	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/fastqc/SRX13465658_trimmed_fastqc.zip
+FastQC	all_sections	SRX13465664	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/fastqc/SRX13465664_trimmed_fastqc.zip
+FastQC	all_sections	SRX13465626	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/fastqc/SRX13465626_trimmed_fastqc.zip
+FastQC	all_sections	SRX13465636	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/fastqc/SRX13465636_trimmed_fastqc.zip
+FastQC	all_sections	SRX13465640	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/fastqc/SRX13465640_trimmed_fastqc.zip
+FastQC	all_sections	SRX13465642	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/fastqc/SRX13465642_trimmed_fastqc.zip
+FastQC	all_sections	SRX13465651	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/fastqc/SRX13465651_trimmed_fastqc.zip
+FastQC	all_sections	SRX13465648	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/fastqc/SRX13465648_trimmed_fastqc.zip
+FastQC	all_sections	SRX13465632	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/fastqc/SRX13465632_trimmed_fastqc.zip
+FastQC	all_sections	SRX13465637	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/fastqc/SRX13465637_trimmed_fastqc.zip
+FastQC	all_sections	SRX13465665	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/fastqc/SRX13465665_trimmed_fastqc.zip
+FastQC	all_sections	SRX13465630	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/fastqc/SRX13465630_trimmed_fastqc.zip
+FastQC	all_sections	SRX13465646	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/fastqc/SRX13465646_trimmed_fastqc.zip
+FastQC	all_sections	SRX13465659	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/fastqc/SRX13465659_trimmed_fastqc.zip
+FastQC	all_sections	SRX13465644	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/fastqc/SRX13465644_trimmed_fastqc.zip
+FastQC	all_sections	SRX13465645	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/fastqc/SRX13465645_trimmed_fastqc.zip
+FastQC	all_sections	SRX13465653	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/fastqc/SRX13465653_trimmed_fastqc.zip
+FastQC	all_sections	SRX13465625	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/fastqc/SRX13465625_trimmed_fastqc.zip
+FastQC	all_sections	SRX13465657	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/fastqc/SRX13465657_trimmed_fastqc.zip
+FastQC	all_sections	SRX13465649	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/fastqc/SRX13465649_trimmed_fastqc.zip
+FastQC	all_sections	SRX13465633	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/fastqc/SRX13465633_trimmed_fastqc.zip
+FastQC	all_sections	SRX13465631	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/fastqc/SRX13465631_trimmed_fastqc.zip
+FastQC	all_sections	SRX13465650	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/fastqc/SRX13465650_trimmed_fastqc.zip
+FastQC	all_sections	SRX13465662	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/fastqc/SRX13465662_trimmed_fastqc.zip
+FastQC	all_sections	SRX13465643	/data/sbg/agargantilla/github/CYANICA/work/48/001fba3928aeab1613b36b41fbfd64/fastqc/SRX13465643_trimmed_fastqc.zip

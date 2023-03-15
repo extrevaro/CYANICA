@@ -1,0 +1,13 @@
+Sample	Filename	File type	Encoding	Total Sequences	Sequences flagged as poor quality	Sequence length	%GC	total_deduplicated_percentage	avg_sequence_length	basic_statistics	per_base_sequence_quality	per_sequence_quality_scores	per_base_sequence_content	per_sequence_gc_content	per_base_n_content	sequence_length_distribution	sequence_duplication_levels	overrepresented_sequences	adapter_content
+SRX11490741	SRX11490741_trimmed.fq.gz	Conventional base calls	Sanger / Illumina 1.9	9321772.0	0.0	20-74	47.0	44.40920115741541	67.83974677775856	pass	pass	pass	fail	fail	pass	warn	fail	fail	pass
+SRX11490742	SRX11490742_trimmed.fq.gz	Conventional base calls	Sanger / Illumina 1.9	7656014.0	0.0	20-74	48.0	48.6473516613359	67.50315399109772	pass	pass	pass	fail	fail	pass	warn	fail	fail	pass
+SRX11490743	SRX11490743_trimmed.fq.gz	Conventional base calls	Sanger / Illumina 1.9	7218556.0	0.0	20-74	47.0	54.07536571245145	66.25664191009948	pass	pass	pass	fail	fail	pass	warn	warn	fail	pass
+SRX11490744	SRX11490744_trimmed.fq.gz	Conventional base calls	Sanger / Illumina 1.9	7876357.0	0.0	20-74	48.0	53.97885186919961	66.91305815620089	pass	pass	pass	fail	fail	pass	warn	warn	fail	pass
+SRX11490745	SRX11490745_trimmed.fq.gz	Conventional base calls	Sanger / Illumina 1.9	9255201.0	0.0	20-74	47.0	52.956179120111614	66.08537599561588	pass	pass	pass	fail	fail	pass	warn	warn	fail	pass
+SRX11490746	SRX11490746_trimmed.fq.gz	Conventional base calls	Sanger / Illumina 1.9	9449887.0	0.0	20-74	48.0	47.59024626492534	66.71192999450682	pass	pass	pass	fail	fail	pass	warn	fail	fail	pass
+SRX11490747	SRX11490747_trimmed.fq.gz	Conventional base calls	Sanger / Illumina 1.9	8917492.0	0.0	20-74	48.0	34.65386717616485	68.32371590577262	pass	pass	pass	fail	fail	pass	warn	fail	fail	pass
+SRX11490748	SRX11490748_trimmed.fq.gz	Conventional base calls	Sanger / Illumina 1.9	9007198.0	0.0	20-74	47.0	51.6053113873252	67.12346614341108	pass	pass	pass	fail	fail	pass	warn	warn	fail	pass
+SRX11490749	SRX11490749_trimmed.fq.gz	Conventional base calls	Sanger / Illumina 1.9	7644471.0	0.0	20-74	47.0	51.058441301001565	66.45212467939247	pass	pass	pass	fail	fail	pass	warn	warn	fail	pass
+SRX11490750	SRX11490750_trimmed.fq.gz	Conventional base calls	Sanger / Illumina 1.9	8704083.0	0.0	20-74	48.0	52.856107290294474	67.48522779481767	pass	pass	pass	fail	fail	pass	warn	warn	fail	pass
+SRX11490751	SRX11490751_trimmed.fq.gz	Conventional base calls	Sanger / Illumina 1.9	8319401.0	0.0	20-74	47.0	51.472121882172296	66.22531165404817	pass	pass	pass	fail	fail	pass	warn	warn	fail	pass
+SRX11490752	SRX11490752_trimmed.fq.gz	Conventional base calls	Sanger / Illumina 1.9	8713668.0	0.0	20-74	47.0	53.00199882795179	65.70176945001806	pass	pass	pass	fail	fail	pass	warn	warn	fail	pass

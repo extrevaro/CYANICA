@@ -1,0 +1,172 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: SRX12668204_2.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.4_dev
+Cutadapt version: 2.6
+Python version: could not detect
+Number of cores used for trimming: 64
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Using Illumina adapter for trimming (count: 5). Second best hit was smallRNA (count: 0)
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Running FastQC on the data once trimming has completed
+Output file will be GZIP compressed
+
+
+This is cutadapt 2.6 with Python 3.7.3
+Command line parameters: -j 64 -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC SRX12668204_2.fastq.gz
+Processing reads on 64 cores in single-end mode ...
+Finished in 40.23 s (2 us/read; 24.06 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              16,135,627
+Reads with adapters:                 5,233,257 (32.4%)
+Reads written (passing filters):    16,135,627 (100.0%)
+
+Total basepairs processed: 2,229,202,330 bp
+Quality-trimmed:                 514,418 bp (0.0%)
+Total written (filtered):  2,221,698,809 bp (99.7%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 5233257 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 35.0%
+  C: 19.6%
+  G: 23.9%
+  T: 21.5%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	3624821	4033906.8	0	3624821
+2	1588046	1008476.7	0	1588046
+3	9895	252119.2	0	9895
+4	1851	63029.8	0	1851
+5	374	15757.4	0	374
+6	268	3939.4	0	268
+7	480	984.8	0	480
+8	189	246.2	0	189
+9	355	61.6	0	333 22
+10	651	15.4	1	288 363
+11	473	3.8	1	231 242
+12	626	1.0	1	294 332
+13	411	0.2	1	194 217
+14	1491	0.2	1	578 913
+15	209	0.2	1	36 173
+16	302	0.2	1	33 269
+17	468	0.2	1	85 383
+18	108	0.2	1	16 92
+19	197	0.2	1	62 135
+20	58	0.2	1	17 41
+21	77	0.2	1	21 56
+22	101	0.2	1	35 66
+23	121	0.2	1	56 65
+24	239	0.2	1	75 164
+25	108	0.2	1	42 66
+26	135	0.2	1	48 87
+27	167	0.2	1	63 104
+28	112	0.2	1	25 87
+29	72	0.2	1	32 40
+30	102	0.2	1	39 63
+31	20	0.2	1	13 7
+32	32	0.2	1	10 22
+33	31	0.2	1	12 19
+34	26	0.2	1	12 14
+35	28	0.2	1	9 19
+36	53	0.2	1	22 31
+37	41	0.2	1	21 20
+38	29	0.2	1	8 21
+39	24	0.2	1	11 13
+40	28	0.2	1	14 14
+41	54	0.2	1	29 25
+42	35	0.2	1	4 31
+43	20	0.2	1	6 14
+44	12	0.2	1	3 9
+45	33	0.2	1	7 26
+46	11	0.2	1	1 10
+47	18	0.2	1	6 12
+48	10	0.2	1	5 5
+49	7	0.2	1	6 1
+50	5	0.2	1	4 1
+51	13	0.2	1	4 9
+52	6	0.2	1	2 4
+53	15	0.2	1	6 9
+54	11	0.2	1	2 9
+55	11	0.2	1	6 5
+56	3	0.2	1	1 2
+57	10	0.2	1	4 6
+58	6	0.2	1	3 3
+59	6	0.2	1	1 5
+60	2	0.2	1	0 2
+61	1	0.2	1	0 1
+62	2	0.2	1	0 2
+63	2	0.2	1	0 2
+64	2	0.2	1	2
+65	6	0.2	1	1 5
+66	2	0.2	1	0 2
+67	3	0.2	1	0 3
+68	2	0.2	1	1 1
+69	2	0.2	1	0 2
+70	3	0.2	1	0 3
+71	3	0.2	1	1 2
+73	1	0.2	1	0 1
+74	1	0.2	1	0 1
+75	1	0.2	1	0 1
+76	5	0.2	1	3 2
+77	3	0.2	1	1 2
+78	7	0.2	1	0 7
+79	5	0.2	1	0 5
+80	1	0.2	1	0 1
+81	1	0.2	1	1
+84	1	0.2	1	0 1
+85	1	0.2	1	0 1
+87	2	0.2	1	1 1
+88	3	0.2	1	0 3
+89	1	0.2	1	0 1
+93	2	0.2	1	0 2
+96	1	0.2	1	0 1
+100	4	0.2	1	0 4
+102	2	0.2	1	0 2
+103	2	0.2	1	0 2
+104	8	0.2	1	0 8
+106	1	0.2	1	0 1
+108	1	0.2	1	0 1
+109	6	0.2	1	0 6
+110	2	0.2	1	0 2
+113	6	0.2	1	0 6
+117	3	0.2	1	0 3
+122	1	0.2	1	0 1
+123	6	0.2	1	0 6
+124	4	0.2	1	0 4
+125	4	0.2	1	0 4
+128	2	0.2	1	0 2
+129	2	0.2	1	0 2
+131	3	0.2	1	0 3
+132	4	0.2	1	0 4
+134	3	0.2	1	0 3
+137	1	0.2	1	0 1
+140	3	0.2	1	0 3
+141	10	0.2	1	0 10
+143	2	0.2	1	0 2
+144	3	0.2	1	0 3
+149	1	0.2	1	0 1
+150	2	0.2	1	0 2
+
+RUN STATISTICS FOR INPUT FILE: SRX12668204_2.fastq.gz
+=============================================
+16135627 sequences processed in total
+
+Total number of sequences analysed for the sequence pair length validation: 16135627
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (20 bp): 2200 (0.01%)

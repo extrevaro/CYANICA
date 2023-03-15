@@ -1,0 +1,21 @@
+Models,Source,Reference,Curated,Organism,Nomenclature,Comments
+iJB785,http://bigg.ucsd.edu/models/iJB785,DOI: 10.1073/pnas.1613446113 ,Yes,Synechococcus elongatus PCC 7942,BiGG,
+iJN678,http://bigg.ucsd.edu/models/iJN678,DOI: 10.1073/pnas.1117907109 ,Yes,Synechocystis sp. PCC 6803,BiGG,
+iSynCJ816,http://bigg.ucsd.edu/models/iSynCJ816,DOI:  10.1016/j.algal.2017.09.013,Yes,Synechocystis sp. PCC 6803,BiGG,
+iAnC892,https://www.mdpi.com/2218-1989/11/3/168#supplementary,https://doi.org/10.3390/metabo11030168,Yes,Anabaena sp. ATCC 33047,SEED,Two-cell model (vegetative and heterocyst)
+7120_Two-cell_model,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5210747/,doi: 10.1104/pp.16.01487,Yes,Anabaena sp. PCC 7120,KEGG,Two-cell model (vegetative and heterocyst)
+7120_Single-cell_model,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5210747/,doi: 10.1104/pp.16.01487,Yes,Anabaena sp. PCC 7120,KEGG,Single-cell model (vegetative)
+iAM957_Regulated_two-cell_model,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0227977,DOI: 10.1371/journal.pone.0227977,Yes,Anabaena variabilis ATCC 29413,BiGG,Regulated (TRFBA) two-cell model (vegetative and heterocyst) 
+iAM957_Two-cell_model,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0227977,DOI: 10.1371/journal.pone.0227977,Yes,Anabaena variabilis ATCC 29413,BiGG,Two-cell model (vegetative and heterocyst)
+iAM957_Single-cell_model,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0227977,DOI: 10.1371/journal.pone.0227977,Yes,Anabaena variabilis ATCC 29413,BiGG,Single-cell model (vegetative)
+iCce806,https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002460#s5,DOI: 10.1371/journal.pcbi.1002460,Yes,Cyanothece sp. ATCC 51142,BiGG,
+iSO595v7,https://www.frontiersin.org/articles/10.3389/fgene.2021.586293/full,DOI: 10.3389/fgene.2021.586293,Yes,Prochlorococcus MED4,Unknown,
+iSyn706,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7281201/,doi: 10.3390/metabo10050177,Yes,Synechococcus sp. BDU130192,BiGG,
+universe_cyanobacteria,https://github.com/cdanielmachado/carveme,doi: https://doi.org/10.1093/nar/gky537,,,BiGG,Universal cyanobacteria model
+iSyf715,https://www.mdpi.com/2218-1989/4/3/680/htm,doi: 10.3390/metabo4030680,Yes,Synechococcus elongatus PCC 7942,Unknown,
+Arthrospira_platensis_NIES-39,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0144430#sec014,https://doi.org/10.1371/journal.pone.0144430,Yes,Arthrospira platensis NIES-39,BiGG,There is no cytosol compartment
+iSyn669,https://link.springer.com/article/10.1186/1752-0509-4-156#Sec22,https://doi.org/10.1186/1752-0509-4-156,Yes,Synechocystis sp. PCC 6803,,OptGene format
+Syn_Knoop,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2938163/,doi: 10.1104/pp.110.157198,Yes,Synechocystis sp. PCC 6803,Unknown,
+Syn_yoshikawa,https://link.springer.com/article/10.1007/s00253-011-3559-x#additional-information,https://doi.org/10.1007/s00253-011-3559-x,Yes,Synechocystis sp. PCC 6803 ,BiGG,There is no cytosol compartment
+iSyn731,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0048285#s4,https://doi.org/10.1371/journal.pone.0048285,Yes,Synechocystis sp. PCC 6803,Unknown,
+iCyt773,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0048285#s4,https://doi.org/10.1371/journal.pone.0048285,Yes,Cyanothece sp. ATCC 51142,Unknown,
