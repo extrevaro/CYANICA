@@ -1,0 +1,6 @@
+task_id	hash	native_id	name	status	exit	submit	duration	realtime	%cpu	peak_rss	peak_vmem	rchar	wchar
+2	8e/e2b0bc	146140	gff2bed	COMPLETED	0	2023-03-15 18:08:50.469	1.7s	0ms	133.3%	2.8 MB	11 MB	452.3 KB	406.3 KB
+1	38/3bac8f	146166	bowtie_build	COMPLETED	0	2023-03-15 18:08:50.485	5.7s	3s	98.6%	101.5 MB	134.8 MB	39.5 MB	27.9 MB
+7	e0/c550a9	146179	download_fastq (5)	ABORTED	-	2023-03-15 18:08:50.495	-	-	-	-	-	-	-
+9	5f/b57de7	146192	download_fastq (7)	ABORTED	-	2023-03-15 18:08:50.501	-	-	-	-	-	-	-
+8	ba/ef69a1	146205	download_fastq (6)	ABORTED	-	2023-03-15 18:08:50.516	-	-	-	-	-	-	-

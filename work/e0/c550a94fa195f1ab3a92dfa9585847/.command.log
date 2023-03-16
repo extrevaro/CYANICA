@@ -1,0 +1,8 @@
+
+2023-03-15T17:08:53 prefetch.3.0.0: Current preference is set to retrieve SRA Normalized Format files with full base quality scores.
+2023-03-15T17:08:53 prefetch.3.0.0: 1) Downloading 'SRR17288260'...
+2023-03-15T17:08:53 prefetch.3.0.0: SRA Normalized Format file is being retrieved, if this is different from your preference, it may be due to current file availability.
+2023-03-15T17:08:53 prefetch.3.0.0:  Downloading via HTTPS...
+nxf-Dzza5wIQEadia0ZmhpZJz3yn
+.command.run: line 274: 146296 Hangup                  ( nxf_launch ) > $cout 2> $cerr
+Error response from daemon: Cannot kill container: nxf-Dzza5wIQEadia0ZmhpZJz3yn: Container 565d6ea3edbe70ac91eb584249031879109698a2599749377e89e411d3e7dd08 is not running

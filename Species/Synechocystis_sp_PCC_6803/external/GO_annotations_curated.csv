@@ -1,0 +1,2255 @@
+,gene_id,gene_name,gene_ontology
+3,sll0537,sll0537,ammonium homeostasis
+4,sll0537,sll0537,ammonium transmembrane transport
+5,sll0601,sll0601,N-carbamoylputrescine amidase activity
+6,sll0601,sll0601,putrescine biosynthetic process from arginine
+7,slr1145,gltS,glutamate synthase (NADH) activity
+8,slr1145,gltS,glutamate biosynthetic process
+9,slr1145,gltS,ammonia assimilation cycle
+10,sll1499,gltB,ammonia assimilation cycle
+11,sll1499,gltB,glutamate biosynthetic process
+12,sll1499,gltB,glutamate synthase activity
+16,sll0171,gcvT,cytosol
+17,sll0194,tatC,protein transport by the Tat complex
+18,sll0194,tatC,proton motive force dependent protein transmembrane transporter activity
+19,sll0194,tatC,intracellular protein transmembrane transport
+20,sll0194,tatC,TAT protein transport complex
+21,sll0108,sll0108,ammonium homeostasis
+22,sll0108,sll0108,ammonium transmembrane transport
+23,sll0100,sll0100,hydrolase activity
+24,slr0827,alr,cytosol
+25,slr0827,alr,pyridoxal phosphate binding
+26,slr0827,alr,D-alanine biosynthetic process
+27,slr0827,alr,alanine racemase activity
+29,slr0623,trxA,cytoplasm
+30,slr0623,trxA,"oxidoreductase activity, acting on a sulfur group of donors, disulfide as acceptor"
+31,sll0495,asnS,asparagine-tRNA ligase activity
+32,sll0495,asnS,asparaginyl-tRNA aminoacylation
+33,slr0556,slr0556,intracellular anatomical structure
+34,slr0556,slr0556,pyridoxal phosphate binding
+35,slr0922,pth,aminoacyl-tRNA hydrolase activity
+36,sll0672,sll0672,monoatomic ion transmembrane transport
+37,sll0672,sll0672,P-type ion transporter activity
+51,slr0710,gdhA,cytosol
+52,slr0710,gdhA,glutamate dehydrogenase (NADP+) activity
+53,slr0710,gdhA,glutamate biosynthetic process
+55,slr0585,argG,arginine biosynthetic process
+56,slr0585,argG,argininosuccinate synthase activity
+57,slr0585,argG,argininosuccinate metabolic process
+58,slr0585,argG,urea cycle
+59,slr0585,argG,cytoplasm
+60,slr0751,slr0751,cell outer membrane
+61,slr0751,slr0751,receptor-mediated virion attachment to host cell
+62,sll5066,sll5066,ATP binding
+63,sll5066,sll5066,negative regulation of cell division
+64,sll5066,sll5066,cytosol
+65,sll5066,sll5066,cytoplasmic side of plasma membrane
+66,sll5066,sll5066,ATP hydrolysis activity
+67,slr5078,slr5078,inward rectifier potassium channel activity
+68,slr5078,slr5078,plasma membrane
+69,slr5078,slr5078,potassium ion import across plasma membrane
+70,slr5078,slr5078,regulation of monoatomic ion transmembrane transport
+71,sll5086,sll5086,transaminase activity
+72,sll5086,sll5086,alpha-amino acid metabolic process
+73,slr5093,slr5093,oxidoreductase activity
+75,slr5105,slr5105,cytosol
+76,slr5105,slr5105,ATP binding
+77,slr5105,slr5105,ATP hydrolysis activity
+78,slr5105,slr5105,cytoplasmic side of plasma membrane
+79,slr5105,slr5105,negative regulation of cell division
+80,sll5107,sll5107,cytidine deaminase activity
+81,sll5107,sll5107,zinc ion binding
+82,sll5107,sll5107,cytosol
+83,sll5107,sll5107,cytidine deamination
+87,sll5122,sll5122,DNA-directed DNA polymerase activity
+88,sll5122,sll5122,SOS response
+89,sll5122,sll5122,error-prone translesion synthesis
+93,slr7041,slr7041,mRNA catabolic process
+94,slr7041,slr7041,rRNA catabolic process
+95,slr7041,slr7041,RNA endonuclease activity
+96,sll7044,sll7044,negative regulation of cell division
+97,sll7044,sll7044,cytosol
+98,sll7044,sll7044,cytoplasmic side of plasma membrane
+99,sll7044,sll7044,ATP hydrolysis activity
+100,sll7044,sll7044,ATP binding
+101,slr7049,slr7049,DNA recombination
+102,slr7049,slr7049,DNA strand exchange activity
+103,sll7077,sll7077,"guanosine-3',5'-bis(diphosphate) 3'-diphosphatase activity"
+104,sll7106,sll7106,exodeoxyribonuclease V activity
+105,sll7106,sll7106,DNA recombination
+106,sll7106,sll7106,single-stranded DNA helicase activity
+107,sll7106,sll7106,exodeoxyribonuclease V complex
+108,sll8001,sll8001,peptidyl-glutamate ADP-deribosylation
+109,slr8015,slr8015,cytosol
+110,slr8015,slr8015,negative regulation of cell division
+111,slr8015,slr8015,cytoplasmic side of plasma membrane
+112,slr8015,slr8015,ATP hydrolysis activity
+113,slr8015,slr8015,ATP binding
+114,slr8016,slr8016,chromosome
+115,slr8016,slr8016,chromosome segregation
+116,slr8016,slr8016,positive regulation of sporulation resulting in formation of a cellular spore
+117,slr8026,slr8026,response to stress
+118,slr8026,slr8026,regulation of DNA-templated transcription
+119,slr8029,slr8029,DNA recombination
+120,slr8029,slr8029,DNA strand exchange activity
+122,slr6034,slr6034,cytosol
+123,slr6034,slr6034,cytidine deamination
+124,slr6034,slr6034,cytidine deaminase activity
+125,slr6034,slr6034,zinc ion binding
+126,sll6036,sll6036,negative regulation of cell division
+127,sll6036,sll6036,ATP hydrolysis activity
+128,sll6036,sll6036,cytoplasmic side of plasma membrane
+129,sll6036,sll6036,cytosol
+130,sll6036,sll6036,ATP binding
+132,slr6040,slr6040,regulation of DNA-templated transcription
+133,slr6040,slr6040,protein-DNA complex
+134,slr6040,slr6040,transcription cis-regulatory region binding
+135,slr6040,slr6040,phosphorelay response regulator activity
+136,slr6040,slr6040,cytosol
+137,sll6053,sll6053,cytosol
+138,sll6053,sll6053,thiosulfate sulfurtransferase activity
+139,sll6053,sll6053,cytoplasm
+140,sll6053,sll6053,nucleotidyltransferase activity
+141,sll6053,sll6053,sulfotransferase activity
+142,sll6060,sll6060,"acyltransferase activity, transferring groups other than amino-acyl groups"
+143,slr6012,slr6012,sulfate transport
+144,sll6093,sll6093,negative regulation of cell division
+145,sll6093,sll6093,ATP binding
+146,sll6093,sll6093,cytosol
+147,sll6093,sll6093,ATP hydrolysis activity
+148,sll6093,sll6093,cytoplasmic side of plasma membrane
+149,slr2023,fabD,cytosol
+150,slr2023,fabD,fatty acid biosynthetic process
+151,slr2023,fabD,[acyl-carrier-protein] S-malonyltransferase activity
+152,slr1138,ctaE,cytochrome-c oxidase activity
+153,slr1138,ctaE,aerobic respiration
+156,slr1137,ctaD,cytochrome-c oxidase activity
+157,slr1137,ctaD,electron transport coupled proton transport
+158,slr1137,ctaD,respiratory electron transport chain
+159,slr1137,ctaD,aerobic respiration
+160,sll0837,sll0837,outer membrane-bounded periplasmic space
+162,slr1736,slr1736,vitamin E biosynthetic process
+163,sll1626,lexA,negative regulation of DNA-templated transcription
+164,sll1626,lexA,positive regulation of DNA-templated transcription
+165,sll1626,lexA,protein-DNA complex
+166,sll1626,lexA,sequence-specific DNA binding
+167,sll1626,lexA,protein-DNA complex
+168,sll1626,lexA,sequence-specific DNA binding
+169,sll1626,lexA,positive regulation of DNA-templated transcription
+170,sll1626,lexA,negative regulation of DNA-templated transcription
+171,slr2144,slr2144,outer membrane-bounded periplasmic space
+173,slr2136,ispG,"4 iron, 4 sulfur cluster binding"
+174,sll1762,sll1762,outer membrane-bounded periplasmic space
+175,sll1784,sll1784,outer membrane-bounded periplasmic space
+176,slr1485,slr1485,outer membrane-bounded periplasmic space
+177,slr1417,slr1417,iron ion binding
+178,slr1417,slr1417,identical protein binding
+179,slr1417,slr1417,"2 iron, 2 sulfur cluster binding"
+182,sll1185,hemF,coproporphyrinogen oxidase activity
+183,sll1185,hemF,protoporphyrinogen IX biosynthetic process
+184,sll1185,hemF,protein homodimerization activity
+189,ssl2598,psbH,plasma membrane-derived thylakoid photosystem II
+190,sll0258,psbV,plasma membrane-derived thylakoid photosystem II
+193,sll1499,gltB,protein binding
+194,sll1098,fusA,protein binding
+195,sll1098,fusA,protein binding
+196,slr0963,sir,protein binding
+197,slr0963,sir,protein binding
+199,slr0906,psbB,plasma membrane-derived thylakoid photosystem II
+200,slr0906,psbB,plasma membrane-derived thylakoid photosystem II
+205,slr1772,slr1772,outer membrane-bounded periplasmic space
+221,slr1098,slr1098,protein binding
+222,slr1098,slr1098,protein binding
+223,slr1098,slr1098,protein binding
+224,slr1098,slr1098,iron-sulfur cluster assembly
+229,slr0623,trxA,protein binding
+230,slr0623,trxA,protein binding
+231,slr0623,trxA,protein binding
+232,slr0623,trxA,protein binding
+233,slr0623,trxA,protein binding
+234,slr0623,trxA,protein binding
+235,slr0623,trxA,protein binding
+236,slr0623,trxA,protein binding
+237,slr0623,trxA,protein binding
+238,slr0623,trxA,protein binding
+239,slr0623,trxA,protein binding
+240,slr0623,trxA,protein binding
+241,slr0623,trxA,protein binding
+242,slr0623,trxA,protein binding
+243,slr0623,trxA,protein binding
+244,slr0623,trxA,protein binding
+245,slr0623,trxA,protein binding
+246,slr0623,trxA,protein binding
+247,slr0623,trxA,protein binding
+248,slr0623,trxA,protein binding
+249,slr0623,trxA,protein binding
+250,slr0623,trxA,protein binding
+251,slr0623,trxA,protein binding
+252,slr0623,trxA,protein binding
+253,slr0623,trxA,protein binding
+254,slr0623,trxA,protein binding
+255,slr0623,trxA,protein binding
+256,slr0623,trxA,protein binding
+257,slr0623,trxA,protein binding
+258,slr0623,trxA,protein binding
+259,slr0623,trxA,protein binding
+260,sll0227,sll0227,outer membrane-bounded periplasmic space
+262,sll1633,ftsZ,identical protein binding
+263,sll1633,ftsZ,protein binding
+264,sll1633,ftsZ,protein polymerization
+265,sll1633,ftsZ,cytokinetic process
+266,sll1633,ftsZ,protein binding
+268,sll1130,sll1130,plasma membrane-derived thylakoid photosystem II
+269,slr0741,phoU,negative regulation of phosphate transmembrane transport
+270,slr0741,phoU,cytoplasm
+271,slr0741,phoU,negative regulation of phosphate metabolic process
+272,slr0741,phoU,protein homodimerization activity
+273,slr1196,slr1196,outer membrane-bounded periplasmic space
+274,slr1829,phaE,poly-hydroxybutyrate biosynthetic process
+275,slr1329,atpD,plasma membrane proton-transporting ATP synthase complex
+276,sll1395,rfbD,protein binding
+277,sll1395,rfbD,protein binding
+280,slr1409,slr1409,outer membrane-bounded periplasmic space
+283,sll1835,sll1835,outer membrane-bounded periplasmic space
+288,ssl1911,ssl1911,molecular adaptor activity
+289,ssl1911,ssl1911,molecular adaptor activity
+290,ssl1911,ssl1911,negative regulation of glutamate-ammonia ligase activity
+291,ssl1911,ssl1911,enzyme binding
+292,ssl1911,ssl1911,enzyme binding
+293,ssl1911,ssl1911,enzyme binding
+299,sll1917,hemW,"4 iron, 4 sulfur cluster binding"
+300,sll1917,hemW,porphyrin-containing compound biosynthetic process
+301,sll1917,hemW,cytoplasm
+303,sll1507,sll1507,outer membrane-bounded periplasmic space
+304,sll1515,sll1515,negative regulation of glutamate-ammonia ligase activity
+305,sll1515,sll1515,negative regulation of glutamate-ammonia ligase activity
+306,sll1515,sll1515,enzyme binding
+307,sll1515,sll1515,enzyme binding
+308,sll0638,sll0638,outer membrane-bounded periplasmic space
+309,sll1939,sll1939,protein binding
+310,sll1837,sll1837,outer membrane-bounded periplasmic space
+311,slr1608,slr1608,outer membrane-bounded periplasmic space
+320,sll0662,sll0662,protein binding
+321,slr0708,slr0708,outer membrane-bounded periplasmic space
+322,slr0787,slr0787,identical protein binding
+323,sll0288,minC,contractile ring localization
+324,sll0289,minD,membrane
+325,sll0289,minD,contractile ring localization
+327,slr1835,psaB,plasma membrane-derived photosystem I
+328,slr1834,psaA,plasma membrane-derived photosystem I
+329,slr0115,rpaA,circadian regulation of translation
+330,slr0115,rpaA,circadian rhythm
+348,slr0204,slr0204,acyl-CoA hydrolase activity
+349,slr0204,slr0204,palmitoyl-CoA hydrolase activity
+350,slr0204,slr0204,succinyl-CoA hydrolase activity
+351,slr0204,slr0204,phylloquinone biosynthetic process
+353,slr0642,slr0642,folic acid transmembrane transporter activity
+354,slr0642,slr0642,5-formyltetrahydrofolate transmembrane transporter activity
+355,slr0642,slr0642,methotrexate transmembrane transporter activity
+356,slr0642,slr0642,methotrexate transport
+357,slr0642,slr0642,folic acid transport
+358,slr0642,slr0642,5-formyltetrahydrofolate transport
+359,slr0642,slr0642,5-formyltetrahydrofolate transmembrane transporter activity
+360,slr0642,slr0642,5-formyltetrahydrofolate transport
+361,slr0228,ftsH2,thylakoid membrane
+362,slr0228,ftsH2,photosystem II
+363,slr0228,ftsH2,thylakoid membrane
+364,slr0228,ftsH2,plasma membrane
+365,slr0228,ftsH2,photosystem II repair
+373,sll1578,cpcA,phycobilisome
+376,sll1306,sll1306,outer membrane-bounded periplasmic space
+377,sll1307,sll1307,outer membrane-bounded periplasmic space
+378,slr1410,slr1410,outer membrane-bounded periplasmic space
+379,slr1406,slr1406,outer membrane-bounded periplasmic space
+380,ssl2501,phaP,polyhydroxyalkanoate granule
+381,sll1358,sll1358,outer membrane-bounded periplasmic space
+385,sll1785,sll1785,outer membrane-bounded periplasmic space
+386,slr0585,argG,protein binding
+387,slr0585,argG,protein binding
+388,slr1756,glnA,protein binding
+389,slr1756,glnA,protein binding
+390,slr1756,glnA,protein binding
+391,slr1756,glnA,protein binding
+392,slr1756,glnA,protein binding
+393,slr1756,glnA,protein binding
+394,slr0343,petD,cytochrome b6f complex
+396,sll0418,sll0418,"2-methyl-6-phytyl-1,4-benzoquinone methyltransferase activity"
+397,slr1645,psb27,photosystem II repair
+398,slr1645,psb27,photosystem II assembly
+399,slr1645,psb27,plasma membrane-derived thylakoid photosystem II
+400,slr0945,arsH,NAD(P)H dehydrogenase (quinone) activity
+401,slr0945,arsH,NADPH dehydrogenase (quinone) activity
+402,slr0945,arsH,protein homotetramerization
+403,slr0945,arsH,ferric-chelate reductase (NADPH) activity
+404,slr0945,arsH,response to metal ion
+405,slr0945,arsH,FMN binding
+406,slr0942,slr0942,aldo-keto reductase (NADP) activity
+407,slr0942,slr0942,aldo-keto reductase (NADP) activity
+408,slr0942,slr0942,NADPH binding
+410,slr1694,slr1694,identical protein binding
+411,slr1694,slr1694,identical protein binding
+412,slr1694,slr1694,identical protein binding
+413,slr1694,slr1694,identical protein binding
+414,slr1694,slr1694,protein binding
+415,slr1694,slr1694,protein binding
+416,slr1694,slr1694,protein binding
+417,slr1693,slr1693,protein binding
+418,slr1693,slr1693,protein binding
+419,slr1693,slr1693,protein binding
+423,slr1672,glpK,glycerol kinase activity
+424,slr1672,glpK,glycerol metabolic process
+425,slr1160,slr1160,outer membrane-bounded periplasmic space
+426,sll1099,tuf,protein binding
+427,sll1099,tuf,protein binding
+428,sll1099,tuf,protein binding
+441,slr1270,slr1270,identical protein binding
+442,slr1270,slr1270,outer membrane-bounded periplasmic space
+443,sll1371,sll1371,positive regulation of DNA-templated transcription
+444,sll1371,sll1371,positive regulation of DNA-templated transcription
+446,sll1377,sll1377,magnesium ion binding
+447,sll1377,sll1377,hexosyltransferase activity
+448,sll1377,sll1377,membrane lipid biosynthetic process
+449,sll1378,sll1378,outer membrane-bounded periplasmic space
+450,sll1380,sll1380,outer membrane-bounded periplasmic space
+451,sll1390,sll1390,plasma membrane-derived thylakoid photosystem II
+452,sll1876,hemN,protoporphyrinogen IX biosynthetic process
+453,sll1876,hemN,"4 iron, 4 sulfur cluster binding"
+454,sll1876,hemN,coproporphyrinogen dehydrogenase activity
+455,sll1876,hemN,porphyrin-containing compound biosynthetic process
+456,sll1876,hemN,cytoplasm
+458,slr1963,slr1963,protein binding
+459,sll1194,psbU,plasma membrane-derived thylakoid photosystem II
+480,sll0851,psbC,plasma membrane-derived thylakoid photosystem II
+481,sll0851,psbC,plasma membrane-derived thylakoid photosystem II
+482,slr0927,psbD,plasma membrane-derived thylakoid photosystem II
+483,slr0927,psbD,plasma membrane-derived thylakoid photosystem II
+484,smr0006,psbF,identical protein binding
+485,smr0006,psbF,identical protein binding
+486,smr0006,psbF,plasma membrane-derived thylakoid photosystem II
+487,ssr3451,psbE,plasma membrane-derived thylakoid photosystem II
+488,sll1252,sll1252,plasma membrane-derived thylakoid photosystem II
+495,sll1325,atpH,plasma membrane proton-transporting ATP synthase complex
+496,sll1326,atpA,plasma membrane proton-transporting ATP synthase complex
+497,sll0064,sll0064,outer membrane-bounded periplasmic space
+498,sll0314,sll0314,outer membrane-bounded periplasmic space
+503,sll0169,sll0169,protein binding
+504,sll0169,sll0169,protein binding
+505,sll0169,sll0169,protein binding
+506,sll0169,sll0169,protein binding
+507,sll0169,sll0169,protein binding
+508,sll0169,sll0169,protein binding
+509,sll0169,sll0169,protein binding
+510,sll0169,sll0169,protein binding
+511,sll0169,sll0169,cell septum
+512,sll0169,sll0169,septin ring assembly
+513,sll0169,sll0169,protein binding
+514,sll0172,sll0172,outer membrane-bounded periplasmic space
+515,sll0173,sll0173,outer membrane-bounded periplasmic space
+518,slr0653,rpoD,protein binding
+520,slr0848,slr0848,protein binding
+521,sll0822,sll0822,transcription cis-regulatory region binding
+522,sll0822,sll0822,protein-DNA complex
+523,sll0822,sll0822,DNA-binding transcription repressor activity
+524,sll0822,sll0822,negative regulation of DNA-templated transcription
+525,sll0822,sll0822,protein binding
+526,sll0822,sll0822,protein binding
+527,slr0841,slr0841,outer membrane-bounded periplasmic space
+564,slr0924,slr0924,outer membrane-bounded periplasmic space
+565,slr1739,psb28,plasma membrane-derived thylakoid photosystem II
+568,slr1668,slr1668,outer membrane-bounded periplasmic space
+581,sll1483,sll1483,outer membrane-bounded periplasmic space
+582,sll1491,sll1491,outer membrane-bounded periplasmic space
+583,slr1565,slr1565,protein binding
+584,slr1565,slr1565,protein binding
+585,slr1565,slr1565,protein binding
+586,slr1565,slr1565,iron-sulfur cluster assembly
+587,slr1565,slr1565,"2 iron, 2 sulfur cluster binding"
+588,slr0665,acnB,mRNA binding
+589,slr0665,acnB,mRNA 3'-UTR binding
+590,slr0665,acnB,aconitate hydratase activity
+591,slr0665,acnB,"propionate catabolic process, 2-methylcitrate cycle"
+592,slr0665,acnB,tricarboxylic acid cycle
+593,slr0665,acnB,2-methylisocitrate dehydratase activity
+594,slr0665,acnB,"4 iron, 4 sulfur cluster binding"
+595,ssl2667,ssl2667,iron-sulfur cluster assembly
+596,ssl2667,ssl2667,"2 iron, 2 sulfur cluster binding"
+597,slr1950,slr1950,protein binding
+598,slr1950,slr1950,protein binding
+599,slr1950,slr1950,copper ion import
+600,slr1940,slr1940,outer membrane-bounded periplasmic space
+601,sll1848,sll1848,lysophosphatidic acid acyltransferase activity
+602,slr1924,slr1924,outer membrane-bounded periplasmic space
+603,sll0359,sll0359,protein binding
+604,sll0359,sll0359,protein binding
+605,slr0710,gdhA,glutamate dehydrogenase (NADP+) activity
+606,slr0710,gdhA,cytoplasm
+607,slr0710,gdhA,glutamate biosynthetic process
+608,sll0319,sll0319,outer membrane-bounded periplasmic space
+614,sll1089,sll1089,outer membrane-bounded periplasmic space
+615,sll1632,sll1632,protein binding
+616,sll1632,sll1632,protein binding
+617,sll1632,sll1632,protein binding
+618,sll1632,sll1632,protein binding
+619,sll1621,sll1621,identical protein binding
+620,sll1621,sll1621,identical protein binding
+621,sll1621,sll1621,protein binding
+622,sll1621,sll1621,protein binding
+623,sll1621,sll1621,protein binding
+624,sll1621,sll1621,protein binding
+625,sll1621,sll1621,protein binding
+626,sll1621,sll1621,protein binding
+627,sll1621,sll1621,protein binding
+628,sll1621,sll1621,protein binding
+630,sll1532,sll1532,outer membrane-bounded periplasmic space
+631,slr2004,slr2004,outer membrane-bounded periplasmic space
+632,slr1944,slr1944,outer membrane-bounded periplasmic space
+633,sll0726,pgm,protein binding
+634,sll0726,pgm,protein binding
+635,sll1549,sll1549,outer membrane-bounded periplasmic space
+637,slr1139,slr1139,protein binding
+638,slr1139,slr1139,protein binding
+639,slr1139,slr1139,protein binding
+640,slr1139,slr1139,protein binding
+641,slr1139,slr1139,protein binding
+642,slr1330,atpC,plasma membrane proton-transporting ATP synthase complex
+646,slr1198,slr1198,identical protein binding
+647,slr1198,slr1198,identical protein binding
+648,slr1198,slr1198,protein binding
+649,slr1198,slr1198,protein binding
+650,slr1198,slr1198,protein binding
+651,slr1198,slr1198,protein binding
+652,slr1198,slr1198,protein binding
+653,slr1198,slr1198,protein binding
+654,slr1198,slr1198,protein binding
+655,sll1804,rpsC,protein binding
+656,sll1804,rpsC,protein binding
+657,sll1804,rpsC,protein binding
+658,slr2005,slr2005,outer membrane-bounded periplasmic space
+659,ssr2857,ssr2857,protein binding
+660,ssr2857,ssr2857,protein binding
+661,ssr2857,ssr2857,protein binding
+662,ssr2857,ssr2857,protein binding
+663,ssr2857,ssr2857,protein binding
+664,ssr2857,ssr2857,copper ion binding
+665,sll0985,sll0985,protein binding
+666,sll0985,sll0985,protein binding
+667,sll0985,sll0985,regulation of nitrogen compound metabolic process
+672,slr2060,slr2060,acyltransferase activity
+673,sll1317,petA,cytochrome b6f complex
+677,slr2048,slr2048,outer membrane-bounded periplasmic space
+681,slr1051,fabI,enoyl-[acyl-carrier-protein] reductase (NADH) activity
+682,slr1051,fabI,fatty acid elongation
+683,slr1051,fabI,identical protein binding
+684,ssl3335,secE,protein transmembrane transporter activity
+685,ssl3335,secE,protein transport by the Sec complex
+686,slr0343,petD,ubiquinol-cytochrome-c reductase activity
+687,sll1325,atpH,proton motive force-driven ATP synthesis
+688,sll1325,atpH,"proton-transporting ATP synthase complex, catalytic core F(1)"
+689,sll1325,atpH,"proton-transporting ATP synthase activity, rotational mechanism"
+691,slr1843,zwf,cytosol
+692,slr1843,zwf,glucose-6-phosphate dehydrogenase activity
+693,slr1843,zwf,glucose metabolic process
+694,slr1843,zwf,"pentose-phosphate shunt, oxidative branch"
+704,sll1144,rsmH,rRNA (cytosine-N4-)-methyltransferase activity
+705,sll1144,rsmH,cytoplasm
+706,sll1144,rsmH,rRNA base methylation
+708,slr1234,slr1234,cytoplasm
+709,slr1234,slr1234,hydrolase activity
+711,sll1647,sll1647,"acyltransferase activity, transferring groups other than amino-acyl groups"
+712,slr2047,slr2047,ATP binding
+713,slr2047,slr2047,cytosol
+714,sll1300,trmB,tRNA methyltransferase complex
+715,sll1300,trmB,tRNA methylation
+716,sll1300,trmB,RNA (guanine-N7)-methylation
+717,sll1300,trmB,tRNA (guanine-N7-)-methyltransferase activity
+720,sll1285,cofG,"7,8-didemethyl-8-hydroxy-5-deazariboflavin synthase activity"
+721,slr1822,nth,"base-excision repair, AP site formation"
+722,slr1822,nth,DNA N-glycosylase activity
+723,slr1746,murI,glutamate racemase activity
+724,slr1746,murI,peptidoglycan biosynthetic process
+727,slr1542,ispF,"2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase activity"
+728,sll1462,hypE,peptidyl-S-carbamoyl-L-cysteine dehydration
+729,sll1462,hypE,protein maturation
+730,slr1549,def,peptide deformylase activity
+731,slr1549,def,peptidyl-methionine modification
+732,slr1549,def,N-terminal protein amino acid modification
+733,slr1549,def,co-translational protein modification
+737,sll1277,recF,DNA synthesis involved in DNA repair
+738,sll1277,recF,double-strand break repair
+745,sll0869,aat,cytoplasm
+746,sll0869,aat,leucyltransferase activity
+747,sll0864,sll0864,metalloexopeptidase activity
+748,sll0864,sll0864,zinc ion binding
+749,ssr2723,clpS,protein-folding chaperone binding
+751,sll1762,sll1762,outer membrane-bounded periplasmic space
+752,slr1882,ribF,riboflavin metabolic process
+753,slr1882,ribF,FMN biosynthetic process
+754,slr1882,ribF,riboflavin kinase activity
+756,slr1453,cysT,plasma membrane
+759,sll0616,secA,ABC-type protein transporter activity
+760,sll0616,secA,ATP binding
+761,sll1392,sll1392,transcription cis-regulatory region binding
+762,sll1392,sll1392,DNA-binding transcription factor activity
+763,sll1392,sll1392,regulation of DNA-templated transcription
+768,sll1192,crcB,fluoride transmembrane transporter activity
+769,sll1192,crcB,fluoride transmembrane transport
+774,sll0927,metK,S-adenosylmethionine biosynthetic process
+775,sll0927,metK,cytosol
+776,sll0927,metK,methionine adenosyltransferase activity
+777,slr1616,slr1616,C-terminal protein amino acid modification
+778,slr1616,slr1616,SOS response
+779,slr1616,slr1616,ribosomal S6-glutamic acid ligase activity
+780,slr1616,slr1616,cytoplasm
+781,slr1070,slr1070,glycosyltransferase activity
+782,sll1025,sll1025,oxidoreductase activity
+783,sll1025,sll1025,cytoplasm
+784,slr1400,slr1400,phosphorelay sensor kinase activity
+785,sll0644,sll0644,lipase activity
+786,slr0351,slr0351,protein-arginine omega-N symmetric methyltransferase activity
+787,slr0015,lpxB,phospholipid binding
+788,slr0015,lpxB,lipid A biosynthetic process
+794,slr0783,tpiA,glycerol catabolic process
+795,slr0783,tpiA,glyceraldehyde-3-phosphate biosynthetic process
+796,slr0783,tpiA,glycolytic process
+797,slr0783,tpiA,gluconeogenesis
+798,slr0783,tpiA,cytosol
+799,slr0783,tpiA,triose-phosphate isomerase activity
+805,slr0543,trpB,cytoplasm
+806,slr0543,trpB,tryptophan biosynthetic process
+807,slr0543,trpB,tryptophan synthase activity
+813,slr0444,aroA,3-phosphoshikimate 1-carboxyvinyltransferase activity
+814,slr0444,aroA,chorismate biosynthetic process
+815,slr0927,psbD,photosystem II
+816,sll0848,dnaA,plasma membrane
+817,sll0848,dnaA,DNA replication
+818,sll0848,dnaA,DNA replication initiation
+819,sll0848,dnaA,DNA replication origin binding
+820,sll0738,modA,outer membrane-bounded periplasmic space
+822,sll0744,sll0744,'de novo' pyrimidine nucleobase biosynthetic process
+823,sll0744,sll0744,dihydroorotate dehydrogenase activity
+824,sll0744,sll0744,cytoplasm
+825,slr0765,slr0765,mechanosensitive monoatomic ion channel activity
+826,slr0765,slr0765,cellular response to osmotic stress
+827,sll0657,mraY,cell wall macromolecule biosynthetic process
+828,sll0657,mraY,cell wall organization
+829,sll0657,mraY,"phosphotransferase activity, for other substituted phosphate groups"
+830,slr0713,tgt,cytosol
+831,slr0713,tgt,cytoplasm
+832,slr0713,tgt,queuosine biosynthetic process
+833,slr0713,tgt,tRNA wobble guanine modification
+834,sll0664,sll0664,excinuclease repair complex
+835,sll0664,sll0664,DNA damage response
+836,slr0707,polA,DNA-directed DNA polymerase activity
+837,slr0707,polA,double-strand break repair
+838,sll0670,sll0670,"peptidoglycan L,D-transpeptidase activity"
+839,sll0670,sll0670,peptidoglycan-protein cross-linking
+840,sll0507,corA,cobalt ion transmembrane transporter activity
+841,sll0507,corA,magnesium ion binding
+842,sll0507,corA,magnesium ion transmembrane transporter activity
+843,sll0507,corA,cobalt ion binding
+844,slr0700,slr0700,amino acid transport
+845,slr0700,slr0700,amino acid transmembrane transporter activity
+846,slr0697,slr0697,glutathione metabolic process
+847,slr0697,slr0697,5-oxoprolinase (ATP-hydrolyzing) activity
+848,sll0778,sll0778,transmembrane transport
+849,sll0778,sll0778,ATPase-coupled transmembrane transporter activity
+850,sll0778,sll0778,membrane
+851,sll0779,sll0779,cell adhesion involved in single-species biofilm formation
+852,sll0779,sll0779,negative regulation of bacterial-type flagellum-dependent cell motility
+853,sll0779,sll0779,plasma membrane
+854,sll0779,sll0779,diguanylate cyclase activity
+855,slr0801,slr0801,flavin adenine dinucleotide binding
+856,slr0801,slr0801,monooxygenase activity
+857,sll0785,sll0785,"7,8-didemethyl-8-hydroxy-5-deazariboflavin synthase activity"
+858,sll0786,sll0786,N-acetyltransferase activity
+859,sll0789,sll0789,phosphorelay response regulator activity
+860,sll0789,sll0789,protein-DNA complex
+861,sll0789,sll0789,transcription cis-regulatory region binding
+862,sll0789,sll0789,regulation of DNA-templated transcription
+863,sll0789,sll0789,cytosol
+864,slr0794,slr0794,plasma membrane
+865,slr0794,slr0794,xenobiotic transmembrane transporter activity
+871,slr0788,slr0788,NAD salvage
+872,slr0788,slr0788,nicotinate phosphoribosyltransferase activity
+873,slr0788,slr0788,cytosol
+874,slr0318,slr0318,organonitrogen compound catabolic process
+875,slr0318,slr0318,cytosol
+876,slr0318,slr0318,deaminase activity
+877,slr0315,slr0315,membrane
+878,sll0286,sll0286,N-acetyltransferase activity
+879,sll0286,sll0286,cytoplasm
+880,slr0306,slr0306,5'-nucleotidase activity
+881,slr0306,slr0306,UDP-sugar diphosphatase activity
+882,slr0306,slr0306,outer membrane-bounded periplasmic space
+883,slr0306,slr0306,nucleotide catabolic process
+884,slr0305,slr0305,plasma membrane
+885,slr0302,slr0302,diguanylate cyclase activity
+886,slr0302,slr0302,plasma membrane
+887,slr0302,slr0302,cell adhesion involved in single-species biofilm formation
+888,slr0302,slr0302,negative regulation of bacterial-type flagellum-dependent cell motility
+890,sll0289,minD,ATP binding
+891,sll0289,minD,cytoplasmic side of plasma membrane
+892,sll0289,minD,negative regulation of cell division
+893,sll0289,minD,cytosol
+894,sll0289,minD,ATP hydrolysis activity
+895,ssl0546,minE,plasma membrane
+896,ssl0546,minE,regulation of division septum assembly
+897,ssl0546,minE,division septum site selection
+902,slr0118,thiC,cytosol
+903,slr0118,thiC,thiamine biosynthetic process
+909,slr0114,slr0114,phosphatase activity
+910,slr0110,slr0110,ATP hydrolysis activity
+911,slr0110,slr0110,ATP binding
+912,slr0110,slr0110,cytoplasmic side of plasma membrane
+913,slr0110,slr0110,cytosol
+914,slr0110,slr0110,negative regulation of cell division
+915,sll0094,sll0094,phosphorelay sensor kinase activity
+916,sll0098,rlmN,rRNA base methylation
+917,sll0098,rlmN,tRNA methylation
+918,slr0105,slr0105,cytosol
+919,slr0105,slr0105,ATP binding
+920,slr0105,slr0105,ATP hydrolysis activity
+921,slr0105,slr0105,cytoplasmic side of plasma membrane
+922,slr0105,slr0105,negative regulation of cell division
+923,sll0109,aroH,chorismate metabolic process
+924,sll0109,aroH,chorismate mutase activity
+929,slr0616,slr0616,transmembrane transport
+930,slr0616,slr0616,transmembrane transporter activity
+931,slr0615,slr0615,ATPase-coupled transmembrane transporter activity
+932,slr0615,slr0615,transmembrane transport
+935,sll0596,sll0596,"hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides"
+936,sll0596,sll0596,riboflavin biosynthetic process
+937,sll0597,sll0597,transmembrane transport
+938,sll0467,queA,tRNA wobble guanine modification
+939,sll0467,queA,queuosine biosynthetic process
+940,sll0467,queA,S-adenosylmethionine:tRNA ribosyltransferase-isomerase activity
+945,sll1080,sll1080,transport
+946,sll1799,rplC,cytosolic large ribosomal subunit
+947,sll1799,rplC,structural constituent of ribosome
+950,slr1066,slr1066,lipopolysaccharide biosynthetic process
+951,slr1066,slr1066,glycosyltransferase activity
+952,slr1077,slr1077,glycosyltransferase activity
+953,slr1077,slr1077,lipopolysaccharide biosynthetic process
+962,slr1592,slr1592,enzyme-directed rRNA pseudouridine synthesis
+963,slr1592,slr1592,pseudouridine synthase activity
+968,slr1056,slr1056,double-strand break repair
+969,slr1056,slr1056,DNA synthesis involved in DNA repair
+970,sll0996,miaB,tRNA methylthiolation
+971,sll0996,miaB,methylthiotransferase activity
+972,sll0996,miaB,"4 iron, 4 sulfur cluster binding"
+973,slr1392,feoB,ferrous iron transmembrane transporter activity
+974,slr1392,feoB,plasma membrane
+975,sll1742,nusG,cytosol
+976,sll1740,rplS,structural constituent of ribosome
+977,sll1740,rplS,cytosolic large ribosomal subunit
+978,sll1743,rplK,cytosolic large ribosomal subunit
+979,sll1743,rplK,translation
+980,sll1743,rplK,structural constituent of ribosome
+981,sll1743,rplK,large ribosomal subunit rRNA binding
+983,sll1098,fusA,ribosome disassembly
+984,sll1363,ilvC,cytosol
+985,sll1363,ilvC,isoleucine biosynthetic process
+986,sll1363,ilvC,ketol-acid reductoisomerase activity
+987,sll1363,ilvC,valine biosynthetic process
+990,sll1745,rplJ,structural constituent of ribosome
+991,sll1745,rplJ,cytosolic large ribosomal subunit
+992,sll1745,rplJ,translation
+995,ssl2615,atpE,"proton-transporting ATP synthase complex, coupling factor F(o)"
+996,ssl2615,atpE,proton motive force-driven ATP synthesis
+997,sll1326,atpA,proton motive force-driven ATP synthesis
+998,sll1326,atpA,"proton-transporting ATP synthase complex, catalytic core F(1)"
+999,sll1326,atpA,ADP binding
+1000,sll1326,atpA,ATP binding
+1001,sll1326,atpA,"proton-transporting ATP synthase activity, rotational mechanism"
+1002,sll1322,atpB,"proton-transporting ATP synthase activity, rotational mechanism"
+1003,sll1322,atpB,proton-transporting ATP synthase complex
+1004,sll1322,atpB,proton motive force-driven ATP synthesis
+1007,slr1330,atpC,proton motive force-driven ATP synthesis
+1008,slr1330,atpC,"proton-transporting ATP synthase activity, rotational mechanism"
+1009,slr1329,atpD,"proton-transporting ATP synthase complex, catalytic core F(1)"
+1010,slr1329,atpD,"proton-transporting ATP synthase activity, rotational mechanism"
+1020,slr0500,hisB,imidazoleglycerol-phosphate dehydratase activity
+1021,slr0500,hisB,histidine biosynthetic process
+1028,ssl2084,acpP,cytosol
+1029,ssl2084,acpP,acyl binding
+1030,ssl2084,acpP,lipid A biosynthetic process
+1031,ssl2084,acpP,acyl carrier activity
+1032,sll0615,sll0615,metal ion transmembrane transporter activity
+1033,sll0741,nifJ,response to oxidative stress
+1034,slr0093,slr0093,chaperone cofactor-dependent protein refolding
+1035,slr0093,slr0093,unfolded protein binding
+1036,slr0093,slr0093,protein-folding chaperone binding
+1037,slr0093,slr0093,cytosol
+1042,sll0329,gnd,phosphogluconate dehydrogenase (decarboxylating) activity
+1043,sll0329,gnd,cytosol
+1044,sll0329,gnd,"pentose-phosphate shunt, oxidative branch"
+1045,sll0329,gnd,NADP binding
+1046,sll0329,gnd,D-gluconate catabolic process
+1049,slr0526,panB,cytoplasm
+1050,slr0526,panB,magnesium ion binding
+1051,slr0526,panB,pantothenate biosynthetic process
+1052,slr0526,panB,3-methyl-2-oxobutanoate hydroxymethyltransferase activity
+1061,slr0709,slr0709,cytosol
+1062,slr0709,slr0709,deaminase activity
+1063,slr0709,slr0709,organonitrogen compound catabolic process
+1067,sll0685,sll0685,"oxidoreductase activity, acting on a sulfur group of donors, disulfide as acceptor"
+1068,sll1341,bfr,cytosol
+1069,sll1341,bfr,heme binding
+1070,sll1341,bfr,ferroxidase activity
+1071,sll1341,bfr,intracellular sequestering of iron ion
+1072,sll1341,bfr,iron ion binding
+1073,sll1746,rplL,cytosolic large ribosomal subunit
+1074,sll1746,rplL,structural constituent of ribosome
+1075,sll1746,rplL,translation
+1076,sll1746,rplL,mRNA binding
+1089,slr0535,slr0535,serine-type endopeptidase activity
+1090,slr0220,glyS,cytosol
+1103,sll1244,rplI,cytosolic large ribosomal subunit
+1114,slr1279,ndhC,NADH dehydrogenase (ubiquinone) activity
+1115,slr1279,ndhC,NADH dehydrogenase complex
+1117,sll1921,sll1921,ATP hydrolysis activity
+1118,sll1921,sll1921,plasma membrane
+1121,ssl3436,rpmC,cytosolic large ribosomal subunit
+1123,sll1119,sll1119,homoserine kinase activity
+1124,sll1119,sll1119,threonine biosynthetic process
+1126,slr1943,slr1943,plasma membrane
+1131,slr1463,fusB,cytosol
+1132,slr1463,fusB,ribosome disassembly
+1133,slr1170,slr1170,metal ion transmembrane transporter activity
+1134,ssr0482,rpsP,structural constituent of ribosome
+1135,ssr0482,rpsP,small ribosomal subunit
+1136,sll0257,tsaE,tRNA threonylcarbamoyladenosine modification
+1137,sll0359,sll0359,transcription cis-regulatory region binding
+1138,sll0359,sll0359,protein-DNA complex
+1139,sll0359,sll0359,DNA-binding transcription repressor activity
+1140,slr1934,pdhA,branched-chain amino acid catabolic process
+1143,sll1528,sll1528,glycosyltransferase activity
+1144,ssr5011,ssr5011,cytoplasm
+1145,ssr5020,ssr5020,ribosomal small subunit binding
+1146,ssr5020,ssr5020,negative regulation of translational initiation
+1147,ssr5020,ssr5020,RNA catabolic process
+1148,ssr5020,ssr5020,"RNA endonuclease activity, producing 3'-phosphomonoesters"
+1149,ssr5020,ssr5020,negative regulation of nucleic acid-templated transcription
+1150,slr5023,slr5023,double-strand break repair
+1151,slr5023,slr5023,DNA synthesis involved in DNA repair
+1152,sll5036,sll5036,aerobic electron transport chain
+1153,sll5036,sll5036,NAD(P)H dehydrogenase (quinone) activity
+1154,sll5046,sll5046,N-acetylglucosamine 6-O-sulfotransferase activity
+1155,sll5046,sll5046,N-acetylglucosamine metabolic process
+1156,sll5046,sll5046,sulfur compound metabolic process
+1157,sll5048,sll5048,lipopolysaccharide biosynthetic process
+1158,sll5048,sll5048,glycosyltransferase activity
+1159,sll5049,sll5049,plasma membrane
+1160,sll5050,sll5050,glycosyltransferase activity
+1161,sll5052,sll5052,plasma membrane
+1162,sll5052,sll5052,protein tyrosine kinase activity
+1163,slr5054,slr5054,glycosyltransferase activity
+1164,slr5055,slr5055,hexosyltransferase activity
+1165,sll5057,sll5057,"phosphotransferase activity, for other substituted phosphate groups"
+1166,sll5059,sll5059,cytosol
+1167,sll5059,sll5059,phosphorelay response regulator activity
+1168,sll5059,sll5059,protein-DNA complex
+1169,sll5059,sll5059,transcription cis-regulatory region binding
+1170,sll5059,sll5059,regulation of DNA-templated transcription
+1173,slr1859,slr1859,anti-sigma factor antagonist activity
+1177,slr1498,hypD,iron ion binding
+1178,slr1498,hypD,"4 iron, 4 sulfur cluster binding"
+1179,slr1498,hypD,protein maturation
+1180,slr1498,hypD,carbon monoxide binding
+1181,sll1395,rfbD,cytosol
+1182,sll1395,rfbD,dTDP-rhamnose biosynthetic process
+1183,sll1395,rfbD,extracellular polysaccharide biosynthetic process
+1184,sll1395,rfbD,dTDP-4-dehydrorhamnose reductase activity
+1185,slr1119,slr1119,lysophospholipase activity
+1189,sll0708,rsmA,"rRNA (adenine-N6,N6-)-dimethyltransferase activity"
+1190,sll0708,rsmA,rRNA methylation
+1191,sll0708,rsmA,cytosol
+1192,sll0703,sll0703,cell redox homeostasis
+1193,sll0703,sll0703,thioredoxin-disulfide reductase activity
+1194,sll0703,sll0703,cytoplasm
+1195,slr0742,rimP,translation
+1196,slr0742,rimP,cytosol
+1197,slr0742,rimP,ribosomal small subunit assembly
+1200,sll1660,sll1660,"guanosine-3',5'-bis(diphosphate) 3'-diphosphatase activity"
+1201,sll1659,cofH,"7,8-didemethyl-8-hydroxy-5-deazariboflavin synthase activity"
+1207,slr1300,slr1300,oxidoreductase activity
+1208,slr1300,slr1300,ubiquinone biosynthetic process
+1209,sll1185,hemF,protoporphyrinogen IX biosynthetic process
+1210,sll1185,hemF,coproporphyrinogen oxidase activity
+1211,sll1185,hemF,cytoplasm
+1212,ssr1604,rpmB,structural constituent of ribosome
+1213,ssl1784,rpsO,cytosolic small ribosomal subunit
+1214,slr1617,slr1617,"dTDP-glucose 4,6-dehydratase activity"
+1220,slr1184,slr1184,thiosulfate sulfurtransferase activity
+1223,slr0593,slr0593,cytosol
+1224,slr0606,slr0606,lipopolysaccharide core region biosynthetic process
+1225,slr0606,slr0606,ADP-heptose-lipopolysaccharide heptosyltransferase activity
+1226,slr0606,slr0606,cytosol
+1227,slr0609,slr0609,cytoplasm
+1228,slr1322,slr1322,cytosol
+1229,sll0817,miaA,tRNA modification
+1230,sll0817,miaA,tRNA dimethylallyltransferase activity
+1233,slr0813,slr0813,membrane
+1234,slr0813,slr0813,glucosylceramide biosynthetic process
+1235,slr0813,slr0813,ceramide glucosyltransferase activity
+1236,slr0820,slr0820,"phosphotransferase activity, for other substituted phosphate groups"
+1237,sll0807,rpe,D-ribulose-phosphate 3-epimerase activity
+1238,sll0807,rpe,metal ion binding
+1239,sll0807,rpe,carbohydrate metabolic process
+1240,sll0807,rpe,cytosol
+1241,sll0807,rpe,"pentose-phosphate shunt, non-oxidative branch"
+1245,slr1958,slr1958,tetrapyrrole binding
+1246,sll1894,ribBA,GTP cyclohydrolase II activity
+1247,sll1894,ribBA,cytosol
+1248,sll1894,ribBA,riboflavin biosynthetic process
+1249,sll1893,hisF,imidazoleglycerol-phosphate synthase activity
+1250,slr1974,der,ribosome binding
+1251,slr1974,der,ribosomal large subunit assembly
+1252,slr1975,slr1975,N-acetylglucosamine metabolic process
+1253,slr1975,slr1975,N-acetylmannosamine metabolic process
+1254,slr1975,slr1975,N-acylglucosamine 2-epimerase activity
+1255,sll1878,sll1878,transmembrane transport
+1256,sll1878,sll1878,transmembrane transporter activity
+1257,sll1878,sll1878,plasma membrane
+1258,slr1980,slr1980,sulfate assimilation
+1259,slr1980,slr1980,high-affinity sulfate:proton symporter activity
+1260,slr1980,slr1980,cysteine biosynthetic process
+1266,sll1866,sll1866,cytoplasm
+1267,sll1866,sll1866,tRNA binding
+1268,sll1866,sll1866,nucleotidyltransferase activity
+1269,sll1866,sll1866,regulation of translational fidelity
+1270,slr1471,yidC,protein insertion into membrane
+1271,slr1471,yidC,membrane insertase activity
+1272,sll1380,sll1380,tetrapyrrole binding
+1273,sll1369,sll1369,serine-type carboxypeptidase activity
+1274,sll1369,sll1369,peptidoglycan metabolic process
+1277,sll1440,pdxH,pyridoxamine-phosphate oxidase activity
+1278,sll1440,pdxH,pyridoxal phosphate biosynthetic process
+1279,sll1435,gatB,glutaminyl-tRNAGln biosynthesis via transamidation
+1280,sll1435,gatB,glutaminyl-tRNA synthase (glutamine-hydrolyzing) activity
+1281,sll1103,sll1103,transmembrane transporter activity
+1282,sll1103,sll1103,plasma membrane
+1283,sll1102,sll1102,plasma membrane
+1284,sll1102,sll1102,transmembrane transporter activity
+1285,sll1102,sll1102,C4-dicarboxylate transport
+1286,sll1097,rpsG,structural constituent of ribosome
+1287,sll1097,rpsG,mRNA binding
+1288,sll1097,rpsG,cytosolic small ribosomal subunit
+1289,sll1097,rpsG,rRNA binding
+1290,sll1097,rpsG,ribosome
+1291,sll1097,rpsG,ribosomal small subunit assembly
+1292,sll1097,rpsG,translation
+1293,sll1566,ggpS,"alpha,alpha-trehalose-phosphate synthase (UDP-forming) activity"
+1294,slr1672,glpK,glycerol kinase activity
+1295,slr1672,glpK,glycerol catabolic process
+1296,slr1672,glpK,phosphorylation
+1297,slr1672,glpK,cytosol
+1298,slr1677,slr1677,lipid A biosynthetic process
+1299,slr1677,slr1677,phospholipid binding
+1300,sll1563,sll1563,cytosol
+1301,sll1563,sll1563,cytoplasmic side of plasma membrane
+1302,sll1563,sll1563,ATP hydrolysis activity
+1303,sll1563,sll1563,negative regulation of cell division
+1304,sll1563,sll1563,ATP binding
+1307,sll1553,pheT,phenylalanyl-tRNA aminoacylation
+1308,sll1553,pheT,phenylalanine-tRNA ligase complex
+1309,sll1553,pheT,phenylalanine-tRNA ligase activity
+1311,sll0914,sll0914,lysophospholipase activity
+1313,slr0947,slr0947,protein-DNA complex
+1314,slr0947,slr0947,transcription cis-regulatory region binding
+1315,slr0947,slr0947,phosphorelay response regulator activity
+1316,slr0947,slr0947,regulation of DNA-templated transcription
+1317,slr0947,slr0947,cytosol
+1329,slr0952,fbp,gluconeogenesis
+1330,slr0952,fbp,fructose metabolic process
+1331,slr0952,fbp,fructose 6-phosphate metabolic process
+1332,slr0952,fbp,cytosol
+1333,slr0952,fbp,"fructose 1,6-bisphosphate metabolic process"
+1334,slr0952,fbp,"fructose 1,6-bisphosphate 1-phosphatase activity"
+1335,slr0952,fbp,sucrose biosynthetic process
+1336,slr0952,fbp,cytoplasm
+1337,sll0905,sll0905,nucleoside triphosphate diphosphatase activity
+1338,sll1541,sll1541,carotene catabolic process
+1339,sll1541,sll1541,carotenoid dioxygenase activity
+1342,slr1627,slr1627,amino acid transport
+1343,slr1627,slr1627,amino acid transmembrane transporter activity
+1344,slr1629,slr1629,enzyme-directed rRNA pseudouridine synthesis
+1345,slr1629,slr1629,pseudouridine synthase activity
+1347,sll1534,sll1534,glycosyltransferase activity
+1348,sll1527,sll1527,lipopolysaccharide biosynthetic process
+1349,sll1527,sll1527,glycosyltransferase activity
+1350,slr1648,slr1648,carotene catabolic process
+1351,slr1648,slr1648,carotenoid dioxygenase activity
+1352,sll0362,alaS,amino acid binding
+1353,sll0362,alaS,ATP binding
+1354,sll0362,alaS,alanine-tRNA ligase activity
+1355,sll0362,alaS,aminoacyl-tRNA editing activity
+1356,sll0362,alaS,tRNA modification
+1357,sll0362,alaS,cytosol
+1358,sll0362,alaS,alanyl-tRNA aminoacylation
+1365,slr0152,slr0152,peptidyl-serine phosphorylation
+1366,slr0152,slr0152,protein serine/threonine kinase activity
+1367,sll0148,sll0148,cytoplasm
+1368,sll0148,sll0148,proteolysis
+1369,sll0148,sll0148,cysteine-type endopeptidase activity
+1370,sll0142,sll0142,xenobiotic transmembrane transporter activity
+1371,sll0142,sll0142,plasma membrane
+1372,sll0141,sll0141,efflux pump complex
+1373,sll0141,sll0141,efflux transmembrane transporter activity
+1374,slr1938,mtnA,L-methionine salvage from methylthioadenosine
+1375,slr1938,mtnA,S-methyl-5-thioribose-1-phosphate isomerase activity
+1377,slr1950,slr1950,copper ion homeostasis
+1378,slr1950,slr1950,copper ion binding
+1379,slr1950,slr1950,membrane
+1380,slr1950,slr1950,P-type divalent copper transporter activity
+1381,slr0989,slr0989,cytosol
+1384,sll1330,sll1330,phosphorelay response regulator activity
+1385,sll1330,sll1330,cytosol
+1386,sll1330,sll1330,transcription cis-regulatory region binding
+1387,sll1330,sll1330,regulation of DNA-templated transcription
+1388,sll1330,sll1330,protein-DNA complex
+1389,slr1454,cysW,plasma membrane
+1391,slr1461,slr1461,serine-type endopeptidase activity
+1392,slr1462,slr1462,cytosol
+1393,slr1462,slr1462,tRNA methylation
+1394,slr1462,slr1462,cytoplasm
+1395,slr1462,slr1462,tRNA wobble uridine modification
+1396,sll0631,nadB,'de novo' NAD biosynthetic process from aspartate
+1397,sll0631,nadB,L-aspartate oxidase activity
+1399,slr1563,slr1563,kinase activity
+1402,sll1552,sll1552,peptide-alanine-alpha-N-acetyltransferase activity
+1403,sll1552,sll1552,N-terminal peptidyl-alanine acetylation
+1404,slr1656,murG,glycosyltransferase activity
+1405,slr1665,dapF,cytosol
+1406,slr1665,dapF,diaminopimelate epimerase activity
+1407,slr1665,dapF,lysine biosynthetic process via diaminopimelate
+1411,slr0452,ilvD,dihydroxy-acid dehydratase activity
+1412,slr0452,ilvD,branched-chain amino acid biosynthetic process
+1413,slr0454,slr0454,plasma membrane
+1414,slr0454,slr0454,xenobiotic transmembrane transporter activity
+1415,slr0236,slr0236,glutathione metabolic process
+1416,slr0236,slr0236,L-phenylalanine catabolic process
+1417,slr0236,slr0236,glutathione transferase activity
+1418,slr0236,slr0236,maleylacetoacetate isomerase activity
+1419,sll1699,sll1699,outer membrane-bounded periplasmic space
+1420,sll1699,sll1699,peptide transmembrane transporter activity
+1421,sll1699,sll1699,peptide transport
+1422,slr1805,slr1805,phosphorelay sensor kinase activity
+1427,slr2141,slr2141,cytosol
+1428,slr2141,slr2141,methionine biosynthetic process
+1429,slr2141,slr2141,tetrahydrofolate interconversion
+1430,slr2141,slr2141,methylenetetrahydrofolate reductase (NAD(P)H) activity
+1431,slr2141,slr2141,FAD binding
+1432,slr2136,ispG,4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase activity
+1433,slr2136,ispG,"isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway"
+1434,sll2014,sfsA,DNA binding
+1435,slr1887,hemC,heme biosynthetic process
+1436,slr1887,hemC,hydroxymethylbilane synthase activity
+1437,slr1887,hemC,cytoplasm
+1438,slr1886,rsfS,negative regulation of ribosome biogenesis
+1439,slr1886,rsfS,ribosomal large subunit binding
+1440,slr1886,rsfS,negative regulation of translation
+1441,slr1884,trpS,tryptophan-tRNA ligase activity
+1442,slr1884,trpS,tryptophanyl-tRNA aminoacylation
+1445,sll1758,glmM,UDP-N-acetylglucosamine biosynthetic process
+1446,sll1758,glmM,phosphomannomutase activity
+1447,sll1758,glmM,phosphoglucosamine mutase activity
+1448,sll1758,glmM,cytosol
+1449,sll1758,glmM,peptidoglycan biosynthetic process
+1451,sll1767,rpsF,small ribosomal subunit rRNA binding
+1452,sll1767,rpsF,structural constituent of ribosome
+1453,slr1876,slr1876,protein processing
+1454,slr1876,slr1876,endopeptidase activity
+1459,slr1871,slr1871,transcription cis-regulatory region binding
+1460,slr1871,slr1871,regulation of DNA-templated transcription
+1461,sll1775,sll1775,beta-glucosidase activity
+1462,slr1867,trpD,tryptophan biosynthetic process
+1463,slr1867,trpD,cytosol
+1464,slr1856,slr1856,anti-sigma factor antagonist activity
+1465,sll1783,sll1783,catalytic activity
+1466,sll1305,sll1305,hydrolase activity
+1467,sll0861,murQ,peptidoglycan turnover
+1468,sll0861,murQ,carbon-oxygen lyase activity
+1469,sll0861,murQ,ether hydrolase activity
+1470,sll0861,murQ,amino sugar catabolic process
+1471,sll0865,uvrC,DNA damage response
+1472,sll0865,uvrC,excinuclease repair complex
+1473,slr0887,slr0887,carboxylic acid metabolic process
+1474,slr0887,slr0887,cytosol
+1475,slr0886,fabG,"oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor"
+1476,slr0886,fabG,fatty acid elongation
+1477,sll0867,sll0867,oxidoreductase activity
+1478,slr0882,slr0882,lipopolysaccharide transport
+1479,slr0882,slr0882,ATP-binding cassette (ABC) transporter complex
+1480,slr0878,slr0878,metalloendopeptidase activity
+1481,slr0876,slr0876,FAD binding
+1482,slr0876,slr0876,sulfide:quinone oxidoreductase activity
+1483,slr0876,slr0876,"sulfide oxidation, using sulfide:quinone oxidoreductase"
+1484,sll0875,sll0875,membrane
+1485,slr0875,mscL,mechanosensitive monoatomic ion channel activity
+1486,slr0875,mscL,monoatomic ion transport
+1487,slr0875,mscL,intracellular water homeostasis
+1492,slr1364,bioB,transferase activity
+1497,sll1276,sll1276,transmembrane transport
+1498,sll1276,sll1276,ATPase-coupled lipid transmembrane transporter activity
+1502,sll1282,ribH,riboflavin biosynthetic process
+1503,sll1282,ribH,intracellular anatomical structure
+1504,sll1282,ribH,cytosol
+1505,sll1282,ribH,"6,7-dimethyl-8-ribityllumazine synthase activity"
+1506,sll1348,queG,epoxyqueuosine reductase activity
+1507,sll1348,queG,queuosine biosynthetic process
+1512,slr1449,slr1449,plasma membrane
+1513,slr1449,slr1449,heme binding
+1515,slr1442,slr1442,plasma membrane
+1520,sll1362,ileS,isoleucine-tRNA ligase activity
+1521,sll1362,ileS,isoleucyl-tRNA aminoacylation
+1523,slr1239,pntA,NADPH regeneration
+1524,slr1239,pntA,NAD binding
+1525,slr1239,pntA,NADP binding
+1526,slr1239,pntA,NAD(P)+ transhydrogenase activity
+1527,slr1239,pntA,plasma membrane
+1528,sll1127,menB,menaquinone biosynthetic process
+1529,sll1127,menB,cytosol
+1530,sll1127,menB,"1,4-dihydroxy-2-naphthoyl-CoA synthase activity"
+1531,slr1238,gshB,cytoplasm
+1532,slr1238,gshB,glutathione synthase activity
+1536,ssl2250,ssl2250,"2 iron, 2 sulfur cluster binding"
+1542,slr1228,prfC,cytosol
+1543,slr1228,prfC,"translation release factor activity, codon nonspecific"
+1544,slr1228,prfC,translational termination
+1550,sll1633,ftsZ,cell division site
+1551,sll1633,ftsZ,GTP binding
+1552,sll1633,ftsZ,cytoplasm
+1553,sll1633,ftsZ,GTPase activity
+1554,sll1633,ftsZ,cell division
+1555,slr1748,slr1748,phosphatase activity
+1556,slr1748,slr1748,cytoplasm
+1557,sll1634,sll1634,cytosol
+1558,sll1634,sll1634,tryptophan biosynthetic process
+1563,slr1550,lysS,tRNA binding
+1564,slr1550,lysS,lysyl-tRNA aminoacylation
+1565,slr1550,lysS,lysine-tRNA ligase activity
+1566,slr1550,lysS,cytosol
+1567,sll1463,ftsH4,ATP-dependent peptidase activity
+1568,sll1463,ftsH4,proteolysis
+1569,sll1463,ftsH4,thylakoid
+1570,sll1466,sll1466,lipopolysaccharide biosynthetic process
+1571,sll1466,sll1466,glycosyltransferase activity
+1575,slr1540,slr1540,cytosol
+1576,slr1540,slr1540,rRNA processing
+1577,slr1540,slr1540,RNA binding
+1578,slr1537,slr1537,glycosyltransferase activity
+1581,sll1715,sll1715,rRNA catabolic process
+1582,sll1715,sll1715,RNA endonuclease activity
+1583,slr1842,cysK,cytoplasm
+1584,slr1842,cysK,L-cysteine desulfhydrase activity
+1585,slr1842,cysK,cysteine biosynthetic process from serine
+1586,slr1842,cysK,cysteine synthase activity
+1589,slr1837,slr1837,transcription cis-regulatory region binding
+1590,slr1837,slr1837,regulation of DNA-templated transcription
+1591,slr1837,slr1837,phosphorelay response regulator activity
+1592,slr1837,slr1837,protein-DNA complex
+1593,slr1837,slr1837,cytosol
+1594,sll1722,sll1722,glycosyltransferase activity
+1595,sll1723,sll1723,glycosyltransferase activity
+1596,sll1725,sll1725,transmembrane transport
+1597,sll1725,sll1725,ATPase-coupled lipid transmembrane transporter activity
+1598,slr2131,slr2131,xenobiotic transmembrane transporter activity
+1599,slr2131,slr2131,plasma membrane
+1600,slr2130,aroB,3-dehydroquinate synthase activity
+1601,slr2130,aroB,aromatic amino acid family biosynthetic process
+1602,sll1995,sll1995,glycosyltransferase activity
+1603,slr2123,slr2123,hydroxypyruvate reductase activity
+1604,slr2123,slr2123,glyoxylate reductase (NADP+) activity
+1605,slr2123,slr2123,cytosol
+1606,slr2122,slr2122,N-acylneuraminate cytidylyltransferase activity
+1607,slr2121,slr2121,tryptophan catabolic process to kynurenine
+1608,slr2121,slr2121,arylformamidase activity
+1609,slr2118,slr2118,glycosyltransferase activity
+1610,slr2118,slr2118,lipopolysaccharide biosynthetic process
+1618,slr1521,hflX,cytoplasm
+1619,slr1521,hflX,ribosome binding
+1620,slr1520,slr1520,cytosol
+1621,slr1520,slr1520,alditol:NADP+ 1-oxidoreductase activity
+1622,slr1518,menA,vitamin K biosynthetic process
+1623,slr1518,menA,"ubiquinone biosynthetic process via 3,4-dihydroxy-5-polyprenylbenzoate"
+1624,slr1518,menA,menaquinone biosynthetic process
+1625,slr1518,menA,prenyltransferase activity
+1626,slr1517,leuB,cytosol
+1627,slr1517,leuB,leucine biosynthetic process
+1628,slr1517,leuB,3-isopropylmalate dehydrogenase activity
+1632,slr1508,slr1508,glycosyltransferase activity
+1633,slr1506,slr1506,1-alkyl-2-acetylglycerophosphocholine esterase activity
+1634,sll1425,proS,prolyl-tRNA aminoacylation
+1635,sll1425,proS,cytosol
+1636,sll1425,proS,proline-tRNA ligase activity
+1637,slr1503,slr1503,cytoplasm
+1638,slr1503,slr1503,aldo-keto reductase (NADP) activity
+1639,sll1429,sll1429,bacterial nucleoid
+1640,sll1429,sll1429,restriction endodeoxyribonuclease activity
+1641,sll1973,plsY,plasma membrane
+1642,slr2102,ftsY,plasma membrane
+1643,slr2102,ftsY,protein targeting
+1644,slr2102,ftsY,GTPase activity
+1645,slr2102,ftsY,signal recognition particle binding
+1646,slr2099,slr2099,phosphorelay sensor kinase activity
+1655,slr2088,ilvB,thiamine pyrophosphate binding
+1656,slr2088,ilvB,oxalate catabolic process
+1657,slr2088,ilvB,oxalyl-CoA decarboxylase activity
+1658,slr2088,ilvB,fatty acid alpha-oxidation
+1659,sll1988,hslO,protein refolding
+1660,sll1988,hslO,cytoplasm
+1661,sll1988,hslO,protein folding chaperone
+1662,slr1138,ctaE,cytochrome-c oxidase activity
+1663,slr1138,ctaE,aerobic respiration
+1664,slr1137,ctaD,respiratory electron transport chain
+1665,slr1137,ctaD,aerobic respiration
+1666,slr1137,ctaD,electron transport coupled proton transport
+1667,slr1137,ctaD,cytochrome-c oxidase activity
+1671,sll0240,sll0240,sulfate transport
+1672,sll0244,galE,cytosol
+1673,sll0244,galE,UDP-glucose 4-epimerase activity
+1674,sll0244,galE,galactose catabolic process via UDP-galactose
+1675,sll0245,ychF,cytoplasm
+1676,sll0245,ychF,ATP hydrolysis activity
+1679,sll0250,coaBC,coenzyme A biosynthetic process
+1680,sll0250,coaBC,FMN binding
+1681,sll0250,coaBC,phosphopantothenoylcysteine decarboxylase activity
+1682,sll0250,coaBC,phosphopantothenoylcysteine decarboxylase complex
+1683,slr0264,slr0264,cellular lipid metabolic process
+1684,slr0264,slr0264,acylglycerol lipase activity
+1685,slr0264,slr0264,short-chain carboxylesterase activity
+1686,sll0254,sll0254,oxidoreductase activity
+1687,sll0254,sll0254,plasma membrane
+1688,slr1730,kdpC,potassium ion transmembrane transport
+1689,slr1730,kdpC,P-type potassium transmembrane transporter activity
+1690,slr1728,kdpA,potassium ion transmembrane transport
+1691,slr1728,kdpA,plasma membrane
+1692,slr1728,kdpA,P-type potassium transmembrane transporter activity
+1693,sll1590,sll1590,phosphorelay sensor kinase activity
+1702,slr1720,aspS,aspartyl-tRNA aminoacylation
+1703,slr1720,aspS,aspartate-tRNA ligase activity
+1705,sll1606,sll1606,plasma membrane
+1706,sll1606,sll1606,peptidoglycan metabolic process
+1707,sll1606,sll1606,Gram-negative-bacterium-type cell wall biogenesis
+1708,sll1611,sll1611,"oxidoreductase activity, acting on paired donors, with oxidation of a pair of donors resulting in the reduction of molecular oxygen to two molecules of water"
+1709,sll1611,sll1611,lipid metabolic process
+1714,sll1615,mnmE,cytoplasm
+1715,sll1615,mnmE,tRNA methylation
+1716,sll1615,mnmE,tRNA wobble uridine modification
+1717,sll1615,mnmE,cytosol
+1718,sll1902,sll1902,cytoplasm
+1721,sll1909,prmA,protein methyltransferase activity
+1722,slr2057,aqpZ,plasma membrane
+1723,slr2057,aqpZ,water channel activity
+1727,slr1259,slr1259,sulfur dioxygenase activity
+1728,slr1259,slr1259,glutathione metabolic process
+1729,slr1259,slr1259,hydrogen sulfide metabolic process
+1730,slr1258,slr1258,DNA damage response
+1731,sll1147,sll1147,glutathione transferase activity
+1732,sll1147,sll1147,glutathione peroxidase activity
+1733,sll1150,sll1150,plasma membrane
+1734,ssl2296,ssl2296,4-alpha-hydroxytetrahydrobiopterin dehydratase activity
+1735,slr1251,slr1251,protein peptidyl-prolyl isomerization
+1736,slr1251,slr1251,cytoplasm
+1737,slr1251,slr1251,peptidyl-prolyl cis-trans isomerase activity
+1738,slr1251,slr1251,protein folding
+1739,slr1251,slr1251,cyclosporin A binding
+1740,slr1245,slr1245,DNA-templated transcription
+1741,slr1245,slr1245,sequence-specific DNA binding
+1742,slr1245,slr1245,DNA-binding transcription factor activity
+1743,sll1159,sll1159,cellular response to oxidative stress
+1744,sll1159,sll1159,cell redox homeostasis
+1745,sll1159,sll1159,thioredoxin peroxidase activity
+1746,sll1159,sll1159,cytoplasm
+1747,sll1165,mutS,cytosol
+1748,sll1165,mutS,mismatched DNA binding
+1749,sll1165,mutS,mismatch repair
+1753,sll0837,sll0837,receptor-mediated virion attachment to host cell
+1754,sll0837,sll0837,cell outer membrane
+1755,sll0838,pyrF,cytosol
+1756,sll0838,pyrF,'de novo' pyrimidine nucleobase biosynthetic process
+1757,sll0838,pyrF,orotidine-5'-phosphate decarboxylase activity
+1758,slr0864,slr0864,ATP binding
+1759,sll0844,mnmA,tRNA wobble position uridine thiolation
+1760,slr0863,slr0863,cytosol
+1765,slr0853,rimI,N-terminal peptidyl-alanine acetylation
+1766,slr0853,rimI,peptide-alanine-alpha-N-acetyltransferase activity
+1772,slr1740,slr1740,peptide transmembrane transporter activity
+1773,slr1740,slr1740,outer membrane-bounded periplasmic space
+1774,slr1740,slr1740,peptide transport
+1775,slr1738,slr1738,zinc ion binding
+1776,slr1738,slr1738,transcription cis-regulatory region binding
+1777,slr1738,slr1738,DNA-binding transcription factor activity
+1778,slr1738,slr1738,negative regulation of DNA-templated transcription
+1779,slr1738,slr1738,regulation of secondary metabolite biosynthetic process
+1780,sll1621,sll1621,cell redox homeostasis
+1781,sll1621,sll1621,cytoplasm
+1782,sll1621,sll1621,thioredoxin peroxidase activity
+1783,sll1621,sll1621,hydrogen peroxide catabolic process
+1784,sll1621,sll1621,cellular response to oxidative stress
+1785,slr1736,slr1736,menaquinone biosynthetic process
+1786,slr1736,slr1736,"ubiquinone biosynthetic process via 3,4-dihydroxy-5-polyprenylbenzoate"
+1787,slr1736,slr1736,vitamin K biosynthetic process
+1788,slr1736,slr1736,prenyltransferase activity
+1789,sll1628,sll1628,receptor-mediated virion attachment to host cell
+1790,sll1628,sll1628,cell outer membrane
+1791,sll1687,sll1687,cell adhesion involved in single-species biofilm formation
+1792,sll1687,sll1687,negative regulation of bacterial-type flagellum-dependent cell motility
+1793,sll1687,sll1687,diguanylate cyclase activity
+1794,sll1687,sll1687,plasma membrane
+1795,slr1820,slr1820,plasma membrane
+1796,slr1820,slr1820,response to iron(III) ion
+1797,slr1820,slr1820,lipopolysaccharide biosynthetic process
+1798,slr1820,slr1820,pentosyltransferase activity
+1799,sll1693,sll1693,methyltransferase activity
+1800,sll1263,sll1263,zinc efflux active transmembrane transporter activity
+1801,sll1263,sll1263,ferrous iron transmembrane transporter activity
+1802,sll1263,sll1263,intracellular iron ion homeostasis
+1803,sll1263,sll1263,intracellular zinc ion homeostasis
+1804,sll1263,sll1263,plasma membrane
+1805,sll1263,sll1263,cadmium ion transmembrane transporter activity
+1806,sll0804,sll0804,cytoplasm
+1807,sll0804,sll0804,tRNA methylation
+1808,sll0804,sll0804,tRNA wobble uridine modification
+1809,slr0822,slr0822,monoatomic ion transmembrane transport
+1810,slr0822,slr0822,P-type ion transporter activity
+1811,sll0815,sll0815,plasma membrane
+1812,sll0818,rsmI,uroporphyrin-III C-methyltransferase activity
+1813,sll0818,rsmI,siroheme biosynthetic process
+1814,slr0806,slr0806,D-lactate dehydrogenase (cytochrome) activity
+1815,slr0806,slr0806,flavin adenine dinucleotide binding
+1816,slr0806,slr0806,D-lactate dehydrogenase activity
+1817,slr0806,slr0806,lactate catabolic process
+1818,slr1334,slr1334,cytosol
+1819,slr1334,slr1334,phosphoglucomutase activity
+1820,slr1334,slr1334,carbohydrate metabolic process
+1821,sll1069,fabF,fatty acid biosynthetic process
+1822,sll1069,fabF,3-oxoacyl-[acyl-carrier-protein] synthase activity
+1823,sll1229,sll1229,phosphorelay sensor kinase activity
+1826,sll1234,ahcY,cytosol
+1827,sll1234,ahcY,adenosylhomocysteinase activity
+1828,sll1234,ahcY,S-adenosylmethionine cycle
+1831,slr6043,slr6043,plasma membrane
+1832,slr6043,slr6043,xenobiotic transmembrane transporter activity
+1834,slr0523,bioD,biotin biosynthetic process
+1835,slr0523,bioD,cytosol
+1836,slr0523,bioD,dethiobiotin synthase activity
+1842,slr0521,slr0521,transmembrane transport
+1843,slr0521,slr0521,transmembrane transporter activity
+1844,slr0517,slr0517,"acyltransferase activity, transferring groups other than amino-acyl groups"
+1846,sll0477,sll0477,protein import
+1847,slr0509,slr0509,plasma membrane
+1848,slr0502,cobW,cytoplasm
+1849,sll0484,sll0484,plasma membrane
+1850,sll0484,sll0484,transmembrane transporter activity
+1851,sll0484,sll0484,transmembrane transport
+1852,sll0487,sll0487,methyltransferase activity
+1853,slr0096,slr0096,succinate transmembrane transport
+1854,slr0096,slr0096,succinate transmembrane transporter activity
+1855,slr0096,slr0096,fumarate transmembrane transporter activity
+1856,slr0096,slr0096,L-aspartate transmembrane transporter activity
+1857,slr0096,slr0096,fumarate transport
+1858,slr0095,slr0095,S-adenosylmethionine-dependent methyltransferase activity
+1859,slr0091,slr0091,aldehyde dehydrogenase (NAD+) activity
+1860,slr0091,slr0091,cytoplasm
+1861,slr0091,slr0091,cellular aldehyde metabolic process
+1864,slr0086,slr0086,heat shock protein binding
+1865,slr0086,slr0086,protein refolding
+1866,slr0086,slr0086,cytosol
+1867,slr0086,slr0086,ATP hydrolysis activity
+1868,slr0086,slr0086,chaperone cofactor-dependent protein refolding
+1869,slr0086,slr0086,protein folding chaperone
+1870,sll0078,thrS,threonine-tRNA ligase activity
+1871,sll0078,thrS,threonyl-tRNA aminoacylation
+1872,slr0084,hisH,imidazoleglycerol-phosphate synthase activity
+1878,slr0082,rimO,tRNA methylthiolation
+1879,slr0082,rimO,"4 iron, 4 sulfur cluster binding"
+1880,slr0082,rimO,N6-isopentenyladenosine methylthiotransferase activity
+1881,slr0082,rimO,cytosol
+1882,slr0081,slr0081,cytosol
+1883,slr0081,slr0081,regulation of DNA-templated transcription
+1884,slr0081,slr0081,phosphorelay response regulator activity
+1885,slr0081,slr0081,protein-DNA complex
+1886,slr0081,slr0081,transcription cis-regulatory region binding
+1889,slr0500,hisB,dephosphorylation
+1890,slr0500,hisB,cytosol
+1891,slr0500,hisB,DNA repair
+1892,slr0500,hisB,phosphoglycolate phosphatase activity
+1893,sll0086,sll0086,ATP hydrolysis activity
+1894,slr0072,rsmG,rRNA (guanine-N7-)-methyltransferase activity
+1895,slr0072,rsmG,cytosol
+1896,slr0212,metH,methionine synthase activity
+1897,slr0212,metH,methionine biosynthetic process
+1898,slr0212,metH,homocysteine metabolic process
+1899,slr0212,metH,tetrahydrofolate metabolic process
+1900,slr0212,metH,cytosol
+1901,sll0179,gltX,cytosol
+1902,sll0179,gltX,glutamyl-tRNA aminoacylation
+1903,sll0179,gltX,glutamate-tRNA ligase activity
+1904,slr0204,slr0204,acyl-CoA hydrolase activity
+1905,sll0180,sll0180,efflux pump complex
+1906,sll0180,sll0180,efflux transmembrane transporter activity
+1907,slr0197,slr0197,"RNA endonuclease activity, producing 5'-phosphomonoesters"
+1908,slr0194,rpiA,"pentose-phosphate shunt, non-oxidative branch"
+1909,slr0194,rpiA,ribose-5-phosphate isomerase activity
+1910,slr0194,rpiA,D-ribose metabolic process
+1911,slr0194,rpiA,cytosol
+1912,slr0426,folE,GTP binding
+1913,slr0426,folE,cytoplasm
+1914,slr0426,folE,GTP cyclohydrolase I activity
+1915,slr0426,folE,tetrahydrobiopterin biosynthetic process
+1916,slr0426,folE,zinc ion binding
+1917,sll0370,carB,cytoplasm
+1918,sll0370,carB,carbamoyl-phosphate synthase (glutamine-hydrolyzing) activity
+1919,sll0370,carB,glutamine metabolic process
+1922,sll0377,mfd,RNA polymerase core enzyme binding
+1923,sll0377,mfd,DNA translocase activity
+1924,sll0377,mfd,regulation of DNA-templated transcription
+1925,sll0377,mfd,DNA binding
+1926,sll0377,mfd,"transcription-coupled nucleotide-excision repair, DNA damage recognition"
+1927,sll0378,cobA,uroporphyrin-III C-methyltransferase activity
+1928,sll0378,cobA,siroheme biosynthetic process
+1931,sll0385,sll0385,ATP-binding cassette (ABC) transporter complex
+1932,sll0385,sll0385,ATP binding
+1933,sll0385,sll0385,ATPase-coupled transmembrane transporter activity
+1934,slr0417,gyrA,cytoplasm
+1935,slr0417,gyrA,DNA binding
+1936,slr0417,gyrA,"DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) activity"
+1937,slr0417,gyrA,ATP binding
+1938,slr0417,gyrA,DNA topological change
+1939,slr0417,gyrA,"DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) complex"
+1940,sll0395,sll0395,phosphatase activity
+1941,sll0395,sll0395,cytoplasm
+1942,sll0396,sll0396,transcription cis-regulatory region binding
+1943,sll0396,sll0396,regulation of DNA-templated transcription
+1944,sll0396,sll0396,cytosol
+1945,sll0396,sll0396,protein-DNA complex
+1946,sll0396,sll0396,phosphorelay response regulator activity
+1947,sll0398,sll0398,dGTP catabolic process
+1948,sll0398,sll0398,dGTPase activity
+1949,slr0649,metG,methionyl-tRNA aminoacylation
+1950,slr0649,metG,methionine-tRNA ligase activity
+1951,slr0646,dacB,serine-type carboxypeptidase activity
+1952,slr0646,dacB,peptidoglycan metabolic process
+1953,slr0636,cobS,adenosylcobinamide-GDP ribazoletransferase activity
+1954,slr0636,cobS,cobalamin biosynthetic process
+1955,slr0635,slr0635,iron-sulfur cluster assembly
+1956,slr0231,slr0231,DNA-7-methylguanine glycosylase activity
+1957,slr0231,slr0231,cytoplasm
+1958,slr0231,slr0231,DNA-3-methyladenine glycosylase activity
+1959,slr0231,slr0231,protein-DNA complex
+1960,slr0231,slr0231,"base-excision repair, AP site formation"
+1961,slr0231,slr0231,DNA dealkylation involved in DNA repair
+1962,slr0231,slr0231,alkylated DNA binding
+1963,slr0228,ftsH2,proteolysis
+1964,slr0228,ftsH2,ATP-dependent peptidase activity
+1965,sll0202,mnmG,flavin adenine dinucleotide binding
+1966,sll0202,mnmG,tRNA wobble uridine modification
+1967,sll0202,mnmG,tRNA methylation
+1968,sll0204,trmFO,tRNA methylation
+1969,sll0204,trmFO,cytosol
+1970,sll0204,trmFO,flavin adenine dinucleotide binding
+1971,sll0204,trmFO,tRNA wobble uridine modification
+1972,slr0216,cobU,cobalamin biosynthetic process
+1977,slr0020,recG,DNA repair
+1978,slr0020,recG,DNA helicase activity
+1979,slr0018,fumC,fumarate hydratase activity
+1980,slr0018,fumC,tricarboxylic acid cycle
+1981,slr0018,fumC,fumarate metabolic process
+1982,slr0018,fumC,malate metabolic process
+1986,slr0006,slr0006,nucleotidyltransferase activity
+1987,slr0006,slr0006,cytoplasm
+1988,slr0006,slr0006,tRNA binding
+1989,slr0006,slr0006,regulation of translational fidelity
+1992,sll0019,dxr,manganese ion binding
+1993,sll0019,dxr,NADPH binding
+1994,sll0019,dxr,1-deoxy-D-xylulose-5-phosphate reductoisomerase activity
+1995,sll0019,dxr,"isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway involved in terpenoid biosynthetic process"
+2000,slr0001,slr0001,riboflavin reductase (NADPH) activity
+2001,sll0023,sll0023,ligase activity
+2002,slr0357,hisS,histidyl-tRNA aminoacylation
+2003,slr0357,hisS,histidine-tRNA ligase activity
+2004,slr0354,slr0354,ATP binding
+2005,slr0354,slr0354,ATP-binding cassette (ABC) transporter complex
+2006,slr0354,slr0354,ATPase-coupled transmembrane transporter activity
+2007,slr0347,slr0347,transmembrane transporter activity
+2008,slr0347,slr0347,transmembrane transport
+2009,slr0347,slr0347,plasma membrane
+2010,sll0321,sll0321,oxidoreductase activity
+2011,sll0321,sll0321,cytoplasm
+2016,slr0341,slr0341,outer membrane-bounded periplasmic space
+2017,slr0784,slr0784,transmembrane transport
+2018,sll0753,folD,tetrahydrofolate interconversion
+2019,sll0753,folD,cytosol
+2020,sll0753,folD,methylenetetrahydrofolate dehydrogenase (NADP+) activity
+2021,sll0753,folD,methenyltetrahydrofolate cyclohydrolase activity
+2022,sll0754,rbfA,cytosol
+2023,sll0754,rbfA,ribosome biogenesis
+2024,sll0754,rbfA,ribosomal small subunit binding
+2025,sll0755,sll0755,cell redox homeostasis
+2026,sll0755,sll0755,cytoplasm
+2027,sll0755,sll0755,thioredoxin peroxidase activity
+2028,sll0755,sll0755,cellular response to oxidative stress
+2029,sll0757,purF,fructose 6-phosphate metabolic process
+2030,sll0757,purF,protein N-linked glycosylation
+2031,sll0757,purF,cytosol
+2032,sll0757,purF,glutamine-fructose-6-phosphate transaminase (isomerizing) activity
+2033,sll0757,purF,UDP-N-acetylglucosamine metabolic process
+2035,slr0775,secF,protein transport
+2036,slr0774,secD,protein transport
+2037,slr0773,slr0773,potassium ion transport
+2038,slr0769,slr0769,peptidoglycan-protein cross-linking
+2039,slr0769,slr0769,"peptidoglycan L,D-transpeptidase activity"
+2040,slr0384,slr0384,glycosyltransferase activity
+2041,slr0886,fabG,oxidoreductase activity
+2042,slr0381,gloA,methylglyoxal catabolic process to D-lactate via S-lactoyl-glutathione
+2043,slr0381,gloA,cytoplasm
+2044,slr0381,gloA,lactoylglutathione lyase activity
+2045,slr0379,tmk,dUDP biosynthetic process
+2046,slr0379,tmk,cytosol
+2047,slr0379,tmk,cytoplasm
+2048,slr0379,tmk,dTTP biosynthetic process
+2049,slr0379,tmk,dTDP biosynthetic process
+2050,slr0379,tmk,uridylate kinase activity
+2051,slr0379,tmk,thymidylate kinase activity
+2057,slr0369,slr0369,xenobiotic transmembrane transporter activity
+2058,slr0369,slr0369,plasma membrane
+2059,sll0350,sll0350,cell outer membrane
+2060,slr0362,slr0362,phosphatase activity
+2061,slr0185,pyrE,UMP biosynthetic process
+2062,slr0185,pyrE,pyrimidine nucleobase biosynthetic process
+2063,slr0185,pyrE,orotate phosphoribosyltransferase activity
+2064,slr0181,recO,bacterial nucleoid
+2065,slr0181,recO,double-strand break repair
+2068,sll0169,sll0169,chloroplast fission
+2069,sll0177,sll0177,DNA recombination
+2070,sll0177,sll0177,DNA strand exchange activity
+2071,sll0295,sll0295,phosphoglycolate phosphatase activity
+2072,sll0295,sll0295,DNA repair
+2073,sll0295,sll0295,cytosol
+2074,sll0295,sll0295,dephosphorylation
+2075,slr0328,slr0328,protein tyrosine phosphatase activity
+2081,slr0321,era,rRNA binding
+2082,slr0321,era,ribosomal small subunit binding
+2083,slr0321,era,cytosol
+2084,slr0321,era,ribosomal small subunit assembly
+2085,slr0557,valS,isoleucyl-tRNA aminoacylation
+2086,slr0557,valS,isoleucine-tRNA ligase activity
+2087,slr0557,valS,cytosol
+2088,ssl1004,ssl1004,toxin sequestering activity
+2089,slr0553,coaE,coenzyme A biosynthetic process
+2090,slr0553,coaE,dephospho-CoA kinase activity
+2091,slr0550,dapA,4-hydroxy-tetrahydrodipicolinate synthase activity
+2092,slr0550,dapA,cytosol
+2093,sll0533,tig,protein folding chaperone
+2094,sll0533,tig,chaperone-mediated protein folding
+2095,sll0533,tig,peptidyl-prolyl cis-trans isomerase activity
+2096,sll0533,tig,'de novo' cotranslational protein folding
+2097,sll0533,tig,protein unfolding
+2098,sll0533,tig,ribosome binding
+2099,sll0535,clpX,HslUV protease complex
+2100,sll0535,clpX,ATP binding
+2101,sll0535,clpX,cell division
+2102,sll0535,clpX,proteolysis involved in protein catabolic process
+2103,sll0535,clpX,ATP hydrolysis activity
+2104,slr0546,trpC,indole-3-glycerol-phosphate synthase activity
+2105,slr0546,trpC,phosphoribosylanthranilate isomerase activity
+2106,slr0546,trpC,tryptophan biosynthetic process
+2114,sll0900,hisG,histidine biosynthetic process
+2115,sll0900,hisG,ATP phosphoribosyltransferase activity
+2116,slr0929,slr0929,cytoplasmic side of plasma membrane
+2117,slr0929,slr0929,ATP hydrolysis activity
+2118,slr0929,slr0929,cytosol
+2119,slr0929,slr0929,negative regulation of cell division
+2120,slr0929,slr0929,ATP binding
+2126,sll0902,argF,arginine biosynthetic process via ornithine
+2127,sll0902,argF,ornithine carbamoyltransferase activity
+2128,sll0902,argF,citrulline biosynthetic process
+2129,sll0496,sll0496,ATP-binding cassette (ABC) transporter complex
+2130,sll0496,sll0496,lipopolysaccharide transport
+2131,slr0545,slr0545,aldo-keto reductase (NADP) activity
+2132,slr0545,slr0545,cytoplasm
+2133,sll0497,sll0497,division septum site selection
+2134,sll0497,sll0497,regulation of division septum assembly
+2135,sll0497,sll0497,plasma membrane
+2136,slr0544,slr0544,transmembrane transport
+2137,slr0544,slr0544,plasma membrane
+2138,slr0544,slr0544,transmembrane transporter activity
+2139,slr0541,slr0541,cytosol
+2141,sll0502,argS,arginine-tRNA ligase activity
+2142,sll0502,argS,arginyl-tRNA aminoacylation
+2143,sll0503,sll0503,tRNA methylation
+2144,sll0503,sll0503,tRNA wobble uridine modification
+2145,sll0503,sll0503,cytoplasm
+2146,sll0504,lysA,diaminopimelate decarboxylase activity
+2147,sll0504,lysA,lysine biosynthetic process via diaminopimelate
+2149,sll0506,uppS,polyprenyltransferase activity
+2150,sll0506,uppS,polyprenol biosynthetic process
+2151,slr0533,slr0533,phosphorelay signal transduction system
+2152,slr0533,slr0533,plasma membrane
+2153,sll0513,sll0513,farnesyl-diphosphate farnesyltransferase activity
+2154,sll0513,sll0513,farnesyl diphosphate metabolic process
+2155,sll0513,sll0513,squalene synthase activity
+2156,sll0514,sll0514,RNA endonuclease activity
+2157,slr0527,queC,queuosine biosynthetic process
+2169,sll0030,cmpR,transcription cis-regulatory region binding
+2170,sll0030,cmpR,regulation of DNA-templated transcription
+2171,slr0039,slr0039,dethiobiotin synthase activity
+2172,slr0039,slr0039,biotin biosynthetic process
+2173,slr0039,slr0039,cytosol
+2177,slr0033,gatC,glutaminyl-tRNAGln biosynthesis via transamidation
+2178,slr0033,gatC,glutaminyl-tRNA synthase (glutamine-hydrolyzing) activity
+2179,sll0040,sll0040,chemotaxis
+2180,sll0040,sll0040,cytosol
+2181,slr0846,slr0846,DNA-binding transcription factor activity
+2182,slr0846,slr0846,cytosol
+2183,slr0846,slr0846,regulation of DNA-templated transcription
+2184,sll0822,sll0822,DNA-binding transcription repressor activity
+2185,sll0822,sll0822,transcription cis-regulatory region binding
+2186,sll0822,sll0822,protein-DNA complex
+2187,sll0823,sdhB,respiratory electron transport chain
+2188,sll0823,sdhB,aerobic respiration
+2191,sll0829,sll0829,methyltransferase activity
+2192,slr0838,purM,cytosol
+2193,slr0838,purM,phosphoribosylamine-glycine ligase activity
+2194,slr0838,purM,adenine biosynthetic process
+2195,slr0838,purM,phosphoribosylformylglycinamidine cyclo-ligase activity
+2196,slr0838,purM,purine nucleotide biosynthetic process
+2197,sll0830,sll0830,ribosome disassembly
+2198,slr0836,rfbB,"dTDP-glucose 4,6-dehydratase activity"
+2207,slr0829,slr0829,negative regulation of bacterial-type flagellum-dependent cell motility
+2208,slr0829,slr0829,plasma membrane
+2209,slr0829,slr0829,diguanylate cyclase activity
+2210,slr0829,slr0829,cell adhesion involved in single-species biofilm formation
+2216,sll0546,sll0546,formation of translation preinitiation complex
+2217,sll0546,sll0546,mRNA binding
+2218,sll0546,sll0546,translation reinitiation
+2219,sll0547,sll0547,ATP hydrolysis activity
+2220,sll0547,sll0547,plasma membrane
+2221,sll0549,sll0549,5'-3' RNA exonuclease activity
+2222,sll0549,sll0549,5'-3' DNA exonuclease activity
+2223,sll0891,mdh,L-malate dehydrogenase activity
+2224,sll0891,mdh,cytoplasm
+2229,slr0903,slr0903,cytosol
+2231,slr0901,moaA,"GTP 3',8'-cyclase activity"
+2232,slr0901,moaA,cyclic pyranopterin monophosphate synthase activity
+2233,slr0901,moaA,Mo-molybdopterin cofactor biosynthetic process
+2240,slr0895,slr0895,regulation of DNA-templated transcription
+2241,slr0895,slr0895,DNA-binding transcription factor activity
+2242,slr0895,slr0895,transcription cis-regulatory region binding
+2243,sll0886,sll0886,cell outer membrane
+2244,sll0886,sll0886,receptor-mediated virion attachment to host cell
+2245,sll0887,sll0887,cytosol
+2246,slr0861,purT,cytosol
+2256,sll0687,sll0687,regulation of DNA-templated transcription
+2257,sll0688,sll0688,sigma factor antagonist activity
+2258,sll0688,sll0688,regulation of translation
+2259,sll0454,pheS,cytoplasm
+2260,sll0454,pheS,phenylalanine-tRNA ligase activity
+2261,sll0454,pheS,phenylalanyl-tRNA aminoacylation
+2262,slr0495,slr0495,holo-[acyl-carrier-protein] synthase activity
+2263,slr0495,slr0495,lysine biosynthetic process via aminoadipic acid
+2264,slr0495,slr0495,cytosol
+2267,slr0482,slr0482,methyltransferase activity
+2268,slr0477,purN,'de novo' IMP biosynthetic process
+2269,slr0477,purN,phosphoribosylglycinamide formyltransferase activity
+2270,slr0477,purN,cytoplasm
+2271,slr0477,purN,cytosol
+2273,sll0462,sll0462,transmembrane transport
+2274,slr0070,fmt,phosphoribosylglycinamide formyltransferase activity
+2275,slr0070,fmt,cytosol
+2276,slr0070,fmt,cytoplasm
+2277,slr0070,fmt,'de novo' IMP biosynthetic process
+2278,sll0051,sll0051,purine nucleoside catabolic process
+2279,sll0051,sll0051,guanosine deaminase activity
+2280,slr0064,slr0064,tRNA methylation
+2281,slr0064,slr0064,tRNA (guanine) methyltransferase activity
+2288,sll0060,sll0060,transmembrane transport
+2289,sll0063,sll0063,transmembrane transport
+2290,sll0064,sll0064,outer membrane-bounded periplasmic space
+2291,slr0056,chlG,vitamin K biosynthetic process
+2292,slr0056,chlG,prenyltransferase activity
+2293,slr0056,chlG,menaquinone biosynthetic process
+2294,slr0056,chlG,"ubiquinone biosynthetic process via 3,4-dihydroxy-5-polyprenylbenzoate"
+2304,sll0068,sll0068,oxidoreductase activity
+2307,slr0434,efp,translation elongation factor activity
+2308,slr0434,efp,cytoplasm
+2309,sll0410,sll0410,acyl-CoA hydrolase activity
+2310,slr0431,slr0431,DNA damage response
+2311,sll1091,chlP,monooxygenase activity
+2319,slr1469,rnpA,ribonuclease P activity
+2320,slr1469,rnpA,3'-tRNA processing endoribonuclease activity
+2321,slr1469,rnpA,"tRNA 3'-trailer cleavage, endonucleolytic"
+2322,slr1469,rnpA,ribonuclease P complex
+2326,slr0958,cysS,methionine-tRNA ligase activity
+2327,slr0958,cysS,methionyl-tRNA aminoacylation
+2330,slr0951,ispD,cytosol
+2331,slr0951,ispD,cytidylyltransferase activity
+2332,sll0910,sll0910,cell outer membrane
+2333,sll0910,sll0910,receptor-mediated virion attachment to host cell
+2334,slr0945,arsH,cytosol
+2335,slr0945,arsH,FMN binding
+2342,slr0942,slr0942,cytosol
+2343,slr0942,slr0942,alditol:NADP+ 1-oxidoreductase activity
+2345,slr0936,nadC,NAD biosynthetic process
+2346,slr0936,nadC,nicotinate-nucleotide diphosphorylase (carboxylating) activity
+2347,slr0936,nadC,cytoplasm
+2348,slr0936,nadC,quinolinate catabolic process
+2349,slr0935,slr0935,plasma membrane
+2350,sll0920,ppc,phosphoenolpyruvate carboxylase activity
+2351,sll0920,ppc,cytosol
+2357,sll1555,sll1555,phosphorelay sensor kinase activity
+2362,slr1687,slr1687,oxidoreductase activity
+2363,sll1559,sll1559,"glycine biosynthetic process, by transamination of glyoxylate"
+2364,sll1559,sll1559,serine-pyruvate transaminase activity
+2365,sll1559,sll1559,peroxisome
+2366,sll1559,sll1559,alanine-glyoxylate transaminase activity
+2367,ssr2799,rpmA,structural constituent of ribosome
+2368,ssr2799,rpmA,cytosolic large ribosomal subunit
+2369,slr1678,rplU,structural constituent of ribosome
+2373,sll1085,glpD,glycerol-3-phosphate dehydrogenase (quinone) activity
+2374,sll1085,glpD,glycerol-3-phosphate catabolic process
+2375,sll1087,sll1087,sodium ion transport
+2376,sll1087,sll1087,symporter activity
+2378,slr1166,slr1166,glycosyltransferase activity
+2383,slr1163,slr1163,carbohydrate transport
+2384,sll1096,rpsL,ribosome
+2385,sll1096,rpsL,structural constituent of ribosome
+2386,sll1096,rpsL,translation
+2387,sll1099,tuf,translational elongation
+2388,sll1099,tuf,translation elongation factor activity
+2389,sll1101,rpsJ,structural constituent of ribosome
+2390,sll1101,rpsJ,small ribosomal subunit
+2392,sll1432,hypB,GTPase activity
+2393,sll1432,hypB,protein maturation
+2394,sll1432,hypB,zinc ion binding
+2395,sll1432,hypB,nickel cation binding
+2400,sll1443,pyrG,CTP biosynthetic process
+2401,sll1443,pyrG,identical protein binding
+2402,sll1443,pyrG,CTP synthase activity
+2403,sll1443,pyrG,pyrimidine nucleobase biosynthetic process
+2404,sll1443,pyrG,cytosol
+2405,sll1166,sll1166,transmembrane transport
+2406,sll1172,thrC,cytoplasm
+2407,sll1172,thrC,threonine synthase activity
+2408,sll1172,thrC,cysteine biosynthetic process
+2412,slr1270,slr1270,efflux pump complex
+2413,slr1270,slr1270,efflux transmembrane transporter activity
+2414,slr1270,slr1270,porin activity
+2421,sll1374,sll1374,transporter activity
+2422,sll1374,sll1374,organic substance transport
+2423,sll1377,sll1377,hexosyltransferase activity
+2424,sll1377,sll1377,plasma membrane
+2428,sll1386,sll1386,type II protein secretion system complex
+2429,sll1386,sll1386,protein secretion by the type II secretion system
+2430,sll1868,dnaG,cytoplasm
+2431,sll1868,dnaG,"DNA replication, synthesis of RNA primer"
+2432,sll1868,dnaG,DNA primase activity
+2440,sll1876,hemN,protoporphyrinogen IX biosynthetic process
+2441,sll1876,hemN,"4 iron, 4 sulfur cluster binding"
+2442,sll1876,hemN,cytoplasm
+2443,sll1876,hemN,coproporphyrinogen dehydrogenase activity
+2444,slr1978,slr1978,plasma membrane
+2445,sll1882,sll1882,receptor-mediated virion attachment to host cell
+2446,sll1882,sll1882,cell outer membrane
+2447,sll1883,argJ,ornithine biosynthetic process
+2448,sll1883,argJ,acetyl-CoA:L-glutamate N-acetyltransferase activity
+2449,slr1959,slr1959,DNA replication proofreading
+2450,slr1959,slr1959,3'-5' exonuclease activity
+2451,slr1959,slr1959,cytosol
+2455,slr1348,cysE,serine O-acetyltransferase activity
+2456,slr1348,cysE,cytosol
+2457,sll1251,sll1251,receptor-mediated virion attachment to host cell
+2458,sll1251,sll1251,cell outer membrane
+2459,slr1344,slr1344,phospholipid transport
+2460,slr1344,slr1344,plasma membrane
+2461,slr1344,slr1344,phospholipid transporter activity
+2462,sll1254,sll1254,plasma membrane
+2463,slr1340,slr1340,"acyltransferase activity, transferring groups other than amino-acyl groups"
+2466,sll1260,rpsB,cytosolic small ribosomal subunit
+2467,sll1260,rpsB,structural constituent of ribosome
+2468,sll1747,aroC,chorismate synthase activity
+2469,sll1747,aroC,cytosol
+2470,sll1747,aroC,aromatic amino acid family biosynthetic process
+2471,sll1747,aroC,FMN binding
+2472,sll1747,aroC,chorismate biosynthetic process
+2473,sll1479,pgl,cytosol
+2474,sll1479,pgl,"pentose-phosphate shunt, oxidative branch"
+2475,sll1479,pgl,6-phosphogluconolactonase activity
+2476,sll1481,sll1481,efflux transmembrane transporter activity
+2477,sll1481,sll1481,efflux pump complex
+2479,sll1488,sll1488,metalloendopeptidase activity
+2480,slr1565,slr1565,cytoplasm
+2481,slr1565,slr1565,protein maturation by iron-sulfur cluster transfer
+2482,slr1565,slr1565,iron-sulfur cluster assembly
+2483,slr1565,slr1565,"2 iron, 2 sulfur cluster binding"
+2497,sll1496,sll1496,cytoplasm
+2498,sll1496,sll1496,nucleotidyltransferase activity
+2499,sll1498,carA,cytoplasm
+2500,sll1498,carA,carbamoyl-phosphate synthase complex
+2501,sll1498,carA,carbamoyl-phosphate synthase (glutamine-hydrolyzing) activity
+2502,sll1498,carA,arginine biosynthetic process
+2503,slr0665,acnB,aconitate hydratase activity
+2504,slr0665,acnB,2-methylisocitrate dehydratase activity
+2505,slr0665,acnB,cytosol
+2506,slr0665,acnB,tricarboxylic acid cycle
+2507,slr0665,acnB,"propionate catabolic process, 2-methylcitrate cycle"
+2508,slr0665,acnB,"4 iron, 4 sulfur cluster binding"
+2509,sll0622,nadA,'de novo' NAD biosynthetic process from aspartate
+2510,sll0622,nadA,"4 iron, 4 sulfur cluster binding"
+2511,sll0622,nadA,cytosol
+2512,sll0622,nadA,quinolinate synthetase A activity
+2513,slr0661,proC,L-proline biosynthetic process
+2514,slr0661,proC,pyrroline-5-carboxylate reductase activity
+2522,slr0652,hisA,histidine biosynthetic process
+2523,slr0652,hisA,1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino]imidazole-4-carboxamide isomerase activity
+2524,slr0652,hisA,tryptophan biosynthetic process
+2525,slr0652,hisA,cytoplasm
+2526,sll1365,sll1365,phosphatase activity
+2527,sll1366,sll1366,"ATP-dependent activity, acting on DNA"
+2528,sll1366,sll1366,DNA binding
+2529,sll1329,sll1329,histidine biosynthetic process
+2530,sll1329,sll1329,phosphoric ester hydrolase activity
+2531,slr1428,slr1428,cytosol
+2532,slr1428,slr1428,tRNA wobble uridine modification
+2533,slr1428,slr1428,cytoplasm
+2534,slr1428,slr1428,tRNA methylation
+2535,slr1424,murB,flavin adenine dinucleotide binding
+2536,slr1424,murB,UDP-N-acetylmuramate dehydrogenase activity
+2537,slr1424,murB,cytosol
+2538,slr1424,murB,cell wall organization
+2544,slr1420,slr1420,xylulose metabolic process
+2545,slr1420,slr1420,xylulokinase activity
+2546,slr1420,slr1420,D-ribulokinase activity
+2547,slr1420,slr1420,phosphorylation
+2548,slr1420,slr1420,cytosol
+2549,slr0994,lipB,lipoyl(octanoyl) transferase activity
+2550,slr0994,lipB,protein lipoylation
+2557,slr1945,gpmI,"2,3-bisphosphoglycerate-independent phosphoglycerate mutase activity"
+2558,slr1945,gpmI,cytosol
+2559,slr1945,gpmI,carbohydrate metabolic process
+2560,slr1945,gpmI,manganese ion binding
+2561,slr1944,slr1944,1-alkyl-2-acetylglycerophosphocholine esterase activity
+2562,sll1849,sll1849,chlorophyll biosynthetic process
+2563,sll1849,sll1849,chlorophyllide a oxygenase [overall] activity
+2564,slr1933,rfbC,extracellular polysaccharide biosynthetic process
+2565,slr1933,rfbC,dTDP-rhamnose biosynthetic process
+2566,slr1933,rfbC,"dTDP-4-dehydrorhamnose 3,5-epimerase activity"
+2567,slr1933,rfbC,cytosol
+2568,sll1864,sll1864,voltage-gated chloride channel activity
+2569,slr1923,slr1923,"oxidoreductase activity, acting on CH or CH2 groups, with an iron-sulfur protein as acceptor"
+2587,sll0144,pyrH,UMP kinase activity
+2588,sll0144,pyrH,UDP biosynthetic process
+2589,sll0145,frr,ribosomal large subunit binding
+2590,sll0145,frr,translation
+2591,sll0146,sll0146,branched-chain amino acid transport
+2592,sll0146,sll0146,branched-chain amino acid transmembrane transporter activity
+2593,sll0146,sll0146,plasma membrane
+2594,slr0151,slr0151,receptor-mediated virion attachment to host cell
+2595,slr0151,slr0151,cell outer membrane
+2596,slr0407,slr0407,methyltransferase activity
+2597,slr0406,pyrC,pyrimidine nucleotide biosynthetic process
+2598,slr0406,pyrC,cytosol
+2599,slr0406,pyrC,dihydroorotase activity
+2600,slr0406,pyrC,cytoplasm
+2601,slr0406,pyrC,'de novo' pyrimidine nucleobase biosynthetic process
+2612,slr0293,gcvP,pyridoxal phosphate binding
+2613,slr0293,gcvP,cytosol
+2614,slr0293,gcvP,glycine binding
+2615,slr0293,gcvP,glycine dehydrogenase (decarboxylating) activity
+2616,slr0293,gcvP,glycine cleavage complex
+2617,slr0293,gcvP,glycine decarboxylation via glycine cleavage system
+2618,sll0260,sll0260,plasma membrane
+2619,sll0264,sll0264,chlorophyllide a oxygenase [overall] activity
+2620,sll0264,sll0264,chlorophyll biosynthetic process
+2621,sll0270,priA,3'-5' DNA helicase activity
+2622,sll0270,priA,DNA unwinding involved in DNA replication
+2623,sll0270,priA,DNA replication initiation
+2624,sll0270,priA,DNA recombination
+2625,sll0270,priA,double-strand break repair
+2626,sll0271,nusB,cytosol
+2633,slr0448,radA,recombinational repair
+2635,sll0418,sll0418,methyltransferase activity
+2636,sll1520,recN,double-strand break repair via homologous recombination
+2637,sll1520,recN,response to radiation
+2638,sll1520,recN,SOS response
+2639,sll1522,pgsA,glycerophospholipid biosynthetic process
+2644,sll1524,sll1524,magnesium ion binding
+2645,sll1524,sll1524,cytosol
+2646,sll1524,sll1524,phosphatase activity
+2650,slr1639,smpB,trans-translation-dependent protein tagging
+2651,slr1639,smpB,cytosol
+2652,slr1639,smpB,RNA binding
+2653,sll1536,moeB,sulfotransferase activity
+2654,sll1536,moeB,cytoplasm
+2655,sll1536,moeB,nucleotidyltransferase activity
+2656,sll1536,moeB,thiosulfate sulfurtransferase activity
+2657,sll1536,moeB,cytosol
+2658,slr1626,folB,cytoplasm
+2659,slr1626,folB,dihydroneopterin aldolase activity
+2667,ssr1558,ssr1558,metal ion transmembrane transporter activity
+2668,slr0917,bioF,8-amino-7-oxononanoate synthase activity
+2669,slr0917,bioF,biotin biosynthetic process
+2670,slr0605,slr0605,cytoplasm
+2671,slr0605,slr0605,glutathione transferase activity
+2672,slr0604,lepA,positive regulation of translation
+2673,slr0604,lepA,ribosome binding
+2674,slr0600,slr0600,thioredoxin-disulfide reductase activity
+2675,slr0600,slr0600,cell redox homeostasis
+2678,sll0564,sll0564,methyltransferase activity
+2679,slr0597,purH,IMP cyclohydrolase activity
+2680,slr0597,purH,phosphoribosylaminoimidazolecarboxamide formyltransferase activity
+2681,slr0597,purH,cytosol
+2682,slr0597,purH,'de novo' IMP biosynthetic process
+2683,slr0596,slr0596,"hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides"
+2684,slr0596,slr0596,riboflavin biosynthetic process
+2690,slr0594,slr0594,transmembrane transporter activity
+2691,slr0594,slr0594,plasma membrane
+2692,sll0573,arcC,proline biosynthetic process
+2693,sll0573,arcC,cytosol
+2694,sll0573,arcC,glutamate 5-kinase activity
+2695,sll0578,purK,cytosol
+2696,slr0586,slr0586,protein tyrosine kinase activity
+2697,slr0586,slr0586,cytosol
+2699,sll1108,surE,UMP catabolic process
+2700,sll1108,surE,3'-nucleotidase activity
+2701,sll1108,surE,5'-nucleotidase activity
+2702,sll1108,surE,exopolyphosphatase activity
+2703,sll1110,prfA,chloroplast organization
+2704,sll1110,prfA,thylakoid membrane organization
+2705,sll0430,htpG,ATP hydrolysis activity
+2706,sll0430,htpG,cytosol
+2707,sll0430,htpG,DNA damage response
+2708,sll0430,htpG,response to heat
+2709,sll0430,htpG,protein folding
+2710,sll0430,htpG,unfolded protein binding
+2711,slr0458,slr0458,sugar-phosphatase activity
+2712,slr0458,slr0458,beta-phosphoglucomutase activity
+2713,slr0457,truB,pseudouridine synthase activity
+2714,slr0457,truB,mRNA pseudouridine synthesis
+2715,slr0457,truB,tRNA modification
+2719,sll0451,sll0451,N-terminal peptidyl-alanine acetylation
+2720,sll0451,sll0451,peptide-alanine-alpha-N-acetyltransferase activity
+2727,slr1657,slr1657,cell adhesion involved in single-species biofilm formation
+2728,slr1657,slr1657,negative regulation of bacterial-type flagellum-dependent cell motility
+2729,slr1657,slr1657,plasma membrane
+2730,slr1657,slr1657,diguanylate cyclase activity
+2734,sll0726,pgm,cytosol
+2735,sll0726,pgm,phosphoglucomutase activity
+2736,sll0726,pgm,carbohydrate metabolic process
+2737,sll0729,sll0729,mismatch repair
+2738,sll0729,sll0729,site-specific DNA-methyltransferase (adenine-specific) activity
+2739,sll0729,sll0729,S-adenosyl-L-methionine binding
+2740,sll0729,sll0729,sequence-specific DNA binding
+2741,slr1584,slr1584,protein-DNA complex
+2742,slr1584,slr1584,transcription cis-regulatory region binding
+2743,slr1584,slr1584,cytosol
+2744,slr1584,slr1584,phosphorelay response regulator activity
+2745,slr1584,slr1584,regulation of DNA-templated transcription
+2746,slr0752,eno,phosphopyruvate hydratase complex
+2747,slr0752,eno,phosphopyruvate hydratase activity
+2748,slr0752,eno,glycolytic process
+2749,sll1994,hemB,zinc ion binding
+2750,sll1994,hemB,cytosol
+2751,sll1994,hemB,porphobilinogen synthase activity
+2752,sll1994,hemB,heme biosynthetic process
+2756,sll1787,rpoB,DNA-directed 5'-3' RNA polymerase activity
+2757,sll1814,secY,signal sequence binding
+2758,sll1814,secY,protein transmembrane transporter activity
+2759,sll1814,secY,"SRP-dependent cotranslational protein targeting to membrane, translocation"
+2760,sll1814,secY,cell envelope Sec protein transport complex
+2772,slr1756,glnA,glutamate-ammonia ligase activity
+2773,slr1756,glnA,membrane
+2774,slr1756,glnA,glutamine biosynthetic process
+2775,slr1756,glnA,cytoplasm
+2776,slr1756,glnA,nitrogen utilization
+2777,slr0966,trpA,tryptophan synthase activity
+2778,slr0966,trpA,tryptophan biosynthetic process
+2779,slr0966,trpA,cytosol
+2780,sll1726,sll1726,ethanolamine kinase activity
+2781,sll1726,sll1726,cytoplasm
+2782,sll1726,sll1726,phosphatidylethanolamine biosynthetic process
+2787,slr2072,ilvA,L-serine ammonia-lyase activity
+2788,slr2072,ilvA,threonine catabolic process
+2789,slr2072,ilvA,L-threonine ammonia-lyase activity
+2790,slr2072,ilvA,L-serine catabolic process
+2791,slr2072,ilvA,isoleucine biosynthetic process
+2794,sll1971,sll1971,glycosyltransferase activity
+2795,sll1971,sll1971,lipopolysaccharide biosynthetic process
+2796,sll1112,aroQ,quinate catabolic process
+2797,sll1112,aroQ,3-dehydroquinate dehydratase activity
+2798,slr1207,slr1207,efflux pump complex
+2799,slr1207,slr1207,efflux transmembrane transporter activity
+2800,slr1205,slr1205,"2 iron, 2 sulfur cluster binding"
+2801,slr1199,mutL,phosphorelay sensor kinase activity
+2802,slr1198,slr1198,cell redox homeostasis
+2803,slr1198,slr1198,cytosol
+2804,sll1121,sll1121,5'-3' DNA helicase activity
+2805,ssl2233,rpsT,cytosol
+2806,ssl2233,rpsT,small ribosomal subunit
+2807,ssl2233,rpsT,small ribosomal subunit rRNA binding
+2809,slr1898,argB,arginine biosynthetic process
+2810,slr1898,argB,acetylglutamate kinase activity
+2811,slr1895,slr1895,ferric iron binding
+2812,slr1895,slr1895,ferrous iron binding
+2813,slr1895,slr1895,acid phosphatase activity
+2814,sll1800,rplD,structural constituent of ribosome
+2818,sll1802,rplB,cytosolic large ribosomal subunit
+2819,sll1802,rplB,RNA binding
+2820,sll1802,rplB,cytoplasmic translation
+2821,sll1802,rplB,structural constituent of ribosome
+2822,ssl3432,rpsS,ribosomal small subunit assembly
+2823,ssl3432,rpsS,cytosolic small ribosomal subunit
+2824,ssl3432,rpsS,structural constituent of ribosome
+2825,sll1803,rplV,cytosolic large ribosomal subunit
+2826,sll1803,rplV,structural constituent of ribosome
+2827,sll1803,rplV,ribosome assembly
+2828,sll1804,rpsC,structural constituent of ribosome
+2829,sll1804,rpsC,cytosolic small ribosomal subunit
+2830,sll1805,rplP,rRNA binding
+2831,sll1805,rplP,structural constituent of ribosome
+2832,ssl3437,rpsQ,cytosolic small ribosomal subunit
+2833,ssl3437,rpsQ,structural constituent of ribosome
+2834,sll1806,rplN,cytosolic large ribosomal subunit
+2835,sll1806,rplN,structural constituent of ribosome
+2836,sll1806,rplN,large ribosomal subunit rRNA binding
+2837,sll1807,rplX,translation
+2838,sll1808,rplE,cytosolic large ribosomal subunit
+2839,sll1808,rplE,RNA binding
+2840,sll1808,rplE,structural constituent of ribosome
+2841,sll1809,rpsH,cytosolic small ribosomal subunit
+2842,sll1809,rpsH,structural constituent of ribosome
+2843,sll1810,rplF,structural constituent of ribosome
+2844,sll1810,rplF,cytoplasmic translation
+2845,sll1810,rplF,cytosolic large ribosomal subunit
+2846,sll1811,rplR,cytosolic large ribosomal subunit
+2847,sll1811,rplR,5S rRNA binding
+2848,sll1812,rpsE,structural constituent of ribosome
+2849,sll1812,rpsE,translation
+2850,sll1813,rplO,cytosolic large ribosomal subunit
+2851,sll1813,rplO,structural constituent of ribosome
+2858,ssl3441,infA,cytosol
+2859,ssl3441,infA,ribosome binding
+2860,sll1816,rpsM,cytosol
+2861,sll1816,rpsM,small ribosomal subunit
+2862,sll1817,rpsK,mRNA 5'-UTR binding
+2863,sll1817,rpsK,translation
+2864,sll1817,rpsK,small ribosomal subunit rRNA binding
+2865,sll1817,rpsK,structural constituent of ribosome
+2866,sll1817,rpsK,ribosomal small subunit assembly
+2867,sll1817,rpsK,"maturation of SSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)"
+2868,sll1817,rpsK,cytosolic small ribosomal subunit
+2869,sll1819,rplQ,cytosolic large ribosomal subunit
+2870,sll1819,rplQ,structural constituent of ribosome
+2871,sll1820,truA,pseudouridine synthase activity
+2872,sll1820,truA,tRNA pseudouridine synthesis
+2873,sll1821,rplM,ribosome
+2874,sll1821,rplM,structural constituent of ribosome
+2875,sll1821,rplM,negative regulation of translation
+2876,sll1821,rplM,mRNA binding
+2877,sll1821,rplM,cytosolic large ribosomal subunit
+2878,sll1822,rpsI,RNA binding
+2879,sll1822,rpsI,structural constituent of ribosome
+2880,sll1822,rpsI,cytosolic small ribosomal subunit
+2885,sll1825,sll1825,oxidoreductase activity
+2886,sll1341,bfr,cytosol
+2887,sll1341,bfr,intracellular sequestering of iron ion
+2888,sll1341,bfr,heme binding
+2889,sll1341,bfr,ferroxidase activity
+2890,sll1341,bfr,iron ion binding
+2891,sll1069,fabF,3-oxoacyl-[acyl-carrier-protein] synthase activity
+2892,sll1069,fabF,cytosol
+2893,sll1069,fabF,fatty acid biosynthetic process
+2894,slr1149,slr1149,ATPase-coupled lipid transmembrane transporter activity
+2895,slr1149,slr1149,transmembrane transport
+2896,sll1074,leuS,leucyl-tRNA aminoacylation
+2897,sll1074,leuS,cytosol
+2898,sll1074,leuS,leucine-tRNA ligase activity
+2904,sll1432,hypB,protein maturation
+2905,sll1432,hypB,GTPase activity
+2906,sll1432,hypB,nickel cation binding
+2907,sll1432,hypB,zinc ion binding
+2908,sll1081,sll1081,plasma membrane
+2909,sll1081,sll1081,transport
+2910,sll1081,sll1081,transmembrane transporter activity
+2911,slr1140,slr1140,transaminase activity
+2912,slr1140,slr1140,polysaccharide biosynthetic process
+2913,slr1140,slr1140,pyridoxal phosphate binding
+2914,slr1139,slr1139,cytoplasm
+2915,slr1139,slr1139,cell redox homeostasis
+2916,slr1139,slr1139,cytosol
+2917,slr1139,slr1139,protein-disulfide reductase activity
+2918,slr1133,argH,argininosuccinate lyase activity
+2919,slr1133,argH,cytosol
+2920,slr1133,argH,arginine biosynthetic process via ornithine
+2921,slr2031,slr2031,phosphatase activity
+2922,slr2027,slr2027,lipopolysaccharide biosynthetic process
+2923,slr2027,slr2027,response to iron(III) ion
+2924,slr2027,slr2027,plasma membrane
+2925,slr2027,slr2027,pentosyltransferase activity
+2926,slr2026,folP,tetrahydrofolate biosynthetic process
+2927,slr2026,folP,dihydropteroate synthase activity
+2928,slr2026,folP,cytosol
+2932,sll1917,hemW,cytoplasm
+2933,sll1917,hemW,porphyrin-containing compound biosynthetic process
+2934,sll1917,hemW,"4 iron, 4 sulfur cluster binding"
+2939,slr2019,slr2019,ATPase-coupled lipid transmembrane transporter activity
+2940,slr2019,slr2019,transmembrane transport
+2945,slr1708,slr1708,metalloendopeptidase activity
+2946,slr1705,slr1705,cytosol
+2947,slr1705,slr1705,"hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides"
+2948,sll1582,sll1582,5'-3' DNA helicase activity
+2949,sll1286,sll1286,transcription cis-regulatory region binding
+2950,sll1286,sll1286,regulation of DNA-templated transcription
+2951,sll1286,sll1286,DNA-binding transcription factor activity
+2952,slr1390,ftsH1,ATP-dependent peptidase activity
+2953,slr1390,ftsH1,proteolysis
+2954,sll1291,sll1291,phosphorelay response regulator activity
+2955,sll1291,sll1291,protein-DNA complex
+2956,sll1291,sll1291,transcription cis-regulatory region binding
+2957,sll1291,sll1291,regulation of DNA-templated transcription
+2958,sll1291,sll1291,cytosol
+2961,slr1380,cydB,electron transfer activity
+2962,slr1380,cydB,cytochrome complex
+2963,slr1380,cydB,aerobic electron transport chain
+2964,slr1380,cydB,"oxidoreductase activity, acting on diphenols and related substances as donors, oxygen as acceptor"
+2973,slr1039,slr1039,methyltransferase activity
+2974,sll0985,sll0985,mechanosensitive monoatomic ion channel activity
+2975,sll0985,sll0985,cellular response to osmotic stress
+2976,slr1034,slr1034,positive regulation of helicase activity
+2977,slr1034,slr1034,nucleoid
+2978,slr1034,slr1034,single-stranded DNA binding
+2979,slr1031,tyrS,tRNA aminoacylation
+2980,slr1031,tyrS,cytosol
+2981,slr1031,tyrS,tyrosine-tRNA ligase activity
+2994,slr1019,slr1019,isomerase activity
+2995,slr1019,slr1019,cytoplasm
+3000,slr1912,slr1912,anti-sigma factor antagonist activity
+3001,slr1909,slr1909,phosphorelay response regulator activity
+3002,slr1909,slr1909,transcription cis-regulatory region binding
+3003,slr1909,slr1909,protein-DNA complex
+3004,slr1909,slr1909,regulation of DNA-templated transcription
+3005,slr1909,slr1909,cytosol
+3016,slr2053,slr2053,hydrolase activity
+3017,slr2045,slr2045,response to zinc ion
+3018,slr2045,slr2045,plasma membrane
+3019,slr2044,slr2044,ATPase-coupled transmembrane transporter activity
+3020,slr2044,slr2044,ATP-binding cassette (ABC) transporter complex
+3021,slr2042,slr2042,regulation of DNA-binding transcription factor activity
+3022,slr2042,slr2042,aminopeptidase activity
+3023,slr2042,slr2042,transcription factor binding
+3024,slr2042,slr2042,cytosol
+3031,slr2035,proB,proline biosynthetic process
+3032,slr2035,proB,cytosol
+3033,slr2035,proB,glutamate 5-kinase activity
+3035,sll1945,dxs,1-deoxy-D-xylulose-5-phosphate synthase activity
+3036,sll1945,dxs,"isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway"
+3037,sll1945,dxs,cytosol
+3038,sll1750,ureC,cytosol
+3039,sll1750,ureC,"hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in cyclic amides"
+3042,slr1848,hisD,cytoplasm
+3043,slr1848,hisD,cytosol
+3044,slr1848,hisD,histidine biosynthetic process
+3045,slr1848,hisD,histidinol dehydrogenase activity
+3046,slr1847,slr1847,DNA binding
+3047,slr1847,slr1847,cytosol
+3048,sll1635,thyX,dTMP biosynthetic process
+3049,sll1635,thyX,thymidylate synthase activity
+3050,sll1635,thyX,flavin adenine dinucleotide binding
+3051,sll1635,thyX,thymidylate synthase (FAD) activity
+3052,sll1635,thyX,NADPH binding
+3053,slr1768,slr1768,plasma membrane
+3054,sll1640,sll1640,N-carbamoylputrescine amidase activity
+3055,sll1640,sll1640,putrescine biosynthetic process from arginine
+3059,slr1762,slr1762,dephosphorylation
+3060,slr1762,slr1762,DNA repair
+3061,slr1762,slr1762,cytosol
+3062,slr1762,slr1762,phosphoglycolate phosphatase activity
+3063,sll1643,sll1643,5-formyltetrahydrofolate cyclo-ligase activity
+3064,sll1643,sll1643,folic acid-containing compound biosynthetic process
+3065,sll1643,sll1643,tetrahydrofolate interconversion
+3068,slr1760,slr1760,negative regulation of bacterial-type flagellum-dependent cell motility
+3069,slr1760,slr1760,plasma membrane
+3070,slr1760,slr1760,diguanylate cyclase activity
+3071,slr1760,slr1760,cell adhesion involved in single-species biofilm formation
+3075,slr1045,slr1045,plasma membrane
+3076,slr1045,slr1045,phospholipid transport
+3077,slr1045,slr1045,phospholipid transporter activity
+3078,slr1043,slr1043,cytosol
+3079,slr1043,slr1043,chemotaxis
+3080,slr1604,ftsH3,thylakoid
+3081,slr1604,ftsH3,proteolysis
+3082,slr1604,ftsH3,ATP-dependent peptidase activity
+3091,slr1597,slr1597,ATP binding
+3092,slr1597,slr1597,ATP hydrolysis activity
+3093,slr1597,slr1597,negative regulation of cell division
+3094,slr1597,slr1597,cytosol
+3095,slr1597,slr1597,cytoplasmic side of plasma membrane
+3096,slr1591,slr1591,aerobic electron transport chain
+3097,slr1591,slr1591,NAD(P)H dehydrogenase (quinone) activity
+3098,sll0640,sll0640,plasma membrane
+3099,sll0649,sll0649,transcription cis-regulatory region binding
+3100,sll0649,sll0649,phosphorelay response regulator activity
+3101,sll0649,sll0649,cytosol
+3102,sll0649,sll0649,protein-DNA complex
+3103,sll0649,sll0649,regulation of DNA-templated transcription
+3104,slr0682,slr0682,histidinol dehydrogenase activity
+3105,slr0682,slr0682,cytosol
+3106,slr0682,slr0682,cytoplasm
+3107,slr0682,slr0682,histidine biosynthetic process
+3108,slr0681,slr0681,calcium channel activity
+3109,slr0681,slr0681,calcium ion transmembrane transport
+3110,slr0681,slr0681,intracellular calcium ion homeostasis
+3111,slr0681,slr0681,"calcium, potassium:sodium antiporter activity"
+3112,slr0679,rsmB,RNA methylation
+3113,slr0677,slr0677,protein import
+3114,slr0676,cysC,sulfate assimilation via adenylyl sulfate reduction
+3115,slr0676,cysC,sulfate adenylyltransferase (ATP) activity
+3116,slr0676,cysC,"sulfate assimilation, phosphoadenylyl sulfate reduction by phosphoadenylyl-sulfate reductase (thioredoxin)"
+3117,sll0654,sll0654,5'-nucleotidase activity
+3118,sll0654,sll0654,nucleotide catabolic process
+3119,sll0654,sll0654,outer membrane-bounded periplasmic space
+3120,sll0654,sll0654,UDP-sugar diphosphatase activity
+3121,sll1017,sll1017,ammonium homeostasis
+3122,sll1017,sll1017,ammonium transmembrane transport
+3127,slr0213,guaA,GMP synthase activity
+3128,slr0213,guaA,cytosol
+3129,slr0213,guaA,GMP biosynthetic process
+3130,ssl1426,rpmI,structural constituent of ribosome
+3131,ssl1426,rpmI,cytosolic large ribosomal subunit
+3132,sll0767,rplT,ribosomal large subunit assembly
+3133,sll0767,rplT,structural constituent of ribosome
+3134,sll0767,rplT,cytosolic large ribosomal subunit
+3135,ssr1399,rpsR,small ribosomal subunit rRNA binding
+3136,ssr1399,rpsR,cytosolic small ribosomal subunit
+3137,ssr1399,rpsR,translation
+3138,ssr1399,rpsR,structural constituent of ribosome
+3139,slr0628,rpsN,structural constituent of ribosome
+3140,slr0628,rpsN,translation
+3141,slr0628,rpsN,small ribosomal subunit
+3142,slr0469,rpsD,small ribosomal subunit
+3143,slr0469,rpsD,ribosomal small subunit biogenesis
+3144,slr0469,rpsD,rRNA binding
+3145,slr0469,rpsD,structural constituent of ribosome
+3146,sll1172,thrC,isoleucine biosynthetic process
+3147,sll1172,thrC,L-serine ammonia-lyase activity
+3148,sll1172,thrC,threonine catabolic process
+3149,sll1172,thrC,L-serine catabolic process
+3150,sll1172,thrC,L-threonine ammonia-lyase activity
+3151,sll1623,sll1623,sulfate transport
+3153,slr1729,kdpB,P-type potassium transmembrane transporter activity
+3154,sll0237,sll0237,transport
+3155,sll0236,sll0236,metallocarboxypeptidase activity
+3156,sll0236,sll0236,extracellular space
+3157,sll0236,sll0236,proteolysis
+3162,sll1430,apt,AMP binding
+3163,sll1430,apt,adenine salvage
+3164,sll1430,apt,adenine binding
+3165,sll1430,apt,AMP salvage
+3166,sll1430,apt,cytoplasm
+3167,sll1430,apt,adenine phosphoribosyltransferase activity
+3168,slr0744,infB,cytoplasm
+3169,slr0744,infB,translation initiation factor activity
+3170,slr0744,infB,translational initiation
+3171,slr0743,nusA,cytosol
+3172,slr0743,nusA,transcription antitermination
+3175,slr0734,slr0734,cytoplasm
+3176,slr0734,slr0734,oxidoreductase activity
+3179,sll0711,ispE,4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol kinase activity
+3189,sll1045,mutT,"8-oxo-7,8-dihydrodeoxyguanosine triphosphate pyrophosphatase activity"
+3190,sll1045,mutT,"8-oxo-7,8-dihydroguanosine triphosphate pyrophosphatase activity"
+3191,sll1045,mutT,8-oxo-dGDP phosphatase activity
+3192,sll1045,mutT,8-oxo-GDP phosphatase activity
+3193,sll1045,mutT,DNA repair
+3201,slr1128,slr1128,plasma membrane
+3202,slr1123,gmk,guanylate kinase activity
+3203,slr1123,gmk,cytosol
+3204,sll1053,sll1053,efflux transmembrane transporter activity
+3205,sll1053,sll1053,efflux pump complex
+3210,sll1058,dapB,cytosol
+3211,sll1058,dapB,4-hydroxy-tetrahydrodipicolinate reductase
+3212,sll1058,dapB,diaminopimelate biosynthetic process
+3220,slr1117,slr1117,methyltransferase activity
+3221,slr1501,slr1501,"acyltransferase activity, transferring groups other than amino-acyl groups"
+3226,slr1495,slr1495,DNA helicase activity
+3227,slr1494,slr1494,transmembrane transport
+3228,slr1494,slr1494,ATPase-coupled transmembrane transporter activity
+3232,slr1488,slr1488,ABC-type oligopeptide transporter activity
+3233,sll1404,sll1404,protein import
+3234,sll1202,sll1202,outer membrane-bounded periplasmic space
+3241,sll1209,ligA,"base-excision repair, DNA ligation"
+3242,sll1209,ligA,cytosol
+3243,sll1209,ligA,DNA ligase (NAD+) activity
+3247,sll0558,sll0558,tetrapyrrole binding
+3250,sll1021,sll1021,protein localization to plasma membrane
+3251,sll1021,sll1021,plasma membrane
+3257,slr1085,slr1085,lipopolysaccharide biosynthetic process
+3258,slr1085,slr1085,glycosyltransferase activity
+3261,slr1071,slr1071,methyltransferase activity
+3262,slr1063,slr1063,glycosyltransferase activity
+3263,slr1619,slr1619,DIM/DIP cell wall layer assembly
+3264,slr1619,slr1619,chondroitin sulfate biosynthetic process
+3265,slr1618,slr1618,methyltransferase activity
+3269,slr0977,slr0977,lipopolysaccharide transport
+3272,slr0974,infC,translation initiation factor activity
+3273,slr0974,infC,ribosome disassembly
+3274,slr0974,infC,ribosome binding
+3275,slr0974,infC,cytosol
+3276,sll0936,sll0936,3-octaprenyl-4-hydroxybenzoate carboxy-lyase activity
+3277,sll0936,sll0936,cytosol
+3278,sll0936,sll0936,ubiquinone biosynthetic process
+3279,sll0936,sll0936,cytoplasm
+3280,slr0965,dnaN,DNA strand elongation involved in DNA replication
+3281,slr0964,slr0964,iron ion transmembrane transport
+3282,slr0964,slr0964,ferrous iron transmembrane transporter activity
+3283,slr0964,slr0964,plasma membrane
+3284,slr0963,sir,sulfate assimilation
+3285,slr0963,sir,sulfite reductase complex (NADPH)
+3286,slr0963,sir,sulfite reductase activity
+3287,slr0963,sir,sulfite reductase (ferredoxin) activity
+3293,sll1198,trmD,tRNA (guanine(37)-N(1))-methyltransferase activity
+3294,sll1198,trmD,tRNA N1-guanine methylation
+3295,sll1198,trmD,cytosol
+3299,sll1662,pheA,L-phenylalanine biosynthetic process
+3300,sll1662,pheA,prephenate dehydratase activity
+3301,sll1662,pheA,cytoplasm
+3302,sll1663,sll1663,oxidoreductase activity
+3304,sll1670,hrcA,negative regulation of DNA-templated transcription
+3305,slr1791,cysH,phosphoadenylyl-sulfate reductase (thioredoxin) activity
+3306,slr1791,cysH,"sulfate assimilation, phosphoadenylyl sulfate reduction by phosphoadenylyl-sulfate reductase (thioredoxin)"
+3307,sll1673,sll1673,plasma membrane
+3308,sll1673,sll1673,negative regulation of bacterial-type flagellum-dependent cell motility
+3309,sll1673,sll1673,diguanylate cyclase activity
+3310,sll1673,sll1673,cell adhesion involved in single-species biofilm formation
+3311,sll1678,sll1678,plasma membrane
+3317,sll1681,sll1681,cytoplasm
+3323,sll1035,upp,cytoplasm
+3324,sll1035,upp,uracil phosphoribosyltransferase activity
+3328,slr1098,slr1098,oxidoreductase activity
+3329,slr1097,slr1097,NAD(P)H dehydrogenase complex assembly
+3330,slr1096,lpdA,flavin adenine dinucleotide binding
+3331,slr1096,lpdA,dihydrolipoyl dehydrogenase activity
+3332,slr1096,lpdA,oxoglutarate dehydrogenase complex
+3333,sll1040,sll1040,mechanosensitive monoatomic ion channel activity
+3334,sll1040,sll1040,cellular response to osmotic stress
+3335,slr1417,slr1417,"2 iron, 2 sulfur cluster binding"
+3336,slr1417,slr1417,protein maturation by iron-sulfur cluster transfer
+3337,slr1417,slr1417,cytoplasm
+3338,slr1417,slr1417,iron-sulfur cluster assembly
+3339,slr1414,slr1414,phosphorelay sensor kinase activity
+3340,slr1413,slr1413,tRNA methylation
+3341,slr1413,slr1413,tRNA wobble uridine modification
+3342,slr1413,slr1413,cytoplasm
+3343,sll0220,glmS,protein N-linked glycosylation
+3344,sll0220,glmS,fructose 6-phosphate metabolic process
+3345,sll0220,glmS,glutamine-fructose-6-phosphate transaminase (isomerizing) activity
+3346,sll0220,glmS,UDP-N-acetylglucosamine metabolic process
+3347,sll0220,glmS,cytosol
+3349,sll0224,sll0224,outer membrane-bounded periplasmic space
+3350,sll0225,sll0225,acid-amino acid ligase activity
+3351,sll0225,sll0225,cytoplasm
+3354,slr0245,slr0245,transcription factor binding
+3355,slr0245,slr0245,negative regulation of transcription by RNA polymerase II
+3356,slr0245,slr0245,histone deacetylase activity
+3357,slr0245,slr0245,histone deacetylation

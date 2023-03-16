@@ -1,0 +1,218 @@
+digraph "dag" {
+p0 [shape=point,label="",fixedsize=true,width=0.1,xlabel="Channel.fromFilePairs"];
+p1 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="into"];
+p0 -> p1;
+
+p1 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="into"];
+p4 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="flatten"];
+p1 -> p4 [label="genome_ch2"];
+
+p1 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="into"];
+p2 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="flatten"];
+p1 -> p2 [label="genome_ch1"];
+
+p2 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="flatten"];
+p3 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="filter"];
+p2 -> p3;
+
+p3 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="filter"];
+p8 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="collect"];
+p3 -> p8 [label="fasta_ch"];
+
+p4 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="flatten"];
+p5 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="filter"];
+p4 -> p5;
+
+p5 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="filter"];
+p6 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="tap"];
+p5 -> p6;
+
+p6 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="tap"];
+p27 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="collect"];
+p6 -> p27 [label="gff_ch"];
+
+p6 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="tap"];
+p7 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="first"];
+p6 -> p7;
+
+p7 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="first"];
+p10 [label="gff2bed"];
+p7 -> p10 [label="bedtools_gff_ch"];
+
+p8 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="collect"];
+p9 [label="bowtie_build"];
+p8 -> p9;
+
+p9 [label="bowtie_build"];
+p21 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="collect"];
+p9 -> p21 [label="index_ch"];
+
+p9 [label="bowtie_build"];
+p22 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="collect"];
+p9 -> p22 [label="cspace_index_ch"];
+
+p10 [label="gff2bed"];
+p25 [label="get_read_direction"];
+p10 -> p25 [label="bed_file_ch"];
+
+p11 [shape=point,label="",fixedsize=true,width=0.1,xlabel="Channel.fromPath"];
+p12 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="splitCsv"];
+p11 -> p12;
+
+p12 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="splitCsv"];
+p13 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="filter"];
+p12 -> p13;
+
+p13 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="filter"];
+p14 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="branch"];
+p13 -> p14;
+
+p14 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="branch"];
+p15 [label="download_fastq"];
+p14 -> p15;
+
+p14 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="branch"];
+p17 [label="stage_fastq_paired"];
+p14 -> p17;
+
+p14 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="branch"];
+p16 [label="stage_fastq_single"];
+p14 -> p16;
+
+p15 [label="download_fastq"];
+p18 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="mix"];
+p15 -> p18 [label="sra_output_ch"];
+
+p16 [label="stage_fastq_single"];
+p18 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="mix"];
+p16 -> p18 [label="single_output_ch"];
+
+p17 [label="stage_fastq_paired"];
+p19 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="mix"];
+p17 -> p19 [label="paired_output_ch"];
+
+p18 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="mix"];
+p19 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="mix"];
+p18 -> p19;
+
+p19 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="mix"];
+p20 [label="trim_galore"];
+p19 -> p20 [label="fastq_output_ch"];
+
+p20 [label="trim_galore"];
+p23 [label="bowtie_align"];
+p20 -> p23 [label="bowtie_input_ch"];
+
+p20 [label="trim_galore"];
+p32 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="collect"];
+p20 -> p32 [label="cutadapt_results_ch"];
+
+p20 [label="trim_galore"];
+p30 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="collect"];
+p20 -> p30 [label="fastqc_results_ch"];
+
+p21 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="collect"];
+p23 [label="bowtie_align"];
+p21 -> p23;
+
+p22 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="collect"];
+p23 [label="bowtie_align"];
+p22 -> p23;
+
+p23 [label="bowtie_align"];
+p24 [label="sam2bam"];
+p23 -> p24 [label="sam_ch"];
+
+p23 [label="bowtie_align"];
+p25 [label="get_read_direction"];
+p23 -> p25 [label="sam_ch2"];
+
+p23 [label="bowtie_align"];
+p36 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="collect"];
+p23 -> p36 [label="bowtie_results_ch"];
+
+p24 [label="sam2bam"];
+p26 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="join"];
+p24 -> p26 [label="bam_ch"];
+
+p25 [label="get_read_direction"];
+p26 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="join"];
+p25 -> p26 [label="direction_ch"];
+
+p25 [label="get_read_direction"];
+p34 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="collect"];
+p25 -> p34 [label="rseqc_results_ch"];
+
+p26 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="join"];
+p28 [label="featureCounts"];
+p26 -> p28 [label="bam_ch2"];
+
+p27 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="collect"];
+p28 [label="featureCounts"];
+p27 -> p28;
+
+p28 [label="featureCounts"];
+p38 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="collect"];
+p28 -> p38 [label="fc_results_ch"];
+
+p28 [label="featureCounts"];
+p42 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="collect"];
+p28 -> p42 [label="counts_ch"];
+
+p29 [shape=point,label="",fixedsize=true,width=0.1,xlabel="Channel.fromPath"];
+p40 [label="multiqc"];
+p29 -> p40 [label="multiqc_config_ch"];
+
+p30 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="collect"];
+p31 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="ifEmpty"];
+p30 -> p31;
+
+p31 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="ifEmpty"];
+p40 [label="multiqc"];
+p31 -> p40;
+
+p32 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="collect"];
+p33 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="ifEmpty"];
+p32 -> p33;
+
+p33 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="ifEmpty"];
+p40 [label="multiqc"];
+p33 -> p40;
+
+p34 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="collect"];
+p35 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="ifEmpty"];
+p34 -> p35;
+
+p35 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="ifEmpty"];
+p40 [label="multiqc"];
+p35 -> p40;
+
+p36 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="collect"];
+p37 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="ifEmpty"];
+p36 -> p37;
+
+p37 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="ifEmpty"];
+p40 [label="multiqc"];
+p37 -> p40;
+
+p38 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="collect"];
+p39 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="ifEmpty"];
+p38 -> p39;
+
+p39 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="ifEmpty"];
+p40 [label="multiqc"];
+p39 -> p40;
+
+p40 [label="multiqc"];
+p41 [shape=point];
+p40 -> p41 [label="multiqc_report_ch"];
+
+p42 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="collect"];
+p43 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="ifEmpty"];
+p42 -> p43;
+
+p43 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="ifEmpty"];
+p44 [label="assemble_tpm"];
+p43 -> p44;
+
+}
